@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="21"
+   name=""
+   committed-date="2007-02-21T20:27:09.632021Z"
+   url="svn+ssh://serveradmin%25bcdef.org@bcdef.org/home/12027/data/bcdef/svn/Apollo/WeatherMap/net/hiddenresource/util"
+   last-author="bcdef.org"
+   kind="dir"
+   repos="svn+ssh://serveradmin%25bcdef.org@bcdef.org/home/12027/data/bcdef"
+   revision="21"/>
+<entry
+   name="debug"
+   kind="dir"/>
+<entry
+   committed-rev="21"
+   name="Delegate.as"
+   text-time="2006-02-10T19:39:00.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="39f19f7c3dc09a505b040cc4927cbd91"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+</wc-entries>

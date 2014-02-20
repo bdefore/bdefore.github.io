@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="21"
+   name=""
+   committed-date="2007-02-21T20:27:09.632021Z"
+   url="svn+ssh://serveradmin%25bcdef.org@bcdef.org/home/12027/data/bcdef/svn/Apollo/WeatherMap/html-template"
+   last-author="bcdef.org"
+   kind="dir"
+   repos="svn+ssh://serveradmin%25bcdef.org@bcdef.org/home/12027/data/bcdef"
+   revision="21"/>
+<entry
+   committed-rev="21"
+   name="history.swf"
+   text-time="2006-08-17T22:01:00.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="5c97278c61f435b86e5005c82ef4ebf5"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name="AC_OETags.js"
+   text-time="2006-08-17T22:01:00.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="6c2fd98594c544d6e05a2410b7eda1a0"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name="playerProductInstall.swf"
+   text-time="2006-08-17T22:01:02.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="be332eb9be4b3dcfdcd757bbc6e495e5"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name="index.template.html"
+   text-time="2006-08-17T22:01:00.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="48e72f54c39fd5516e8bd1816c065d5a"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name="history.htm"
+   text-time="2006-08-17T22:01:00.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="61f60417befe7873f7cc20aa604c66f9"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name="history.js"
+   text-time="2006-08-17T22:01:00.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="90979b5fad7571ed5c5c2f915fa64973"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+</wc-entries>

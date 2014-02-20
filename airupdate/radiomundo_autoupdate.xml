@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<update xmlns="http://ns.adobe.com/air/framework/update/description/1.0">
+<version>1.5</version>
+<url>http://bcdef.org/downloads/Antenna_v1.5.0.air</url>
+<description>Fix for application failing to start, hanging on 'Gathering station list...' after updating to AIR 3.0</description>
+<!-- <description>1.4.4: Ability to add your own stations. Improved recording functionality on Windows. 4906 more stations, more than twice as many as before! Improved search.</description> -->
+<!-- <description>1.4.1: 480 additional stations, fix for geolocation, preference to keep visualizer running full speed when not in focus</description> -->
+<!-- <description>1.4: Rebuilt station listing, OGG playback support and improved station connection logic, optimized CPU performance and startup time, streamlined recording process</description> -->
+</update>

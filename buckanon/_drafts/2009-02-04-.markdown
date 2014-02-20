@@ -1,0 +1,8 @@
+---
+layout: post
+title: Test
+wordpress_id: 42
+wordpress_url: http://bcdef.org/?p=42
+---
+
+[![](http://lh4.ggpht.com/_0eAEklyu_sI/SYkuAZoZgRI/AAAAAAAAALQ/FRmYnM-stQI/s72/_0012723.jpg)](http://lh4.ggpht.com/_0eAEklyu_sI/SYkuAZoZgRI/AAAAAAAAALQ/FRmYnM-stQI/_0012723.jpg)

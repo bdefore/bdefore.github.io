@@ -1,0 +1,62 @@
+Squible Alpha 2.5 Release Notes
+
+
+Well, its about time I released something new for you all, so here ye go - Squible Alpha 2.5! What happened to 2.3 and 2.4? They existed, but were never released publically. And since there are so many changes in this version, I think it justified a couple of version number jumps. Because of all the changes, it's highly recommended that you replace the entire theme with this one, but as usual a list of changed files is below. At least, I think those are the only ones I changed.
+
+As always, I've tested this as much as I can but there may very well be bugs in it. If you come across anything untoward in using it, please let us know in the Squible discussion forum!
+
+Enjoy!
+- Karrde
+
+
+New Stuff:
+
+- All new easy-configure elements! Use squible_options.php to define where certain elements sit on the main Squible page. Customization made easy! Or something.
+- Added the Livesearch box to post pages
+- Added $allowed_html variable to squible_options.php to define which HTML tags are allowed to be displayed in the top post on the home page (all are stripped by default)
+- Added a page template for Post Archives without Extended Live Archives (named "Post Archives (Generic)")
+- Added a screenshot of the theme in action (for compatibility with the upcoming Wordpress 2.0)
+
+Changed Stuff:
+
+- Fixed Livesearch functionality in pages that aren't the front page
+- Corrected typo in livesearch.php
+- Corrected typo in single.php
+- Removed Gallery page template due to incompatibility - a new version will be added eventually!
+- Modified Post Archives for Extended Live Archives page template to more accurately represent its requirements
+- Improved error messages on theme install if certain files are missing
+- ..and probably some other stuff that I've forgotten I'd fixed
+
+
+Files added:
+
+- elements/about.php
+- elements/asides.php
+- elements/flickr.php
+- elements/nil.php
+- elements/populartags.php
+- elements/previousposts.php
+- elements/recentcomments.php
+- elements/search.php
+- post-archives.php
+- release-notes.txt (this file)
+- screenshot.png
+
+Files modified:
+
+- builtin/limit-post.php
+- builtin/wp_cats_as_tags.php
+- elements.php
+- header.php
+- inc.php
+- index.php
+- livesearch.php
+- livesearch.js.php
+- post-archives.php (now post-archives-ela.php)
+- single.php
+- squible-options.php
+- version.php
+
+Files removed:
+
+- gallery.php

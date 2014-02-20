@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	creationComplete="initApp()">
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.core.UIComponent;
+		
+			private var container:UIComponent;
+			private var connection:DataImporter;
+		
+			private function initApp():void {
+				
+				container = new UIComponent();
+				addChild(container);
+				
+				connection = new DataImporter();
+				connection.addEventListener("stations",drawStations);
+				connection.go(null);
+				
+				addEventListener(MouseEvent.CLICK,makeBox);
+			}
+			private function makeBox(e:MouseEvent):void {
+//				writeChartCoordinates(e.stageX,e.stageX+25,e.stageY,e.stageY+25);
+			}
+			private function drawStations(e:Event):void {
+				trace("drawStations");
+				for each(var station:Station in e.target.stations) {
+//					container.graphics.beginFill(0xFF0000);
+//					container.graphics.drawRect(500+(station.longitude*-3),500+(station.latitude*-3),2,2);
+//					container.graphics.endFill();
+					station.x = getXFromLongitude(station.longitude);
+					station.y = getYFromLatitude(station.latitude);
+					container.addChild(station);
+					trace("drawn: " + station.latitude + " : " + station.longitude);
+					trace(getLongitudeFromX(station.x) + " : " + station.longitude);
+					trace(getLatitudeFromY(station.y) + " : " + station.latitude);
+				}
+//				getChartCoords();
+				writeChartCoordinates(0,600,100,500);
+			}
+			private function getChartCoords():void {
+				var request:URLRequest = new URLRequest("cachedChartCoords.xml");
+				var loader:URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE,chartLoadComplete);
+				loader.load(request);								
+			}
+			private function chartLoadComplete(e:Event):void {
+				var loader:URLLoader = e.target as URLLoader;
+				makeChart(XML(loader.data));
+			}
+			private function makeChart(resultXML:XML):void {
+				var startX:Number = 0
+				var endX:Number = 600;
+				var startY:Number = 100;
+				var endY:Number = 500;
+				var container:UIComponent = new UIComponent();
+				addChild(container);
+				var row:XMLList;
+				var col:XMLList;
+				for(var i:Number=startX; i<endX; i++) {
+//					row = resultXML.row.(@count == i.toString())
+					row = resultXML.row.(count == i.toString());
+//					trace(row.toXMLString());
+					for(var j:Number=startY; j<endY; j++) {
+						col = row.col.(count == j.toString());
+//						trace("id: " + col.@stationId);
+						var station:Station = connection.stations[col.stationId];
+						trace(station.stationName);
+						container.graphics.beginFill(station.getColor());
+						container.graphics.drawRect(i,j,1,1);
+						container.graphics.endFill();
+					}
+				}								
+			}
+			private function getYFromLatitude(lat:Number):Number {
+				return 500+(lat*-6);
+			}
+			private function getXFromLongitude(lon:Number):Number {
+				return 900+(lon*6);
+			}
+			private function getLatitudeFromY(y:Number):Number {
+				return (y - 500) / -6;
+			}
+			private function getLongitudeFromX(x:Number):Number {
+				return (x - 900) / 6;
+			}
+			private function getClosestStation(lat:Number,lon:Number):Station {
+				var closestStation:Station = connection.stations[0];
+				var closestDistance:Number = Math.abs(closestStation.latitude - lat) + Math.abs(closestStation.longitude - lon);
+				trace("lat: " + lat + " long: " + lon);
+				for each(var station:Station in connection.stations) {
+					var thisStationDistance:Number = Math.abs(station.latitude - lat) + Math.abs(station.longitude - lon)
+					trace("distance: " + thisStationDistance);
+					if(thisStationDistance < closestDistance) {
+						trace("new shortest: " + station.latitude + " : " + station.longitude);
+						closestDistance = thisStationDistance;
+						closestStation = station;
+					}
+				}
+				return closestStation;
+			}
+			private function getClosestStationByCoords(x:Number,y:Number):Station {
+				var closestStation:Station = connection.stations[0];
+				var closestDistance:Number = Math.abs(closestStation.x - x) + Math.abs(closestStation.y - y);
+				for each(var station:Station in connection.stations) {
+					var thisStationDistance:Number = Math.abs(station.x - x) + Math.abs(station.y - y)
+					trace("distance: " + thisStationDistance);
+					if(thisStationDistance < closestDistance) {
+						trace("new shortest: " + station.x + " : " + station.y);
+						closestDistance = thisStationDistance;
+						closestStation = station;
+					}
+				}
+				return closestStation;
+			}
+			private function writeChartCoordinates(startX:Number,endX:Number,startY:Number,endY:Number):void {
+				var resultXML:XML = new XML(new String('<?xml version="1.0" encoding="ISO-8859-1" ?><chartCoordinates></chartCoordinates>'))
+//				var resultXML:XML = new XML(<chartCoordinates></chartCoordinates>);
+				resultXML.appendChild(new XML(new String("<datestamp>" + new Date().toString() + "</datestamp>")));
+				
+				for(var i:uint = startX; i<endX; i++) {	
+					var rowXML:XML = new XML('<row><count>' + i + '</count></row>');
+//					var rowXML:XML = <row count=' + i + '></row>
+					for(var j:uint = startY; j<endY; j++) {
+//						var closestStation:Station = getClosestStation(getLatitudeFromY(j),getLatitudeFromY(i));
+						var closestStation:Station = getClosestStationByCoords(i,j);
+//						if(closestStation) rowXML.appendChild(new XML(new String('<col count="' + j + '" stationId="' + closestStation.stationName + '" />')));
+						if(closestStation) rowXML.appendChild(new XML('<col><count>'+j+'</count><stationId>'+connection.stations.indexOf(closestStation)+'</stationId></col>'));
+					}
+					resultXML.appendChild(rowXML);
+				}
+
+				makeChart(resultXML);
+				
+				var vars:URLVariables = new URLVariables();
+				vars.totalEntries = 1;
+				vars.entry0 = resultXML.toXMLString();
+				
+				var request:URLRequest = new URLRequest("http://bcdef.org/genealogy/writeChartCoords.php");
+				request.data = vars;
+				request.method = "POST";
+							
+				var loader:URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE,loadSuccessful);
+				loader.load(request);			
+			}
+			private function loadSuccessful(e:Event):void {
+				trace("Load successful");			
+			}
+		]]>
+	</mx:Script>
+
+</mx:Application>

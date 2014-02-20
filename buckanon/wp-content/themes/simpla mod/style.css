@@ -1,0 +1,261 @@
+/*  
+Theme Name: Simpla
+Theme URI: http://ifelse.co.uk/simpla/
+Description: A clean, minimalist theme
+Version: 1.01
+Author: Phu Ly
+Author URI: http://ifelse.co.uk/
+*/
+
+/*************************************
+ +Containers
+
+ *************************************/
+body{
+	background:#fff url(./images/bg.png) repeat-x;
+	border-top:5px solid #990000;
+	color:#555;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:62.5%;
+	line-height:1.5;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+a{
+	color:#579;
+	text-decoration:none;
+    border-bottom: #666666;
+    border-width: 0px 0px 1px 0px;
+}
+a:hover{
+	color:#CC0000;
+}
+#wrap{
+	margin:0 auto;
+	text-align:left;
+	width:76em;	
+}
+#content{
+	font-size:1.2em;
+	float:left;
+	padding:1em;
+	width:30em;
+}
+#sidebar{
+	font-size:1.2em;
+	float:right;
+	padding-top:1em;
+	width:30em;
+}
+#sidebar a{
+	border-style: none none dotted none;	
+}
+#header{
+	padding:3em 1em;
+}
+#footer{
+	background:#333;
+	border-top:1px solid #777;
+	color:#888;
+	clear:both;
+	font-size:0.9em;
+	padding:0.5em;
+}
+/*************************************
+ +Hn and p
+ *************************************/
+h1, h2, h3{
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	letter-spacing: -1px;
+	margin:0;
+}
+#header h1{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:3em;
+	margin:0;
+	margin-right:1em;
+}
+#header h1 a{
+	color:#E87830;
+}
+#header h1 a:hover{
+	color:#CC0000;
+}
+#header a{
+	border-style:none none none none;
+}
+#header p{
+	color:#aaa;
+	font-size:1.1em;
+	margin:0;
+	margin-top:-0.5em;
+}
+h2{
+	font-size:2.2em;
+	line-height:1;
+}
+h2 a
+{
+	color:#B4C24B;
+}
+h2 a {
+	border-style:none none none none;
+}
+h2 a:hover{
+	color:#58BBEB;
+}
+h3{
+	font-size:1.2em;
+	color:#6F6F6F;
+}
+/*************************************
+ +Entry
+ *************************************/
+.entry{
+}
+.entrymeta{
+	font-size:0.9em;
+}
+.entrytitle {
+	color:#E87830;
+}
+.entrybody a{
+	border-style: none none dotted none;	
+}
+.postedby{
+	background:#fff url(./images/user.gif) no-repeat;
+	padding:3px;
+	padding-left:20px;
+}
+.filedto{
+	background:#fff url(./images/post.gif) no-repeat;
+	padding:3px;
+	padding-left:20px;
+}
+.filedto a{
+	border-style: none none dotted none;	
+}
+.commentslink{
+	background:#fff url(./images/packaged.gif) no-repeat;
+	padding:3px;
+	padding-left:20px;
+}
+.commentslink a{
+	border-style: none none dotted none;	
+}
+/***
+Image Shadow 1 (requires dropshadow.png)
+usage: 
+<div class="shadow" style="padding:0 3px 5px 0">
+    <img src="join.jpg" alt="" title="color duet" style="top:-4px;left:-2px">
+</div>
+**/
+div.shadow{float:left;padding:0 3px 5px 0;
+    background: url(../images/dropshadow.png) no-repeat bottom right}
+div.shadow img{display:block;position:relative;
+    top: -4px;left:-2px;padding:5px;background:#FFF;
+    border:1px solid;border-color: #ccc #666 #666 #ccc}
+/***
+Image Shadow 2
+**/
+.thumbnail{
+	padding: 3px 3px 0px 3px;
+	float:left;
+	background-color: #FFFFFF;
+	border: 1px solid #DDDDDD;
+}
+.thumbnail a {
+	text-decoration:none;	
+	border-style: none none dotted none;	
+}
+.thumbnail a:hover {
+	background-color: #FF6600;
+	text-decoration:none;	
+}
+.pie-item {
+	padding: 3px 3px 0px 3px;
+	float:left;
+	background-color: #FFFFFF;
+	border: 1px solid #DDDDDD;
+}
+.pie-item a {
+	text-decoration:none;	
+	border-style: none none dotted none;	
+}
+.pie-item a:hover {
+	background-color: #FF6600;
+	text-decoration:none;	
+}
+/*************************************
+ +Comments
+ *************************************/
+.commentsblock{
+	margin:0.5em;
+	padding:1em;
+
+}
+.commentsblock textarea{
+	width:20em;
+}
+.commentsblock input, .commentsblock textarea{
+	border:1px solid #d1d1d1;
+}
+.commentsblock textarea:focus{
+	background:#eee;
+	border:1px solid #a1a1a1;
+}
+.commentsblock textarea:focus, .commentsblock input:focus{
+	background:#eee;
+	border:1px solid #a1a1a1;
+}
+.commentauthor{
+	display:block;
+	font-size:1.5em;
+}
+ol.commentlist{
+	color:#777;
+	font-size:0.9em;
+	list-style-type:none;
+	margin:0;
+	margin-top:1.5em;
+	padding:0;
+}
+.commentlist li{
+	margin-bottom:0.5em;
+	padding:0.5em 1em;
+}
+.alt{
+	background:#f3f5e9;
+	border:1px dotted #d1d1d1;
+	padding:0.5em;
+}
+h3#comments{
+	font-size:1.6em;
+}
+
+/*************************************
+ +Misc
+ *************************************/
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+
+* html>body .clearfix {
+	display: inline-block; 
+	width: 100%;
+	}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */
+}
+img {
+	border-style:none none none none;
+}

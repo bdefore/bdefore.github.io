@@ -1,0 +1,1 @@
+RedirectMatch (.*) http://www.lakemonsterculture.com/kate$1

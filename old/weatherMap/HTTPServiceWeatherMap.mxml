@@ -1,0 +1,52 @@
+<?xml version="1.0"?> 
+<mx:Application	xmlns:mx="http://www.adobe.com/2006/mxml">       
+	<mx:Text text="Text" width="540" height="446" id="tf"/>
+
+<mx:Script>    
+	<![CDATA[               
+    import mx.controls.Alert;
+    import mx.collections.ArrayCollection;
+    import mx.rpc.events.ResultEvent;
+    import mx.rpc.events.FaultEvent;
+    import mx.rpc.http.HTTPService;
+    import com.hexagonstar.util.debug.Debug;
+    import com.blitzagency.xray.ui.XrayTrace;
+
+  	private var RSS_STUB:String = "http://xml.weather.yahoo.com/forecastrss";
+	private var zipCode:String = "94061";
+	private var externalData:ArrayCollection;  
+	private var tracer:XrayTrace;
+	private var service:HTTPService;
+	  
+    public function useHttpService(parameters:Object):void {
+        service = new HTTPService();
+        service.resultFormat = "e4x";
+        service.url = RSS_STUB + "?p=" + zipCode;
+        service.addEventListener("result", httpResult);
+        service.addEventListener("fault", httpFault);
+        service.send(parameters);
+    }
+
+    public function httpResult(event:ResultEvent):void {
+        var result:XML = XML(event.result);
+		var yNS:Namespace = result.namespace("yweather");
+//        Debug.trace(result,true)
+
+		Debug.trace(result.@version);
+		Debug.trace(result.channel.item.guid.@isPermaLink);
+		Debug.trace(result.channel.item.yNS::condition.@text);
+
+		tf.text = result.channel.item.yNS::condition.@text;
+    }
+
+    public function httpFault(event:FaultEvent):void {
+        var faultstring:String = event.fault.faultString;
+        Alert.show(faultstring);
+    }	  
+
+	]]>         
+</mx:Script> 
+
+<mx:Button id="myBtn" label="Button" click="useHttpService({})"/>
+
+</mx:Application>

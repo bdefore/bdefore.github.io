@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Flappr</title>
+<!-- FlashObject embed by Geoff Stearns geoff@deconcept.com http://blog.deconcept.com/ -->
+<script type="text/javascript" src="flashobject.js"></script>
+<style type="text/css">
+	
+	/* hide from ie on mac \*/
+	html {
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	#flashcontent {
+		height: 100%;
+	}
+	/* end hide */
+
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: #4c4c4c;
+		color:#cccccc;
+	}
+
+</style>
+</head>
+<body>
+
+	<div id="flashcontent">
+		Flappr is a flash-based front-end to Flickr. It requires Flash 8. You can download Flash for free <a href="http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">here</a> <!-- <a href="expressinstall.html?detectflash=false">M'yaarrrr.... don't be stoppin me!</a>. -->
+	</div>
+
+	<script type="text/javascript">
+		// <![CDATA[
+		
+		var fo = new FlashObject("FlapprTest.swf", "flapprSwf", "100%", "100%", "8", "#4c4c4c", false, "high");
+		fo.addParam("scale",			"noscale");
+		fo.addParam("menu",				"false");
+		fo.addParam("salign", 			"LT");
+		fo.addVariable("FLAPPR_nsid", 			getQueryParamValue("nsid"));
+		fo.addVariable("FLAPPR_tags", 			getQueryParamValue("tags"));
+		fo.addVariable("FLAPPR_tag_mode", 		getQueryParamValue("tagMode"));
+		fo.addVariable("FLAPPR_page", 			getQueryParamValue("page"));
+		fo.addVariable("FLAPPR_per_page", 		getQueryParamValue("per_page"));
+		fo.addVariable("FLAPPR_sort", 			getQueryParamValue("sort"));
+		fo.addVariable("FLAPPR_title", 			getQueryParamValue("title"));
+		fo.addVariable("FLAPPR_mediumUrl", 		getQueryParamValue("mediumUrl"));
+		fo.addVariable("FLAPPR_id", 			getQueryParamValue("id"));
+		fo.addVariable("FLAPPR_secret", 		getQueryParamValue("secret"));
+		fo.addVariable("FLAPPR_server", 		getQueryParamValue("server"));
+		fo.addVariable("FLAPPR_description",	getQueryParamValue("description"));
+		fo.write("flashcontent");
+		
+		// ]]>
+	</script>
+
+</body>
+</html>

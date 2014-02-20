@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="21"
+   name=""
+   committed-date="2007-02-21T20:27:09.632021Z"
+   url="svn+ssh://serveradmin%25bcdef.org@bcdef.org/home/12027/data/bcdef/svn/Apollo/WeatherMap/com/hexagonstar/util/debug"
+   last-author="bcdef.org"
+   kind="dir"
+   repos="svn+ssh://serveradmin%25bcdef.org@bcdef.org/home/12027/data/bcdef"
+   revision="21"/>
+<entry
+   committed-rev="21"
+   name="Debug.as"
+   text-time="2006-07-12T07:41:00.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="812b1b38a4004a18745b2ecb14c6b864"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+</wc-entries>

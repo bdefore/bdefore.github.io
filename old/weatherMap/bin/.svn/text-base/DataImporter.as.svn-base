@@ -1,0 +1,178 @@
+﻿package 
+{
+	import flash.display.Sprite;
+	import flash.net.URLVariables;
+	import flash.net.URLRequest;
+	import flash.net.URLLoader;
+	import flash.events.Event;
+	
+	public class DataImporter extends Sprite
+	{
+		private var UPLOAD_SCRIPT_PATH:String = "http://bcdef.org/genealogy/writeWeatherFeed.php";
+		private var STATION_LIST_PATH:String = "http://bcdef.org/genealogy/cachedWeatherFeed.xml";
+//		private var STATION_LIST_PATH:String = "weatherfeeds.xml";
+		private var STALE_THRESHOLD:Number = 90; // minutes feed can be stale for before reloading all weather feeds.
+		
+		public var stations:Array;
+		private var stationsList:XMLList;
+		private var stationsTotal:uint = 0;
+		private var stationsLoaded:uint = 0;
+		private var isDataStale:Boolean = true;
+		
+		public var lastMessage:String;
+		
+		public function DataImporter() {
+			stations = new Array();
+		}
+		public function go(e:Event):void {
+			getStationList(STATION_LIST_PATH);
+		}
+		private function t(str:String):void {
+			trace(str);
+			var e:Event = new Event("trace");
+			lastMessage = str;
+			dispatchEvent(e);
+		}			
+		private function getStationList(feedPath:String):void {
+			var request:URLRequest = new URLRequest(feedPath);
+			var loader:URLLoader = new URLLoader();
+			loader.addEventListener(Event.COMPLETE,siftFeeds);
+			loader.load(request);
+		}
+		private function siftFeeds(event:Event):void {
+	        var loader:URLLoader = URLLoader(event.target);    
+	        var result:XML = XML(loader.data);
+	        if(result)	{
+				checkDatestamp(new Date(String(result.datestamp)));
+				
+				//t(result.station[0])
+				
+				stationsList = result.station.(	latitude != "NA" &&
+				//stationsList = result.station.(	
+											state != "AK" &&	// restrict to continental 
+											state != "HI" &&
+											state != "PR" &&
+											state != "GU" &&
+											state != "AS" &&
+											state != "VI");
+				
+//				t("stationsList: " + stationsList.length());
+				
+//				var event:Event = new Event("stations");
+//				dispatchEvent(event);
+			}
+			getConditions();
+		}
+		private function checkDatestamp(datestamp:Date):void {
+			var currentDate:Date = new Date();
+			
+			var msDifference:Number = currentDate.getTime() - datestamp.getTime();
+			var reloadThreshold:Number = 1000 * 60 * STALE_THRESHOLD; // 1000ms * 60s * mins threshold
+			
+			isDataStale = msDifference > reloadThreshold;
+			t(datestamp.toString() + " : " + new Date().toString());
+			t(isDataStale + " : " + datestamp.getTime() + " : " + msDifference + " : " + reloadThreshold);			
+		}
+		private function getConditions():void {
+			for each (var stationData:XML in stationsList) { 
+			    var station:Station = new Station(stationData);
+				// should move this logic to weatherdata class
+				//t(station.longitude + " : " + station.latitude + " : " + station.stationName);
+				if(!isNaN(station.longitude) && !isNaN(station.latitude))
+				{
+					station.addEventListener(Event.COMPLETE,stationDataLoaded);
+					stationsTotal++;
+					stations.push(station);
+
+//					t(station.stationName);
+
+					if(isDataStale) station.getConditions();
+				}
+			}
+			t("getConditions(): total stations added: " + stationsTotal + " : " + stations.length);			
+			//stationsTotal = 5; // limit to 5;
+
+			trace("isDataStale: " + isDataStale);
+
+			if(!isDataStale) stationDataComplete(); // if temp's already there, write immediately after loop, else uncomment out getconditions above	
+		}
+		private function stationDataLoaded(event:Event):void {
+			stationsLoaded++
+			t("stationDataLoaded(): " + stationsLoaded + " : " + stationsTotal);
+			if(stationsLoaded == stationsTotal)	{
+				stationDataComplete();
+			}
+		}
+		private function stationDataComplete():void {
+			//stations.sortOn(["latitude","longitude"],Array.NUMERIC);
+			if(isDataStale) write();
+			
+			trace("bar");
+			
+			var e:Event = new Event("stations");
+			dispatchEvent(e);			
+		}
+		
+		private function write():void {
+			t("Sending to server");
+//			var resultXML:XML = new XML(new String('<?xml version="1.0" encoding="ISO-8859-1" ?><weatherFeed></weatherFeed>'));//new String('<WeatherFeed id="flashProject"></WeatherFeed>'));
+			var resultXML:XML = new XML(<weatherFeed></weatherFeed>);
+			resultXML.appendChild(new XML(new String("<datestamp>" + new Date().toString() + "</datestamp>")));
+			
+			var i:uint = 0;
+			for(i=0; i<stationsTotal; i++) {
+				var station:Station = stations[i];
+//				t(station.stationName);
+//				t(stations.length);
+				var xmlString:String = '<station></station>'// stationName="' + station.stationName + '" temperature="' + station.temperature + '" />'
+				var stationXML:XML = 	new XML(xmlString);
+				if(station.id) 			stationXML.appendChild(new XML(new String("<id>" + station.id + "</id>")));
+				if(station.state) 		stationXML.appendChild(new XML(new String("<state>" + station.state + "</state>")));
+				if(station.stationName) stationXML.appendChild(new XML(new String("<station_name>" + station.stationName + "</station_name>")));
+				if(station.latitude) 	stationXML.appendChild(new XML(new String("<latitude>" + station.latitude + "</latitude>")));
+				if(station.longitude) 	stationXML.appendChild(new XML(new String("<longitude>" + station.longitude + "</longitude>")));
+				if(station.temperature) stationXML.appendChild(new XML(new String("<temperature>" + station.temperature + "</temperature>")));
+				if(station.feed)		stationXML.appendChild(new XML(new String("<xml_url>" + station.feed + "</xml_url>")));
+				resultXML.appendChild(stationXML);
+			}
+
+			var vars:URLVariables = new URLVariables();
+			vars.totalEntries = 1;
+			vars.entry0 = resultXML.toString();
+			
+			/*
+			var stationsWritten:XMLList = resultXML.station;
+			for each(var s:XML in stationsWritten) {
+				t(s.toString);				
+			}
+			t(resultXML.toString());
+			*/
+
+			/*
+			vars.totalEntries = stationsTotal;
+			var i:uint = 0;
+			for(i=0; i<stationsTotal; i++) {				
+				var station:Station = stations[i];
+				if(station.temperature) {
+					vars["entry"+i] = station.stationName + " : " + station.temperature + "\n"				
+				}
+				else {
+					vars["entry"+i] = station.stationName + " : N/A\n";
+				}
+			}
+			*/
+
+			var request:URLRequest = new URLRequest(UPLOAD_SCRIPT_PATH);
+			request.data = vars;
+			request.method = "POST";
+						
+			var loader:URLLoader = new URLLoader();
+			loader.addEventListener(Event.COMPLETE,loadSuccessful);
+			loader.load(request);			
+		}
+		
+		private function loadSuccessful(e:Event):void {
+			t("Load successful");			
+		}
+	}
+}

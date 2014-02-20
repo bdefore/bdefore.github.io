@@ -1,0 +1,83 @@
+	body { margin-top:0px; margin-left:0px; background:#333 url("bg.jpg"); background-repeat:repeat-y; }
+
+	A:link		{ color: #003366; border-bottom: 1px dashed #999; text-decoration: none;}
+	A:visited  	{ color: #002255; border-bottom: 1px dashed #999; text-decoration: none;}
+	A:active	{ color: #999999;  }
+	A:hover		{ color: #999999;  }
+    A.nodots:link 	{ border:none; }        
+
+	#banner { z-index:2; background-image:url("headerbg.gif");	background-repeat:no-repeat; margin-top:0px; margin-bottom:0px;	}
+	#content { position:absolute; z-index:10; margin-left:0px; margin-top:10px; margin-right:20px; margin-bottom:20px; width:555px;	}	
+	#links { position:absolute; margin-left:555px; margin-top:7px;	padding-top:12px; padding-left:12px; width:190px; background-color:transparent;	}
+	#linksshifteddown {	position:absolute; margin-left:522px; margin-top:325px; padding-top:12px; padding-left:12px; width:190px; background-color:transparent;	}
+	#copyright { margin-left:33px; margin-right:20px; width:480px; height:20px;	background-color: #FFFBE5; background-image:url("copyright.gif"); border-top:1px dotted #ccc; }
+	#menu { margin-bottom:15px; background:transparent;	text-align:center; }	
+        #lcolumn { position:absolute; z-index:3; margin-left:35px; margin-top:345px; padding-top:12px; padding-left:12px; width:305px; background-color:transparent;}
+        #rcolumn { position:absolute; margin-left:370px; margin-top:360px; padding-top:12px; padding-left:12px; width:305px; background-color:transparent;}
+
+        .boxheader { width:320px; background-color:transparent; background-image:url("blueletter2.gif"); background-repeat:repeat-y; padding-top:0px; padding-left:2px; padding-right:2px; padding-bottom:2px; font-family:verdana, arial, sans-serif; color:#B00; font-size:medium; font-weight:bold;}
+        .boxbody { font-size:10px; width:315px; padding-top:3px; padding-bottom:3px; padding-left:3px;font-family:verdana, arial, sans-serif, times; color:#333; font-size:x-small; font-weight:normal; line-height:140%;}	
+	.boxbottom { background-image:url("letterbottom.gif"); width:320px; background-repeat:no-repeat; height:3px; margin-bottom:15px;}
+
+        .pinkboxheader { width:320px; text-align:center; background-color:transparent; background-image:url("pinkletter2.gif"); background-repeat:repeat-y; padding-top:0px; padding-left:6px; padding-right:2px; padding-bottom:2px; font-family:verdana, arial, sans-serif; color:#B00; font-size:medium; font-weight:bold;}
+
+	.desk {	width:770px; margin-top:0px; margin-left:0px; background:#552B00 url("bg.jpg"); background-repeat:repeat-y; }
+	.splashcontainer { width:766px; height:300px; background-color:transparent; }		
+	.splash { background-color:#fff; background-image:url("airmail_trim.gif"); background-repeat:repeat-x; border-left:10px solid #fff; border-right:10px solid #fff; border-bottom:10px solid #fff; padding-top:12px; margin-left:40px; width:649px; }
+
+	.postcard { width:475px; margin-left:26px; background-color:#fff; background-repeat:repeat-x; border-left:10px solid #fff; border-right:10px solid #fff; border-bottom:10px solid #fff; padding-top:10px; }
+
+	.airmailentire { background-color:#FFFBE5; width:440px; padding-left:10px; padding-bottom:20px; font-family:verdana, arial, sans-serif; font-size:x-small; line-height:180%;}
+	.verdana { background-color:#FFFBE5; width:350px; padding-left:6px; padding-bottom:2px; font-family:verdana, arial, sans-serif; font-size:x-small; line-height:140%;}
+	.verdanalight { margin-top:3px; background-color:#FFFBE5; padding-left:6px; padding-bottom:2px; font-family:verdana, arial, sans-serif; font-size:x-small; font-weight:normal; line-height:140%; width:350px;}
+
+	.verdanablue { background-color:#FFFfff; width:320px; padding-left:6px; padding-bottom:2px; font-family:verdana, arial, sans-serif; font-size:x-small; font-weight:bold; line-height:140%;}
+	.verdanabluelight { margin-top:3px; width:320px; background-color:#FFFfff; padding-left:6px; padding-bottom:2px; font-family:verdana, arial, sans-serif; font-size:x-small; font-weight:normal; line-height:140%; }
+	
+	.title	{ font-family: georgia, times new roman, serif; font-size: medium; font-weight:bold; color: #b00; padding-top:0px; }				
+	.date	{ font-family: georgia, times new roman, serif; font-size: small; color: #333; font-weight:normal; }
+	
+	.journal_entriesheader { background-image:url("parchback.jpg"); width:555px; margin-left:8px; }
+	.journal_entriesbody {	font-family: georgia, times new roman, times, verdana, arial, sans-serif; color:#111; font-size:small; font-weight:normal; line-height:150%; padding-left:50px; padding-right:50px; padding-bottom:10px; padding-top:30px;}
+	.journal_entriesbottom { background-image:url("parchbottom.gif"); margin-left:10px;	background-repeat:no-repeat; height:3px; width:555px;}
+
+	.photosheader { width:470px; background-color:transparent; background-image:url("blueletter.gif"); background-repeat:repeat-y; margin-left:37px; padding-top:10px; padding-left:20px; padding-right:8px; font-family:verdana, arial, sans-serif; color:#B00; font-size:medium; font-weight:bold;}			
+	.photosbody { width:400px; font-family:times, verdana, arial, sans-serif; color:#333; font-size:small;	font-weight:normal;	line-height:140%; padding-left:10px; padding-right:10px; padding-bottom:10px; padding-top:30px;}	
+	.photosbottom { background-image:url("letterbottom.gif"); width:470px; background-repeat:no-repeat; margin-left:37px; height:3px; }	
+	
+	.aboutheader { width:477px; background-color:transparent; background-image:url("whiteletter.gif"); background-repeat:repeat-y; margin-left:12px; padding-top:60px; padding-left:40px; padding-right:8px; padding-bottom:6px; font-family:verdana, arial, sans-serif; color:#B00; font-size:medium; font-weight:bold; border-bottom:1px dotted #999; }			
+	.aboutbody { width:400px; font-family:verdana, arial, sans-serif, times; color:#333; font-size:x-small;	font-weight:normal;	line-height:140%;}	
+	.aboutbottom { background-image:url("letterbottom.gif"); width:525px; background-repeat:no-repeat; margin-left:12px; height:3px; }
+
+	.blueheader { width:470px; margin-top:15px; background-color:transparent; background-image:url("blueletter.gif"); background-repeat:repeat-y; margin-left:35px; padding-top:40px; padding-left:40px; padding-right:8px; padding-bottom:6px; font-family:verdana, arial, sans-serif; color:#B00; font-size:medium; font-weight:bold;}			
+	.blueheader_lesspadding { width:470px; margin-top:15px; background-color:transparent; background-image:url("blueletter.gif"); background-repeat:repeat-y; margin-left:35px; padding-top:25px; padding-left:25px; padding-right:8px; padding-bottom:6px; font-family:verdana, arial, sans-serif; color:#B00; font-size:medium; font-weight:bold;}			
+	.bluebody { width:400px; padding-bottom:10px; font-family:verdana, arial, sans-serif, times; color:#333; font-size:x-small;	font-weight:normal;	line-height:140%;}	
+	.bluebottom { background-image:url("letterbottom.gif"); width:470px; background-repeat:no-repeat; margin-left:37px; height:3px; }	
+	
+	.pinkletter { width:477px; background-color:transparent; background-image:url("pinkletter.gif"); background-repeat:repeat-y; margin-left:22px; padding-top:8px; padding-left:30px; padding-right:8px; padding-bottom:20px;}
+	.pinkletterbody { width:400px;	font-family:times, verdana, arial, sans-serif; color:#333; font-size:small;	font-weight:normal;	line-height:140%;}	
+	.pinkletterbottom { background-image:url("letterbottom.gif");	background-repeat:no-repeat; margin-left:22px; height:3px; width:507px;}
+			
+	.postitheader {	background-color:transparent; background-image:url("postitback.gif"); background-repeat:repeat-y; padding-top:4px; padding-left:12px; padding-right:8px; padding-bottom:2px; width:160px; font-family:verdana, arial, sans-serif; color:#777; font-size:x-small; font-weight:bold; border-bottom:1px dotted #999; }
+	.postit { background-color:transparent; background-image:url("postitback.gif");	background-repeat:repeat-y; padding-top:2px; padding-left:12px; padding-right:8px; padding-bottom:10px; width:160px; font-family:verdana, arial, sans-serif; color:#777; font-size:x-small; font-weight:normal; line-height:140%; }
+	.postitbottom { background-image:url("postitbottom.gif"); background-repeat:no-repeat; height:3px; width:160px; }
+		
+	.stamps { background-image:url("stampframe_set.gif"); background-repeat:no-repeat; background-color:transparent; padding-left:7px; padding-top:7px;	}
+
+	.whitestripe { background-color:#FFF; }
+
+	.fiveimages { background-image:url("stampframe.gif"); background-repeat:repeat-x; margin-top:0px; margin-left:0px; width:440px; height:65px; padding-left:8px; padding-top:7px; }			
+	.fourimages { background-image:url("stampframe.gif"); background-repeat:repeat-x; margin-top:15px; margin-left:50px; width:350px; height:65px; padding-left:8px; padding-top:7px; }		
+	.threeimages { background-image:url("stampframe.gif"); background-repeat:repeat-x; margin-top:15px; margin-left:95px; width:258px; height:65px; padding-left:8px; padding-top:7px; }		
+	.twoimages { background-image:url("stampframe.gif"); background-repeat:repeat-x; margin-top:15px; margin-left:150px; width:170px; height:65px; padding-left:8px; padding-top:7px; }		
+	.oneimage {	background-image:url("stampframe.gif"); background-repeat:repeat-x; margin-top:15px; margin-left:200px; width:83px; height:65px; padding-left:8px; padding-top:7px;	}
+	.leftimage { background-image:url("stampframe.gif"); background-repeat:repeat-x;margin-left:0px; width:83px; height:65px; padding-left:8px; padding-top:7px; }		
+		
+	.posted	{ font-family:verdana, arial, sans-serif; font-size: x-small; color: #000000; margin-bottom:25px; }
+	.side {	font-family:verdana, arial, sans-serif; color:#333;	font-size:x-small; font-weight:normal; background:#eee; line-height:140%; padding:2px; }	
+	.sidetitle { font-family:georgia, georgia, times new roman, serif; color:#666600; font-size:small; font-weight:normal; padding:2px; margin-top:30px; letter-spacing: .3em; background:#eee; text-transform:uppercase; }		
+
+	#comments { margin-top:25px; margin-left:33px; margin-right:20px; width:480px; }
+	.comments-body { font-family:verdana, arial, sans-serif; color:#666; font-size:x-small; font-weight:normal;	line-height:140%; padding:15px; background:#FFFBE5;	}		
+	.comments-post { font-family:verdana, arial, sans-serif; color:#666; padding-left:15px;	font-size:x-small; font-weight:normal; background:#FFFBE5; }	
+	.comments-head	{ font-family:verdana, arial, sans-serif; font-size:x-small; color: #666; padding-top:10px; padding-left:15px; font-weight:bold; background:#FFFBE5; border-bottom:1px dotted #999;	}

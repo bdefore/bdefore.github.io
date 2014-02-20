@@ -1,0 +1,38 @@
+<products>
+  	<product>
+	    <name>Marc Veca</name>
+	    <description>Limited-edition all cotton t-shirt with artwork by Marc Veca. Made in Japan.
+		</description>
+	    <image_url>/uploaded/product/30/003_thumb.jpg</image_url>
+	    <available_from>Wed May 14 16:58:00 -0400 2008</available_from>
+		<price>$68</price>
+		<item_variant>
+			<description>Black</description>
+			<sizes>
+				<S>true</S>
+				<M>false</M>
+				<L>false</L>
+				<XLarge>false</XLarge>
+				<XXLarge>false</XXLarge>
+			</sizes>
+			<add_to_cart_url>/shop/6/add?size=11</add_to_cart_url>
+			<thumb_url>http://kaws.splaynewyork.com/uploaded/style/654/black_detail_swatch.jpg</thumb_url>
+			<image_url>http://kaws.splaynewyork.com/uploaded/style/651/black_detail.jpg</image_url>
+			<zoomed_url>http://kaws.splaynewyork.com/uploaded/style/652/black_detail.jpg</zoomed_url>
+		</item_variant>
+		<item_variant>
+			<description>White</description>
+			<sizes>
+				<S>false</S>
+				<M>true</M>
+				<L>false</L>
+				<XLarge>false</XLarge>
+				<XXLarge>false</XXLarge>
+			</sizes>
+		    <add_to_cart_url>/shop/6/add?size=11</add_to_cart_url>
+			<thumb_url>http://kaws.splaynewyork.com/uploaded/style/649/white_detail_swatch.jpg</thumb_url>
+			<image_url>http://kaws.splaynewyork.com/uploaded/style/647/white_detail.jpg</image_url>
+			<zoomed_url>http://kaws.splaynewyork.com/uploaded/style/648/white_detail.jpg</zoomed_url>
+		</item_variant>
+	</product>
+</products>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.lakemonsterculture.com/kate/">
+<title>Kate&apos;s Page</title>
+<link>http://www.lakemonsterculture.com/kate/</link>
+<description>My Watson Fellowship 2003-2004</description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2004-02-12T02:16:03-05:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=2.63" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.lakemonsterculture.com/kate/archives/001151.html" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/kate/archives/001152.html" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/kate/archives/000868.html" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/kate/archives/000867.html" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/kate/archives/000839.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.lakemonsterculture.com/kate/archives/001151.html">
+<title>Quarterly Report II</title>
+<link>http://www.lakemonsterculture.com/kate/archives/001151.html</link>
+<description>1/14/04 The searing Athenian sun and blue skies gave way to a much more tranquil autumn that carried the scents of earth softened by Mediterranean rain. The dry dust and high midday sun turned to gentle clouds and all the...</description>
+<dc:subject></dc:subject>
+<dc:creator>kate</dc:creator>
+<dc:date>2004-02-12T02:16:03-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/kate/archives/001152.html">
+<title>Quarterly Report I</title>
+<link>http://www.lakemonsterculture.com/kate/archives/001152.html</link>
+<description>In the past, I have allowed my own romantic ideals, derived primarily from art and literature, dictate my expectations when dreaming out a train window. Of course, the machinations of my mind formed a London of Dickensian fog and umbrellas...</description>
+<dc:subject></dc:subject>
+<dc:creator>kate</dc:creator>
+<dc:date>2003-11-03T01:05:15-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/kate/archives/000868.html">
+<title>II.</title>
+<link>http://www.lakemonsterculture.com/kate/archives/000868.html</link>
+<description>Further Illuminated: The Buddhist and Christian illuminated manuscript tradition: Greece, Russia, India, Tibet During our period at the abbey his hands were always covered with the dust of books, the gold of still-fresh illumination, or with yellowish substances he touched...</description>
+<dc:subject></dc:subject>
+<dc:creator>kate</dc:creator>
+<dc:date>2003-07-08T16:23:29-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/kate/archives/000867.html">
+<title>I.</title>
+<link>http://www.lakemonsterculture.com/kate/archives/000867.html</link>
+<description>Further Illuminated: The Buddhist and Christian illuminated manuscript tradition: Greece, Russia, India, Tibet I propose a year abroad devoted to the study (including learning the production techniques) of illuminated manuscripts of the Christian and Buddhist traditions in Greece, Russia, India,...</description>
+<dc:subject></dc:subject>
+<dc:creator>kate</dc:creator>
+<dc:date>2003-07-08T16:21:20-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/kate/archives/000839.html">
+<title>i.</title>
+<link>http://www.lakemonsterculture.com/kate/archives/000839.html</link>
+<description>Albatross Snake Pig Cow Moo Albatross Snake Pig Cow Moo Albatross Snake Pig Cow Moo Albatross Snake Pig Cow Moo Albatross Snake Pig Cow Moo Albatross Snake Pig Cow Moo Albatross Snake Pig Cow Moo Albatross Snake Pig Cow Moo...</description>
+<dc:subject></dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-06-05T13:59:45-05:00</dc:date>
+</item>
+
+
+</rdf:RDF>

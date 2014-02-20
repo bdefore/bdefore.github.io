@@ -1,0 +1,245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Theme: Relaxation 1.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-01-11 21:59+0100\n"
+"Last-Translator: John Wrana <jowra@jowra.de>\n"
+"Language-Team: John Wrana <jowra@jowra.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: Germany\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: sidebar.php
+msgid "Search"
+msgstr "Suche"
+
+#: sidebar.php
+msgid "Archive"
+msgstr "Archiv"
+
+#: sidebar.php
+msgid "Categories"
+msgstr "Kategorien"
+
+#: sidebar.php
+msgid "Meta"
+msgstr "Meta"
+
+#: footer.php
+msgid "Entries (RSS)"
+msgstr "Beiträge (RSS)"
+
+#: footer.php
+msgid "and"
+msgstr "und"
+
+#: footer.php
+msgid "Comments (RSS)"
+msgstr "Kommentare (RSS)"
+
+#: footer.php
+msgid "queries"
+msgstr "Abfragen"
+
+#: footer.php
+msgid "in"
+msgstr "in"
+
+#: footer.php
+msgid "seconds"
+msgstr "Sekunden"
+
+#: comments.php
+msgid "No Response"
+msgstr "Keine Kommentare"
+
+#: comments.php
+msgid "One Response"
+msgstr "Ein Kommentar"
+
+#: comments.php
+msgid "% Responses"
+msgstr "% Kommentare"
+
+#: comments.php
+msgid "to"
+msgstr "zu"
+
+#: comments.php
+msgid "Your comment is awaiting moderation."
+msgstr "Dieser Kommentar wurde noch nicht moderiert."
+
+#: comments.php
+msgid "Comments are closed."
+msgstr "Die Kommentarfunktion zu diesem Beitrag wurde deaktiviert."
+
+#: comments.php
+msgid "Leave a Reply"
+msgstr "Kommentar abgeben:"
+
+#: comments.php
+msgid "You must be logged in to post a comment."
+msgstr "Sie müssen angemeldet sein um Kommentare abgeben zu können."
+
+#: comments.php
+msgid "Logged in as"
+msgstr "Angemeldet als"
+
+#: comments.php
+msgid "Name"
+msgstr "Name"
+
+#: comments.php
+msgid "Mail (will not be published)"
+msgstr "EMail (wird nicht veröffentlicht)"
+
+#: comments.php
+msgid "Website"
+msgstr "Webseite"
+
+#: comments.php
+msgid "Logout"
+msgstr "Abmelden"
+
+#: comments.php
+msgid "Submit"
+msgstr "Senden"
+
+#: archives.php
+msgid "Archives by Month:"
+msgstr "Archiv (nach Monat sortiert):"
+
+#: archives.php
+msgid "Archives by Subject:"
+msgstr "Archiv (nach Thema sortiert):"
+
+#: index.php
+msgid "l, F dS, Y g:ia"
+msgstr "l, d. F Y H:i"
+
+#: index.php
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: index.php
+msgid "Comments (0)"
+msgstr "Kommentare (0)"
+
+#: index.php
+msgid "Comments (1)"
+msgstr "Kommentare (1)"
+
+#: index.php
+msgid "Comments (%)"
+msgstr "Kommentare (%)"
+
+#: index.php
+msgid "| Read the rest of this entry ..."
+msgstr "| Ganzen Beitrag lesen ..."
+
+#: index.php
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; ältere Beiträge"
+
+#: index.php
+msgid "Next Entries &raquo;"
+msgstr "neuere Beiträge &raquo;"
+
+#: single.php
+msgid "<p>| Read the rest of this entry ...</p>"
+msgstr "<p>| Ganzen Beitrag lesen ...</p>"
+
+#: single.php
+msgid "<p><strong>Pages:</strong> "
+msgstr "<p><strong>Seiten:</strong> "
+
+#: single.php
+msgid "Edit this entry."
+msgstr "Diesen Eintrag bearbeiten."
+
+#: single.php
+msgid "This entry was posted on"
+msgstr "Geschrieben am"
+
+#: single.php
+msgid "l, F dS, Y"
+msgstr "l, d. F Y"
+
+#: single.php
+msgid "g:ia"
+msgstr "H:i \\U\\h\\r"
+
+#: single.php
+msgid "at"
+msgstr "um"
+
+#: single.php
+msgid "and is filed under"
+msgstr "und abgelegt unter"
+
+#: single.php
+msgid "You can follow any responses to this entry through the"
+msgstr "Verfolgen Sie die Diskussion zu diesem Beitrag per"
+
+#: single.php
+msgid "feed."
+msgstr "Feed."
+
+#: single.php
+msgid "You can <a href=\"#respond\">leave a response</a> or"
+msgstr "Sie können diesen Beitrag <a href=\"#respond\">kommentieren</a> oder einen"
+
+#: single.php
+msgid "from your own site."
+msgstr "von Ihrer eigenen Webseite setzen."
+
+#: single.php
+msgid "Responses are currently closed, but you can"
+msgstr "Die Kommentarfunktion für diesen Beitrag wurde deaktiviert, aber sie können"
+
+#: single.php
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Sie können diesen Beitrag kommentieren. Das \"Anpingen\" dieses Beitrages ist jedoch nicht möglich."
+
+#: single.php
+msgid "Both comments and pings are currently closed."
+msgstr "Die Kommentarfunktion wurde deaktiviert. Auch das \"Anpingen\" des Beitrages ist nicht möglich."
+
+#: 404.php
+msgid "Error 404. Page not found."
+msgstr "Fehler 404. Die angeforderte Seite wurde nicht gefunden."
+
+#: search.php
+msgid "F dS, Y"
+msgstr "d. F Y"
+
+#: search.php
+msgid "Not found."
+msgstr "Die Suche ergab keine Treffer."
+
+#: archive.php
+msgid "Archive for the Category"
+msgstr "Archiv für die Kategorie"
+
+#: archive.php
+msgid "Archive for"
+msgstr "Archiv für"
+
+#: archive.php
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: archive.php
+msgid "Author Archive"
+msgstr "Archiv nach Autoren"
+
+#: archive.php
+msgid "Blog Archives"
+msgstr "Blog-Archiv"
+
+#: page.php
+msgid "<p>| Read the rest of this page ...</p>"
+msgstr "<p>| Ganze Seite lesen ...</p>"

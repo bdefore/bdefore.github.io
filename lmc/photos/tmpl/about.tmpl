@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title><$MTBlogName$></title>
+<link rel="stylesheet" href="<$MTBlogURL$>styles-site.css" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="<$MTBlogURL$>index.rdf" />
+
+</head>
+
+<body>
+
+<table width="732" align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="5">
+<div id="banner">
+
+<a href=""><img src="header.gif" border="0"></a>
+</td>
+</tr>
+
+<tr valign=top>
+
+<td width="290" bgcolor="#eeeeee">
+
+
+<div id="links">
+
+<img src="images/text_findimages.gif" valign="5" hspace="0"><br>
+<img src="images/blockthing.gif"> <a href="random.php">At Random</a><br>
+<img src="images/blockthing.gif"> <a href="bycat.php">By Category</a><br>
+<br>
+
+<img src="images/text_information.gif" valign="5" hspace="0"><br>
+<img src="images/blockthing.gif"> <a href="about.php">About</a><br>
+<img src="images/blockthing.gif"> <a href="faq.php">FAQ</a><br>
+<img src="images/blockthing.gif"> <a href="links.php">Links</a><br>
+
+<br>
+<br>
+<br>
+<img src="takefive.gif" border="0"><br>
+<?php
+
+include ("connect.php");
+mysql_select_db("$database",$db);
+
+$numthumbs = "3";
+$blogurl = "../photos/archives";
+
+for ($i = 1; $i <= $numthumbs; $i++) {
+
+        $randomarray = "SELECT entry_text, entry_id FROM mt_entry WHERE entry_blog_id=" . $blogid . " ORDER BY rand() LIMIT 1";
+        $randresult = mysql_query($randomarray);
+        $row = mysql_fetch_array($randresult);
+
+        if ($row['entry_id'] < 10) {                                     echo ("<a href=archives/00000"); }
+        if ($row['entry_id'] >= 10 && $row['entry_id'] < 100) {          echo ("<a href=archives/0000");  }
+        if ($row['entry_id'] >= 100 && $row['entry_id'] < 1000) {        echo ("<a href=archives/000");   }
+        if ($row['entry_id'] >= 1000 && $row['entry_id'] < 10000) {      echo ("<a href=archives/00");    }
+
+        echo ($row['entry_id']);
+        echo (".php>");
+        echo ("<img src=thumbs/");
+        echo ($row['entry_text']);
+        echo ("_thumb.jpg border=0 vspace=4></a><br>");
+
+    }
+?>
+
+
+<br><div class="lightright"><b><$MTBlogEntryCount$></b> photos &nbsp;</div>
+
+<td width="460">
+<div id="content">
+<div class="blogtight">
+
+<img src="images/about.gif"><br>
+
+<i>"The camera makes everyone a tourist in other people's reality, and eventually in one's own." -Susan Sontag</i>
+
+<p>What can I say? I would like to believe that I'm the one in control here. Control is so very nice a feeling. Yet I am a mere servant. You see, in January of 2003, these photos, which had been living in an oppressive sunless world on my hard-drive, suddenly joined in a mass uprising. They took on a force of their own, nagged at me in the back of my mind. They demanded of me, much against my convenience, to not-so-slovenly slaveaway at creating this public forum, where they could be seen for what they are worth. They are very demanding and very diverse creatures, these photographs. I hope you enjoy their stories.
+
+<p>I thought my efforts were complete in January, but, natch, the trouble with appeasing a mass revolt is that after such loss of respect, more are always waiting: at the doorstep in the morning, calling me out of bed in the night, or pulling me from dinner. So without much control over the matter, I have been rendered their petty scribe. I am left without much recourse but to hold open the gates as they come in. I cannot say I dislike the burden.
+
+<p>At present, there are <b><$MTBlogEntryCount$></b> photographs. All photos, unless otherwise noted, took themselves in front of me, Buck DeFore. They keep coming. Thankfully.
+
+<p>-- d4
+
+<p><img src="images/thanks.gif"><br>
+Thanks go out foremost to the Movable Type community. On the support forum, I especially owe some thanks to <a href="http://kadyellebee.com">kadyellebee</a> and <a href="http://www.thegirliematters.com/">girlie</a>, the two of which answered nearly all of my questions on how MT works.
+<p><a href="http://www.scriptygoddess.com/archives/000902.php">This code</a> from ScriptyGoddess was highly useful in the development of using previous/next links within categories. As far as I know, there isn't any code available for moving forward or backward through any category that an entry may belong to. So I had to create a bit of code myself, which you can use for yourself <a href="http://www.movabletype.org/cgi-bin/ikonboard/ikonboard.cgi?s=3e906bc1101fffff;act=ST;f=10;t=15993;hl=bdefore">here</a>. ScriptyGoddess also has useful code for <a href="http://www.scriptygoddess.com/archives/001342.php">creating multiple columns of thumbnails</a>.
+<p>If you're in need of a PHP equivalent of the "dirify" command in MT - helpful for situations where you're working with categories that include spaces - you'll appreciate <a href="http://www.emptypages.org/more/snips/dirify_function.html">this code</a> which is hosted on Empty Pages.
+<p>Thanks to Stepan Riha for the MTPaginate plugin which generates the paging structure of my category archives. You can find his MT site <a href="http://www.nonplus.net/software/mt/">here</a>.
+<p>And, a significant thanks goes to Dawn M. Mikulich, whose site, <a href="http://www.chicagouncommon.com">Chicago Uncommon</a>, inspired me to consider MT for the purpose of a photo journal.
+
+</div>
+</div>
+
+</table>
+
+<table width="732" align="center" border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+<td colspan="5">
+
+<div class="powered">
+
+<br /><a href="http://www.movabletype.org"><img src="anchor.gif" border="0"></a><br />
+
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
+
+
+
+
+

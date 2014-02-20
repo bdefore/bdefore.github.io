@@ -1,0 +1,72 @@
+<div id="content">
+<div id="container">
+<div class="blog">
+
+<div class="blogbody">
+<div class="title"><$MTEntryTitle$></div>
+<div class="date"><$MTEntryDate format="%x"$></div>
+
+<$MTEntryBody$>
+
+<a name="more"></a>
+
+<$MTEntryMore$>
+
+<div class="blog">
+<div id="menu">
+
+<MTEntryPrevious>
+<a href="<$MTEntryPermalink$>">&laquo; <$MTEntryTitle$></a> |
+</MTEntryPrevious>
+
+<a href="<$MTBlogURL$>">Main</a>
+<MTEntryNext>
+<MTEntryIfAllowPings>
+| <a href="<$MTCGIPath$><$MTTrackbackScript$>?__mode=view&amp;entry_id=<$MTEntryID$>" onclick="OpenTrackback(this.href); return false">TrackBack</a>
+</MTEntryIfAllowPings>
+| <a href="<$MTEntryPermalink$>"><$MTEntryTitle$> &raquo;</a>
+</MTEntryNext>
+</div>
+</div>
+</div>
+<img src="../parchbottom.gif"><br>
+
+
+
+<MTEntryIfAllowComments>
+<div id="comments">
+<div class="comments-head"><a name="comments"></a>Comments</div>
+
+<MTComments>
+<div class="comments-body">
+<$MTCommentBody$>
+
+<div class="comments-post">Posted by: <$MTCommentAuthorLink spam_protect="1"$> on <$MTCommentDate$></div>
+</div>
+
+</MTComments>
+
+<div class="comments-head">Post a comment</div>
+<div class="comments-body">
+
+<form method="post" action="<$MTCGIPath$><$MTCommentScript$>" name="comments_form" onsubmit="if (this.bakecookie.checked) rememberMe(this)">
+<input type="hidden" name="static" value="1" />
+<input type="hidden" name="entry_id" value="<$MTEntryID$>" />
+<label for="author">Name:</label><br />
+<input id="author" name="author" /><br />
+<!--<label for="email">Email Address:</label><br /> -->
+<!--<input id="email" name="email" /><br /><br /> -->
+<!--<label for="url">URL:</label><br />-->
+<!--<input id="url" name="url" /><br /><br /> -->
+<label for="text">Comments:</label><br />
+<textarea id="text" name="text" rows="10" cols="50"></textarea><br /><br />
+<input type="submit" name="post" value="&nbsp;POST&nbsp;" />
+<input type="checkbox" id="bakecookie" name="bakecookie" /><label for="bakecookie">Remember my info. </label><br /><br /><br />
+
+</MTEntryIfAllowComments>
+
+</div>
+</div>
+</div>
+</div>
+

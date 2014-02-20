@@ -1,0 +1,49 @@
+---
+author: bcdef
+comments: true
+date: 2006-01-12 04:35:11+00:00
+layout: post
+slug: flappr-to-110
+title: Flappr to 1.1.0
+wordpress_id: 11
+categories:
+- bcdef
+- Miscellany
+---
+
+Wrapping up development on [Flappr](http://bcdef.org/?page_id=2)... 
+
+_Changes in 1.1.0:_
+
+
+
+
+  * Many graphical adjustments. Search area is now a bar with options underneath, thumb container moves directly under the options.
+
+
+  * On lower resolutions, the user strips would obstruct images of vertical aspect. This has been fixed.
+
+
+  * Selecting a tag in the header of the thumb container box removes that tag and reperforms the search without it.
+
+
+  * Hover box comes up with photo title.
+
+
+  * Clicking a userstrip's icon displays the user's most-recent photos.
+
+
+  * You can now specify which page of results you want. The page report has now moved down by the prev / next buttons.
+
+
+  * Image descriptions now match the aspect of the photo - previously vertically aligned photos would have descriptions that spilled over the right side
+
+
+  * HTML is now supported within image descriptions
+
+
+  * Employs newest Flashr build's support of cached data requests (should help significantly if you hit the 'prev' button or otherwise search for something you've already searched for)
+
+
+
+If there's any more requests, send them along before I finally bid this project adieu.

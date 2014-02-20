@@ -1,0 +1,5 @@
+name: bcdef
+markdown: redcarpet
+pygments: true
+permalink: /:year/:month/:day/:title
+keep_files: []

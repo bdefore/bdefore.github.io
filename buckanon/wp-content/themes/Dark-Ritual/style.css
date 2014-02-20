@@ -1,0 +1,234 @@
+/*
+Theme Name: Dark Ritual
+Theme URI: http://www.gfxedit.com/themes/wordpress/ported-themes/buryy-2-column-wordpress-theme.html
+Description: Tribal-style three column <a href="http://www.gfxedit.com/themes/wordpress/ported-themes/dark-ritual-wordpress-theme.html">layout</a>. Ported by <a href="http://www.sreejith.net/">Sreejith</a> from Dark Ritual designed by <a href="http://templates.arcsin.se/">Viktor Persson</a>
+Version: 1.0
+Author: Viktor Persson / Sreejith R
+Author URI: http://templates.arcsin.se
+*/
+/*#############################################################
+
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a:link, a:visited {color: #682;}
+
+a:hover {color: #9A6;}
+
+body {
+	background: #333 url(img/bg.gif);
+	color: #333;
+	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+	margin: 3% 0;
+}
+
+p,ul {
+	padding-bottom: 1em;
+}
+
+ul {margin-left: 1.2em;}
+
+li {list-style: none;}
+.main li {list-style-image: url(img/li.gif);}
+.main_right li {list-style-image: url(img/li2.gif);}
+ul.recent li {list-style-image: none;}
+h1 {font-size: 1.2em;}
+.title {color: #994; font-size: 1.2em; font-weight: bold;text-decoration: underline; margin: .5em 0;}
+blockquote {
+	background: #FFF;
+	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+	color: #333;
+	display: block;
+	font-size: 0.9em;
+	margin-bottom: 1.2em;
+	padding: 6px 12px;
+}
+blockquote p {padding: 3px 0;}
+
+h1,h2,h3 {color: #994;}
+
+
+/* misc */
+.clearer {clear: both;}
+.main_right .padded {padding: 6px 2px 6px 16px;}
+.main .padded {padding: 18px 24px;}
+.meta {font-size: 0.8em; color: #666;}
+.left {float: left;}
+.right {float: right;}
+
+/* structure */
+.container {
+	font-size: 1.2em;
+	background: url(img/bgcontainer.gif) repeat-y;
+	margin: 0 auto;
+	width: 840px;
+	border: 12px solid #222;
+}
+.main h2 a:link, .main h2 a:visited{
+	color: #994;
+	text-decoration: none;
+}
+/* header */
+.header h1 {
+	float: left;
+	width: 640px;
+	background: url(img/header.jpg) no-repeat;
+	font: normal 2.4em Verdana,sans-serif;
+	line-height: 150px;
+	text-align: center;	
+}
+.header h1 a:link, .header h1 a:visited {
+	color: #000;
+	text-decoration: none;
+}
+/* structure */
+.top {
+	background: #222;
+	color: #DDD;
+	float: left;
+	font: normal 1.4em Verdana;
+	height: 50px;
+	text-align: center;
+	width: 639px;
+}
+.subnav {
+	float: left;
+	width: 160px;
+}
+.main {
+	float: left;
+	width: 480px;
+}
+.main_right {
+	float: right;
+	width: 200px;
+	color: #CCC;
+}
+.main_right h1 {
+	text-decoration: underline;
+	margin: .5em 0;
+}
+/* sub-navigation */
+.subnav h1 {
+	background: #222;
+	color: #FFE;
+	font: bold 1.1em Verdana,sans-serif;
+	line-height: 24px;
+	padding-left: 8px;
+}
+
+.subnav ul {margin: 0; padding: 0;}
+.subnav li {
+	border-bottom: 1px solid #696755;
+	list-style: none;
+}
+.subnav li a {
+	background: #89866F;	
+	color: #111;
+	display: block;
+	padding: 8px 0 8px 12px;
+	width: 148px;
+	text-decoration: none;
+}
+.subnav li a:hover {
+	background: #9C997C;
+	color: #000;
+}
+
+/* footer */
+.footer {
+	background: url(img/bgfooter.gif) repeat-x;
+	color: #CCC;
+	font-size: 0.9em;
+	line-height: 39px;
+	width: 100%;
+	text-align: center;
+}
+.footer .left,.footer .right {padding: 0 16px;}
+.footer a {color: #EEE;}
+.footer a:hover {color: #FAFCB0;}
+.main_right a:link, a:visited {
+	color: #999999;
+}
+.recent a:link, .recent a:visited{
+	color: #666666;
+	text-decoration: none;
+}
+ul.recent {
+	padding: 0;
+}
+ul.recent li a:link, ul.recent li a:visited{
+	display: block;
+}
+ul.recent li:hover{
+	background: #333333;
+}
+ul.recent li {
+padding: 5px 0;
+}
+.main_right ul {
+	margin: 0;
+}
+ul.meta {
+	margin: 0 1em;
+}
+ul.meta li {
+	margin: 5px 0;
+}
+.post-footer {
+	margin: 0 0 .5em 0;
+	padding: 0 0 .5em 0;
+	background: #f3f3f3;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #f0f0f0;	
+
+}
+.post-footer:hover {
+	background: #f0f0f0;
+}
+.widget ul {
+	margin: 1em;
+}
+#comment {
+width: 95%;}
+.articleimg {
+	float:right;
+	padding:5px;
+	border:1px solid #ccc;
+	margin: 10px 10px 10px 10px;
+}
+.articleimgleft {
+	float:left;
+	padding:5px;
+	border:1px solid #ccc;
+	margin: 10px 10px 10px 10px;
+}
+.articleimgleft:hover, .articleimg:hover {
+	border: 1px solid #8b4026;
+}
+
+.graybox{
+background: #f0f0f0;
+padding: 4px;
+}
+ol#commentlist {
+	margin: 1em 0;
+}
+ol#commentlist li {
+margin: 0 0 1em 0;
+list-style-image: none;
+list-style: decimal ;
+}
+#searchform {
+padding: 0 0 0 1em;}
+.pg_nav {
+text-align: center;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+background: #f0f0f0;
+padding: 5px;
+margin: 5px;
+}

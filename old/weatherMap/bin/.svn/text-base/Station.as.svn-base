@@ -1,0 +1,128 @@
+package {
+	import flash.display.Sprite;
+    import mx.controls.Alert;
+    import com.hexagonstar.util.debug.Debug;
+	import flash.events.*;
+	import flash.net.URLLoader;
+	import flash.net.URLRequest;
+			
+	public class Station extends Sprite {
+		public var id:String;
+		public var state:String;
+		public var feed:String;
+		public var stationName:String;
+		public var latitude:Number;
+		public var longitude:Number;
+	
+		private var loader:URLLoader;
+		public var temperature:Number;
+		private var color:Number;
+	
+		public function Station(stationData:XML) {
+			this.id = stationData.id;
+			this.stationName = stationData.station_name;
+			this.state = stationData.state;
+
+			var xmlLatitude:String = stationData.latitude;
+			if(xmlLatitude) {
+				var lat:Number	= Number(xmlLatitude);
+//				if(isNaN(lat)) lat 	= Number(xmlLatitude.substr(0,xmlLatitude.lastIndexOf(".")-1)); 
+				this.latitude = lat;
+			}
+			var xmlLongitude:String = stationData.longitude;
+			if(xmlLongitude) {
+				var lon:Number = Number(xmlLongitude);
+//				if(isNaN(lon)) lon 	= Number(xmlLongitude.substr(0,xmlLongitude.lastIndexOf(".")-1)); 
+				this.longitude = lon;
+			}
+			this.feed = stationData.xml_url;
+			
+			if(stationData.temperature) {
+				this.temperature = stationData.temperature;
+				draw();
+			}
+		}
+		
+		public function getConditions():void {
+			var request:URLRequest = new URLRequest(this.feed);
+			loader = new URLLoader();
+			configureListeners(loader);
+			loader.load(request);
+		}
+	    private function configureListeners(dispatcher:IEventDispatcher):void {
+	        dispatcher.addEventListener(Event.COMPLETE, completeHandler);
+//	        dispatcher.addEventListener(Event.OPEN, openHandler);
+//	        dispatcher.addEventListener(ProgressEvent.PROGRESS, progressHandler);
+	        dispatcher.addEventListener(SecurityErrorEvent.SECURITY_ERROR, securityErrorHandler);
+//	        dispatcher.addEventListener(HTTPStatusEvent.HTTP_STATUS, httpStatusHandler);
+	        dispatcher.addEventListener(IOErrorEvent.IO_ERROR, ioErrorHandler);
+	    }		
+		private function serializeData(event:Event):void {
+			var result:XML;
+			try {
+				result = XML(loader.data); // this seems to intermittently throw exceptions demanding the data be well formed... how do i catch this?
+			} 
+			catch (e:Error) {
+				trace(e.toString());
+			}
+
+			if(result) {
+				this.temperature = Number(result.temp_f);
+				this.latitude = Number(result.latitude);
+				this.longitude = Number(result.longitude);
+				draw();
+			}
+		}
+		private function generateColor():Number {
+			var color:Number;
+			var t:Number = this.temperature;
+			if		(t < 10) color = 0x0000FF;
+			else if	(t < 20) color = 0x2222FF;
+			else if	(t < 35) color = 0x4444CC;
+			else if	(t < 45) color = 0x999999;
+			else if	(t < 55) color = 0xCCCC55;
+			else if	(t < 70) color = 0xDDDD33;
+			else if	(t < 85) color = 0xDD8800;
+			else if	(t < 90) color = 0xEE2200;
+			else color = 0xFF0000;
+			this.color = color;
+			return color			
+		}
+		public function getColor():Number {
+			return color;
+		}
+		private function draw():void {
+			generateColor();
+			super.graphics.beginFill(getColor());
+			super.graphics.drawRect(0, 0, 5, 5);
+			super.graphics.endFill();			
+		}
+	    private function completeHandler(event:Event):void {
+	        if(event) {
+		        serializeData(event);
+		        dispatchEvent(event);        	
+	        }
+	    }
+
+	    private function openHandler(event:Event):void {
+	        trace("openHandler: " + event);
+	    }
+	
+	    private function progressHandler(event:ProgressEvent):void {
+	        trace("progressHandler loaded:" + event.bytesLoaded + " total: " + event.bytesTotal);
+	    }
+	
+	    private function securityErrorHandler(event:SecurityErrorEvent):void {
+//	        infoField.text = "securityErrorHandler: " + event;
+	        trace("securityErrorHandler: " + event);
+	    }
+	
+	    private function httpStatusHandler(event:HTTPStatusEvent):void {
+	        trace("httpStatusHandler: " + event);
+	    }
+	
+	    private function ioErrorHandler(event:IOErrorEvent):void {
+	        trace("ioErrorHandler: " + event);
+	    }		
+	}
+}

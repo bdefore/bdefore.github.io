@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" href="watsonheaderstyles.css" type="text/css" />
+
+<script language="JavaScript">
+function MM_jumpMenu(targ,selObj,restore) { 
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+
+</head>
+<body>
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<a href="index.php" target="mainFrame"><img src="watsonheader.gif" width="548" height="40"></a>
+</td>
+<td>
+<form method="post" action="">
+          <select onChange="MM_jumpMenu('parent.frames[\'mainFrame\']',this,0)" name="select" style="margin-left: 24px; margin-top:10px; background-color:#3A4232; border-style:1px; font-size: 10; color: #FFFFFF; font-family: verdana, helvetica, arial" width: 10px;>
+            <option value="splash.php" selected>navigation</option>
+            <option value="splash.php">~~~~~~~~~~~~~~~~</option>
+            <option value="splash.php">01. introduction</option>
+            <option value="map.php">02. maps</option>
+            <option value="airmail.php">03. journals</option>
+            <option value="watson.php">04. watson foundation</option>
+          </select>
+      </form>
+	  </td>
+	  </tr>
+</table>
+</body>
+</html>

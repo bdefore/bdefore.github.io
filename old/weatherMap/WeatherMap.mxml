@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:local="*"
+	layout="absolute"
+	creationComplete="initApp()">
+<!-- yahoo map bogs down processor, swapped with a png 	
+   <local:MapConnection id="mapConnection"/>
+	   <mx:SWFLoader id="map" width="800" height="600" source="assets/mapExample.swf" autoLoad="true"/>	
+	<mx:Panel id="appContainer" width="820" height="620" x="50" y="50" />
+-->
+
+	<mx:Script>
+		<![CDATA[
+			import mx.controls.Image; 
+			import mx.core.UIComponent;
+			import mx.managers.ToolTipManager;
+			import mx.controls.Alert;
+			import flash.display.Shape;
+			import flash.geom.Point;
+			import nl.fxc.utils.CompressUtil;
+			
+			private var UPLOAD_CHART_PATH:String = "http://bcdef.org/weatherMap/writeChartCoords.php";
+			private var CHART_PATH:String = "http://bcdef.org/weatherMap/cachedChartCoords.txt";
+		
+			private var shadingContainer:Image;
+			private var stationContainer:UIComponent;
+			private var map:Image;
+			private var mapCutout:Image;
+			private var connection:DataImporter;
+			private var timer:Timer;
+			private var chartCoords:String;
+			private var chartStartX:Number = 0;
+			private var chartEndX:Number = 800;		
+			private var chartStartY:Number = 0;
+			private var chartEndY:Number = 600;
+			private var multiplierX:Number = 11.25;
+			private var multiplierY:Number = 14.5;
+			private var shiftY:Number = 835;
+			private var shiftX:Number = 1475;
+
+			private function initApp():void {
+				ToolTipManager.showDelay = 0;
+
+				map = new Image();
+				map.load("assets/wholemap.png");
+				addChild(map);
+				shadingContainer = new Image();
+				shadingContainer.mouseEnabled = false; // performance issue in the flash player otherwise, when using the graphics object to draw a grid of 8x6 pixels
+				addChild(shadingContainer);
+				mapCutout = new Image();
+				mapCutout.load("assets/cutoutmap.png");
+				addChild(mapCutout);
+				stationContainer = new UIComponent();
+				addChild(stationContainer);
+				// shift down to cover top part of canada
+				map.y =
+				mapCutout.y =
+				shadingContainer.y =
+				stationContainer.y = -65;
+				var cover:UIComponent = new UIComponent();
+				cover.graphics.beginFill(0);
+				cover.graphics.drawRect(0,500,2000,2000);
+				cover.graphics.endFill();
+				cover.graphics.beginFill(0);
+				cover.graphics.drawRect(800,0,2000,2000);
+				cover.graphics.endFill();
+				addChild(cover);
+							
+				connection = new DataImporter();
+				connection.addEventListener("stations",drawStations);
+				connection.go(null);
+			}
+			private function drawStations(e:Event):void {
+				trace("drawStations");
+				for each(var station:Station in e.target.stations) {
+					station.x = getXFromLongitude(station.longitude);
+					station.y = getYFromLatitude(station.latitude);
+					stationContainer.addChild(station);
+				}
+//				getChartCoords();
+				writeChartCoordinates();
+			}
+			private function getYFromLatitude(lat:Number):Number {
+				return shiftY+(lat*-multiplierY);
+			}
+			private function getXFromLongitude(lon:Number):Number {
+				return shiftX+(lon*multiplierX);
+			}
+			private function getLatitudeFromY(y:Number):Number {
+				return (y - shiftY) / multiplierY;
+			}
+			private function getLongitudeFromX(x:Number):Number {
+				return (x - shiftX) / multiplierX;
+			}
+			private function getClosestStation(lat:Number,lon:Number):Station {
+				var closestStation:Station = connection.stations[0];
+				var closestDistance:Number = Math.abs(closestStation.latitude - lat) + Math.abs(closestStation.longitude - lon);
+				for each(var station:Station in connection.stations) {
+					var thisStationDistance:Number = Math.abs(station.latitude - lat) + Math.abs(station.longitude - lon)
+					if(thisStationDistance < closestDistance) {
+						closestDistance = thisStationDistance;
+						closestStation = station;
+					}
+				}
+				return closestStation;
+			}
+			private function getClosestStationByCoords(x:Number,y:Number):Station {
+				var closestStation:Station = connection.stations[0];
+//				var p1:Point = new Point(closestStation.x,closestStation.y);
+//				var p2:Point = new Point(x,y);
+				var closestDistance:Number = Math.abs(closestStation.x - x) + Math.abs(closestStation.y - y);
+//				var closestDistance:Number = getDistance(closestStation.x,x,closestStation.y,y);
+//				var closestDistance:Number = Point.distance(p1,p2);
+				for each(var station:Station in connection.stations) {
+					var thisStationDistance:Number = Math.abs(station.x - x) + Math.abs(station.y - y);
+//					var thisStationDistance:Number = getDistance(station.x,x,station.y,y);
+//					p2 = new Point(station.x,station.y);
+//					var thisStationDistance:Number = Point.distance(p1,p2);
+					if(thisStationDistance < closestDistance) {
+						//p1 = new Point(station.x,station.y);
+						closestDistance = thisStationDistance;
+						closestStation = station;
+					}
+				}
+				return closestStation;
+			}
+			private function getDistance(x1:Number,x2:Number,y1:Number,y2:Number):Number {
+				return Math.abs(x1 - x2) + Math.abs(y1 - y2);
+			}
+			private function getChartCoords():void {
+				var request:URLRequest = new URLRequest(CHART_PATH);
+				var loader:URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE,chartLoadComplete);
+				loader.load(request);								
+			}
+			private function chartLoadComplete(e:Event):void {
+				var loader:URLLoader = e.target as URLLoader;
+				var uncompressed:String = CompressUtil.uncompress(String(loader.data));
+				makeChart(uncompressed);
+			}
+			private function makeChart(result:String):void {
+				var row:String;
+				var col:String;
+				var rows:Array = result.split(String.fromCharCode(10));
+				var totalRows:Number = rows.length;
+
+				var g:Graphics = shadingContainer.graphics;
+				for(var i:Number=0; i<totalRows; i++) {
+					row = rows[i];
+					var cols:Array = row.split(",");
+					var totalCols:Number = cols.length;
+					for(var j:Number=0; j<totalCols; j++) {
+						col = cols[j];
+						var station:Station = connection.stations[Number(col)];
+						g.beginFill(station.getColor(),0.5);
+						g.drawRect(chartStartX+i,chartStartY+j,1,1);
+//						g.endFill();
+					}
+				}
+			}
+			private function makeChartWithBitmapData(result:String):void {
+				var row:String;
+				var col:String;
+				var rows:Array = result.split(String.fromCharCode(10));
+				var totalRows:Number = rows.length;
+
+				var b:Bitmap = map.content as Bitmap;
+				var bd:BitmapData = b.bitmapData;
+				for(var i:Number=0; i<totalRows; i++) {
+					row = rows[i];
+					var cols:Array = row.split(",");
+					var totalCols:Number = cols.length;
+					for(var j:Number=0; j<totalCols; j++) {
+						col = cols[j];
+						var station:Station = connection.stations[Number(col)];
+						bd.setPixel(chartStartX+i,chartStartY+j,station.getColor());
+					}
+				}
+			}
+			private function writeChartCoordinates():void {
+				chartCoords = new String();
+				timer = new Timer(30,chartEndX - chartStartX);
+				timer.addEventListener(TimerEvent.TIMER,makeChartRow);
+				timer.addEventListener(TimerEvent.TIMER_COMPLETE,submitChartCoords);
+				timer.start();
+			}
+			private function submitChartCoords(e:TimerEvent):void {
+				trace("Submitting coords");
+				timer.stop();
+				timer = null;
+				
+				var vars:URLVariables = new URLVariables();
+				vars.totalEntries = 1;
+				vars.entry0 = CompressUtil.compress(chartCoords);
+
+				trace(vars.entry0);
+				
+				var request:URLRequest = new URLRequest(UPLOAD_CHART_PATH);
+				request.data = vars;
+				request.method = "POST";
+							
+				var loader:URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE,loadSuccessful);
+				loader.load(request);				
+
+				makeChart(chartCoords);
+			}
+			private function makeChartRow(e:TimerEvent):void {
+				var i:uint = chartStartX + timer.currentCount;
+				for(var j:uint = chartStartY; j<chartEndY; j++) {
+					var closestStation:Station = getClosestStationByCoords(i,j);
+					chartCoords += connection.stations.indexOf(closestStation) + ",";
+				}
+				chartCoords += "\n"
+				e.updateAfterEvent();
+				trace("built column: " + i + " of " + chartEndX);
+			}
+			private function loadSuccessful(e:Event):void {
+				trace("Load successful");			
+
+				// memory saving
+				chartCoords = null;
+				connection = null;
+			}
+		]]>
+	</mx:Script>
+
+</mx:Application>

@@ -1,0 +1,16 @@
+---
+author: bcdef
+comments: true
+date: 2005-12-22 15:52:52+00:00
+layout: post
+slug: flappr-to-104
+title: Flappr to 1.04
+wordpress_id: 9
+categories:
+- bcdef
+- Miscellany
+---
+
+Only a quick note - I've pushed a few new iterations of Flappr to the site and the latest version is 1.04. There are a number of small fixes and subtle feature additions - you can [read all about the changes](/?page_id=2) or [jump straight in](/flappr). 
+
+That's the lot! Development of Flappr for 2005 is finished. Still work to do next year, but for now I've got a sleigh to catch. Have a happy Happy everyone. 

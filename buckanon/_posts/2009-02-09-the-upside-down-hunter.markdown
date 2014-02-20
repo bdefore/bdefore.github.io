@@ -1,0 +1,9 @@
+---
+layout: post
+title: The Upside-Down Hunter
+wordpress_id: 96
+wordpress_url: http://bcdef.org/buckanon/?p=96
+categories:
+- buckanon
+---
+If you've spent the majority of your life in the northern hemisphere, one of the more remarkable things about the southern sky, particularly if you find yourself in the middle of a new-moon Patagonian evening, is that [the stars are different](http://www.gsfc.nasa.gov/scienceques2001/20020322.htm). In particular, I am often nonplussed when a casual scan of the night sky brings a glimpse of the renowned constellation Orion, the Hunter, standing on his head. At first it's not readily apparent, since it's nearly vertically symmetrical. The giveaway is the stars shooting vertically up from Orion's belt. In Greek imagery, they collectively represent the sash hanging off the Hunter's waist, and in the northern hemisphere they point down.Here it is in the Northern Hemisphere:![orionnorthern](http://bcdef.org/buckanon/wp-content/orionnorthern.jpg "orionnorthern")Here it is in the Southern Hemisphere:![Orion in the Southern Hemisphere](http://bcdef.org/buckanon/wp-content/orion.jpg "orion")And, just to beget more mental knots, on a really clear night you'll notice the sash appears to be hazy, almost like there's a cloud over it. That's because there's a [nebula](http://en.wikipedia.org/wiki/Orion_Nebula) there, which is essentially backlit by the powerful light coming from the massive star Rigel, which represents the Hunter's right ankle.Since I wasn't able to get a decent photo of it, these images are a recreation of what it looks like, made with the open-source program that I contribute to on blue moons, [Stellarium](http://www.stellarium.org). Well worth a download. As an aside, one of my favorite soundtracks to digital stargazing is the music of Biosphere. Here's a sample:[audio:biosphere_pathleadingtothehighgrass.mp3]

@@ -1,0 +1,13 @@
+
+	body {
+		margin-top:0px;
+		margin-left:0px;
+		background:#333333;
+		background-image:url("headerbg.gif");
+		background-repeat:repeat-y;	
+		}
+	A 			{ color: #003366; text-decoration: underline; }
+	A:link		{ color: #003366; text-decoration: underline; }
+	A:visited	{ color: #003366; text-decoration: underline; }
+	A:active	{ color: #999999;  }
+	A:hover		{ color: #999999;  }

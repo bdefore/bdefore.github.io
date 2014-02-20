@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="21"
+   name=""
+   committed-date="2007-02-21T20:27:09.632021Z"
+   url="svn+ssh://serveradmin%25bcdef.org@bcdef.org/home/12027/data/bcdef/svn/Apollo/WeatherMap"
+   last-author="bcdef.org"
+   kind="dir"
+   repos="svn+ssh://serveradmin%25bcdef.org@bcdef.org/home/12027/data/bcdef"
+   revision="21"/>
+<entry
+   committed-rev="21"
+   name="Station.as"
+   text-time="2007-02-21T07:27:18.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="0e3edab0990cdb384fd1ef425273b862"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name=".project"
+   text-time="2007-02-21T06:42:33.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="0bc1178c489695eece58e40563aab076"
+   last-author="bcdef.org"
+   kind="file"/>
+<entry
+   name="net"
+   kind="dir"/>
+<entry
+   committed-rev="21"
+   name=".flexProperties"
+   text-time="2007-02-21T06:42:33.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="85421fa17c3b402ab2cfab51df7361bc"
+   last-author="bcdef.org"
+   kind="file"/>
+<entry
+   committed-rev="21"
+   name="HTTPServiceWeatherMap.mxml"
+   text-time="2006-08-18T23:04:32.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="69de97c4542cbee8f852fc63c3d2d002"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name="FlashCode.as"
+   text-time="2006-07-17T05:43:00.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="893c869f85707548152bcff0c1c88a93"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name="WeatherData.as"
+   text-time="2006-08-24T22:24:20.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="12aea4e4c58d8178aebd86df30bc29eb"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name="DataImporter.as"
+   text-time="2007-02-21T08:33:30.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="032ea93ab2ba816e184d0b1cbbfc99ba"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name=".actionScriptProperties"
+   text-time="2007-02-21T06:42:33.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="1ad8344f04f87623590a54946f394790"
+   last-author="bcdef.org"
+   kind="file"/>
+<entry
+   name="generated"
+   kind="dir"/>
+<entry
+   committed-rev="21"
+   name="MapConnection.as"
+   text-time="2006-08-19T00:51:50.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="27859af7b57daca88d8315b618fd5218"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name="cachedChartCoords.xml"
+   text-time="2007-02-21T08:38:16.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="b25ffbec015842663f87cec0cc5c264e"
+   last-author="bcdef.org"
+   kind="file"/>
+<entry
+   name="bin"
+   kind="dir"/>
+<entry
+   committed-rev="21"
+   name="YahooMap.swc"
+   text-time="2006-08-02T22:03:00.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="b31f55a0ab3ad5060f6f7f75b5285253"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name="WeatherMap.mxml"
+   text-time="2007-02-21T08:39:53.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="92b92d2d02fe1cd689d3bd5c44b418b6"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   committed-rev="21"
+   name="profiler.swc"
+   text-time="2006-08-25T18:32:30.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="b8f99901843419c795b97cc2eceef778"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+<entry
+   name="html-template"
+   kind="dir"/>
+<entry
+   name="com"
+   kind="dir"
+   schedule="delete"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+</wc-entries>

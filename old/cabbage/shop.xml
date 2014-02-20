@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <name>Marc Veca</name>
+    <description>Limited-edition all cotton t-shirt with artwork by Marc Veca. Made in Japan.
+</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/6</show_url>
+    <add_to_cart_url>/shop/6/add?size=11</add_to_cart_url>
+    <image_url>/uploaded/product/30/003_thumb.jpg</image_url>
+    <available_from>Wed May 14 16:58:00 -0400 2008</available_from>
+  </product>
+  <product>
+    <name>Bomb Tee</name>
+    <description>Limited-edition all cotton t-shirt with artwork by KAWS. Made in Japan.
+</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/7</show_url>
+    <add_to_cart_url>/shop/7/add?size=8</add_to_cart_url>
+    <image_url>/uploaded/product/35/008_thumb.jpg</image_url>
+    <available_from>Thu Feb 14 17:01:00 -0500 2008</available_from>
+  </product>
+  <product>
+    <name>More tee</name>
+    <description>Limited-edition all cotton t-shirt with artwork by KAWS. Made in Japan.
+</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/9</show_url>
+    <add_to_cart_url>/shop/9/add?size=13</add_to_cart_url>
+    <image_url>/uploaded/product/41/006_thumb.jpg</image_url>
+    <available_from>Thu Feb 14 17:07:00 -0500 2008</available_from>
+  </product>
+  <product>
+    <name>Chum Tee</name>
+    <description>Limited-edition all cotton t-shirt with artwork by Marc Veca. Made in Japan.
+</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/5</show_url>
+    <add_to_cart_url>/shop/5/add?size=7</add_to_cart_url>
+    <image_url>/uploaded/product/25/005_thumb.jpg</image_url>
+    <available_from>Thu Feb 14 16:56:00 -0500 2008</available_from>
+  </product>
+  <product>
+    <name>Valentine's Tee</name>
+    <description>Limited-edition all cotton t-shirt with artwork by Marc Veca. Made in Japan.
+</description>
+    <sold_out>true</sold_out>
+    <show_url>/shop/10</show_url>
+    <image_url>/uploaded/product/42/007_thumb.jpg</image_url>
+    <available_from>Thu Feb 14 17:15:00 -0500 2008</available_from>
+  </product>
+  <product>
+    <name>Apple Tee</name>
+    <description>Limited-edition all cotton t-shirt with artwork by KAWS. Worm included in price.
+Made in Japan.
+</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/8</show_url>
+    <image_url>/uploaded/product/40/004_thumb.jpg</image_url>
+    <available_from>Thu Feb 14 17:05:00 -0500 2008</available_from>
+  </product>
+  <product>
+    <name>Intenstine Tee</name>
+    <description>Limited-edition all cotton t-shirt with artwork by KAWS. Made in Japan.
+</description>
+    <sold_out>true</sold_out>
+    <show_url>/shop/11</show_url>
+    <image_url>/uploaded/product/43/009_thumb.jpg</image_url>
+    <available_from>Thu Feb 14 17:17:00 -0500 2008</available_from>
+  </product>
+  <product>
+    <name>Hands Tee</name>
+    <description>Limited-edition all cotton t-shirt with artwork by KAWS. Bloody. Made in Japan.
+</description>
+    <sold_out>true</sold_out>
+    <show_url>/shop/13</show_url>
+    <image_url>/uploaded/product/65/hands_thumb.jpg</image_url>
+    <available_from>Tue Feb 19 12:55:00 -0500 2008</available_from>
+  </product>
+</products>

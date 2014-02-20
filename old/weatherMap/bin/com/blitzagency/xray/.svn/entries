@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="21"
+   name=""
+   committed-date="2007-02-21T20:27:09.632021Z"
+   url="svn+ssh://serveradmin%25bcdef.org@bcdef.org/home/12027/data/bcdef/svn/Apollo/WeatherMap/com/blitzagency/xray"
+   last-author="bcdef.org"
+   kind="dir"
+   repos="svn+ssh://serveradmin%25bcdef.org@bcdef.org/home/12027/data/bcdef"
+   revision="21"/>
+<entry
+   name="ui"
+   kind="dir"/>
+</wc-entries>

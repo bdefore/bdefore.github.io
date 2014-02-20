@@ -1,0 +1,90 @@
+
+	body {
+		margin-top:0px;
+		margin-left:0px;
+		background:#333333;
+		background-image:url("bg.jpg");
+		background-repeat:repeat-y;	
+		}
+	A 			{ color: #003366; text-decoration: underline; }
+	A:link		{ color: #003366; text-decoration: underline; }
+	A:visited	{ color: #003366; text-decoration: underline; }
+	A:active	{ color: #999999;  }
+	A:hover		{ color: #999999;  }
+
+	h1, h2, h3 {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#banner {
+		background-image:url("headerbg.gif");	
+		background-repeat:no-repeat;	
+		margin-top:0px	
+		margin-bottom:0px	
+		}
+
+	#banner a,
+        #banner a:link,
+        #banner a:visited,
+        #banner a:active,
+        #banner a:hover {
+		color: #333;
+		text-decoration: none;
+		}
+
+	#content {
+		position:absolute;
+		margin-top:0px;
+		margin-left:0px;
+		margin-right:20px;
+		margin-bottom:20px;
+		width:525px;
+		}
+		
+	#container {
+		background-color:transparent;		
+		border:1px solid #FFF;		
+		}
+
+	#links {
+		position:absolute;
+		margin-left:555px;
+		padding-top:12px;				
+		padding-left:12px;				
+		width:190px;
+		background-color:transparent;					
+		}
+		
+	#linksshifteddown {
+		position:absolute;
+		margin-left:555px;
+		margin-top:460px;
+		padding-top:12px;				
+		padding-left:12px;				
+		width:190px;
+		background-color:transparent;					
+		}
+		
+	.blog {
+		background-color:transparent;
+	
+		}
+
+	.blogbody {
+		font-family:georgia, georgia, verdana, arial, sans-serif;
+		color:#333;
+		font-size:small;
+		font-weight:normal;
+  		background-color:transparent;
+  		line-height:200%;
+		}
+
+	.blogbody a,
+	.blogbody a:link,
+	.blogbody a:visited,
+	.blogbody a:active,
+	.blogbody a:hover {
+		font-weight: normal;
+		text-decoration: underline;
+	}

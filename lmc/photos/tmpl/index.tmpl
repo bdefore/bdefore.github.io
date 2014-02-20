@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title><$MTBlogName$></title>
+<link rel="stylesheet" href="<$MTBlogURL$>styles-site.css" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="<$MTBlogURL$>index.rdf" />
+
+</head>
+
+<body>
+
+<table width="732" align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="5">
+<div id="banner">
+
+<a href=""><img src="header.gif" border="0"></a>
+</td>
+</tr>
+
+<tr valign=top>
+
+<td width="290" bgcolor="#eeeeee">
+
+<div id="links">
+
+<img src="images/text_findimages.gif" valign="5" hspace="0"><br>
+<img src="images/blockthing.gif"> <a href="random.php">At Random</a><br>
+<img src="images/blockthing.gif"> <a href="bycat.php">By Category</a><br>
+<br>
+
+<img src="images/text_information.gif" valign="5" hspace="0"><br>
+<img src="images/blockthing.gif"> <a href="about.php">About</a><br>
+<img src="images/blockthing.gif"> <a href="faq.php">FAQ</a><br>
+<img src="images/blockthing.gif"> <a href="links.php">Links</a><br>
+
+
+<br><div class="lightright"><b><$MTBlogEntryCount$></b> photos &nbsp;</div>
+<br>
+<br>
+<img src="takefive.gif" border="0"><br>
+<?php
+
+include ("connect.php");
+mysql_select_db("$database",$db);
+
+$numthumbs = "3";
+$blogurl = "../photos/archives";
+
+for ($i = 1; $i <= $numthumbs; $i++) {
+
+        $randomarray = "SELECT entry_text, entry_id FROM mt_entry WHERE entry_blog_id=" . $blogid . " ORDER BY rand() LIMIT 1";
+        $randresult = mysql_query($randomarray);
+        $row = mysql_fetch_array($randresult);
+
+        if ($row['entry_id'] < 10) {                                     echo ("<a href=archives/00000"); }
+        if ($row['entry_id'] >= 10 && $row['entry_id'] < 100) {          echo ("<a href=archives/0000");  }
+        if ($row['entry_id'] >= 100 && $row['entry_id'] < 1000) {        echo ("<a href=archives/000");   }
+        if ($row['entry_id'] >= 1000 && $row['entry_id'] < 10000) {      echo ("<a href=archives/00");    }
+
+        echo ($row['entry_id']);
+        echo (".php>");
+        echo ("<img src=thumbs/");
+        echo ($row['entry_text']);
+        echo ("_thumb.jpg border=0 vspace=4></a><br>");
+
+    }
+?>
+
+
+<td width="460">
+<div id="content">
+<div class="blogtight">
+
+Welcome! You've reached Buck DeFore's photo journal. By browsing the menu on the left, you can either look through pictures at random, or through specific categories. You can also learn more about this site through the <a href="about.php">About page</a> or the <a href="faq.php">Frequently Asked Questions page</a>. Have fun exploring!
+
+<p><img src="images/bignews.gif">
+<a href="http://www.watsonfellowship.org"><img src="images/tjw.gif" align="right" vspace="6" hspace="10" border="0"></a>On 17 March 2003, I learned that I have the fortune of earning a Watson Fellowship for 2003-2004. In the nations of Canada, Argentina, Australia, South Africa, Sweden, and Scotland, I will embark upon a journey to experience the phenomenon of lake-monster culture around the world. As you can imagine, every day brings more and more excitement for the adventure that is to come. Naturally, the project will involve a significant amount of photography. In preparation for the project, I have designed a separate web-site, <a href="http://www.lakemonsterculture.com">Lake Monster Culture</a>.<p>You can read more about the Watson Fellowship from the <a href="http://www.ups.edu/faculty/veseth/watson/">University of Puget Sound's Watson Web Site</a> or <a href="http://www.watsonfellowship.org">directly from the Watson Fellowship site itself (Flash)</a>. Sadly, the future of this site is questionable, since some of my photography and much of my muse will be going to the new site.
+
+<p><img src="images/recentnews.gif">
+<div class="blogtight">
+<b>6 Jun 2003</b> - 12 new photos of all sorts of mish mash.
+<p><b>7 Apr 2003</b> - 8 new photos from Spring Break, just to celebrate the new interface. Yippee-yay for 400.
+<p><b>6 Apr 2003</b> - Temporary interface finally retired. Links now look more appropriate and there's a bit more content available through the information links.
+<p><b>4 Mar 2003</b> - Posted 10 new wintry pictures from a walk behind the house. Also, 2 more shots of the Vixens in Seattle are now officially un-shoeboxed.
+<p><b>16 Feb 2003</b> - Several shots from yesterday's NYC demonstrations are now included. <a href="archives/000375.php">My fave</a>.
+
+
+</div>
+</div>
+
+</table>
+
+<table width="732" align="center" border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+<td colspan="5">
+
+<div class="powered">
+
+<br /><a href="http://www.movabletype.org"><img src="anchor.gif" border="0"></a><br />
+
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
+
+
+
+
+

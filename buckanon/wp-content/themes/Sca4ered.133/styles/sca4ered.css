@@ -1,0 +1,212 @@
+/*
+	CSS files kept in the 'schemes' directory can be used to
+	costumize your K2 installation without having to mess
+	with the core K2 files. This in turn makes it easier to
+	upgrade to new K2 version as well as debug any problems
+	that might occur.
+
+	You select schemes from the K2 Options page in the
+	'Presentation' section of your WordPress administration.
+	
+	Author Name	: 	Daniel Cameron
+	Author Site	: 	http://dancameron.org
+	Scheme Name	: 	Sca4ered
+	Version		: 	0.7
+	Comments	: 	I will release a newer theme after the final release of K2. Header image by <a href="http://flickr.com/photos/mtnpix/93323498/">Twinfin</a>
+*/
+
+body {
+	background: #111C29 url('sca4erd/gradientbg.gif') repeat-x;
+	padding: 0 0 40px;
+	color: #bbb;
+	margin: 0;
+	}
+
+#header {
+	background: #060B0F url('sca4erd/head.jpg') top left no-repeat;
+	width: 100%;
+	height: 100px;
+	}
+
+h1 {
+	padding: 0;
+	position: absolute;
+	top: 15px;
+	left: 0;
+	}
+
+
+.secondaryr {
+	font: 1em/1.5em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	padding: 0px 0;
+	margin: 0 0 0 45px;
+	width: 25%;
+	color: #bbb;
+	position: relative;
+	/* The following are IE Fixes */
+	_margin-left: 0%;
+	_margin-right: -3%;
+	_width: 28%;
+	}	
+.primary {
+	background: #080F15;
+
+
+	border: 4px solid #060B0F;
+	
+	
+	}
+
+#panel {
+	
+	width: 95%;
+	
+text-align: left;
+
+	}
+	
+	.sb-about {
+	background: #090F15;
+
+	border-top: 4px solid #060B0F;
+border-bottom: 4px solid #060B0F;
+	}
+
+
+	
+.description {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	}
+
+#page {
+	padding: 0;
+	width: 796px;
+	_width: 756px;
+	}
+
+.primary {
+	padding-left: 25px;
+	}
+
+#page, ul.menu li.current_page_item a, ul.menu li.current_page_item a:hover {
+		background: #111C29 url('sca4erd/gradientbg.gif') repeat-x;
+	
+	}
+	
+ul.menu li.current_page_item a, ul.menu li.current_page_item a:hover {
+	color: white !important;
+	text-decoration: none;
+	}
+	
+ul.menu li a:hover {
+	background: #111;
+	}
+	
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited {
+	color: #299ADF !important;
+	
+	}
+	
+a:hover, a:visited {
+	color: #DF1B4C !important;
+	}
+h2 span a, 
+h2 span a:visited,
+h3 span a,
+h3 span a:visited {
+	color: #555 !important;
+	font-weight: normal !important;
+	}
+
+.primary .metalink a, .primary .metalink a:visited, /* The Metalink class takes care of the comments, edit, rss and trackback links next to the titles */
+.secondary .metalink a, .secondary .metalink a:visited,
+.secondary span a, .secondary span a:visited {
+	color: #666;
+	font-weight: normal;
+	}
+	
+.counter a {
+	color: #222;
+	}
+	
+	.alert {
+	color: #111;
+	}
+	
+	
+	
+.commentlist li {
+	color: #c6c6c6;
+	}
+
+.commentlist li:hover {
+	background: none;
+	}
+	
+#weightedcategories, .authorcomment {
+	background: #060B0F;
+	border-color: #222;
+	}
+	
+.primary img {
+	border-color: #222;
+	background: #111;
+	}
+
+.inputcontainer {
+	margin-bottom: 6px;
+	}
+
+/* Gray Color */
+small, .sidebar ul ul li, .sidebar ul ol li, .nocomments, ul#activity li small a, ul#activity li, .LSRow small, #searchcontrols small  {
+	color: #777;
+	}
+
+/* Gray Color */
+small, .sidebar ul ul li, .sidebar ul ol li, .nocomments, ul#activity li small a, ul#activity li, .LSRow small, #searchcontrols small  {
+	color: #555;
+	}
+
+a, a:visited, .sidebar a:visited {
+	color: #8BC837;
+	}
+	
+.post p a:visited {
+	color: #8BC837;
+	
+	}
+
+#af-ela-menu li {
+	border: none;
+	background: #161616;
+	}
+
+
+#af-ela-menu, #af-ela-menu li {
+	border-bottom: 1px solid #333;
+	}
+
+#af-ela-menu li.selected {
+	background: #333;
+	}
+
+/* Hovering state of the table items */
+#af-ela-year li:hover, #af-ela-month li:hover, #af-ela-post li:hover, #af-ela-category li:hover {
+	background: #222;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	}
+
+/* Active or hovered item in list */
+#af-ela-year li.selected, #af-ela-month li.selected, #af-ela-post li.selected, #af-ela-category li.selected, #af-ela-post li:hover {
+	background: #222;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	}
+
+#af-ela-post {
+	border-left: 1px solid #333;
+	border-right: none;
+	}

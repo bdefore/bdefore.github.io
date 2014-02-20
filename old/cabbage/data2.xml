@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+<product>
+<name>product 11</name>
+<description>desc</description>
+<sold_out>true</sold_out>
+<show_url>/shop/13</show_url>
+<image_url>img/image3.jpg</image_url>
+<available_in></available_in>
+</product>
+<product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+	<in_cart>22</in_cart>
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product>
+<product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product>
+<product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+	<in_cart>0</in_cart>
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product>
+<product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product>
+<product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product>
+<product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product>
+<product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product>
+<product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product><product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product><product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product><product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product><product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product><product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product><product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product><product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product><product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product><product>
+    <name>New Tee</name>
+    <description>One two tee</description>
+    <sold_out>false</sold_out>
+    <show_url>/shop/52</show_url>
+    <add_to_cart_url>/shop/52/add?size=3</add_to_cart_url>
+
+    <image_url>img/image2.jpg</image_url>
+    <available_in></available_in>
+  </product>
+
+</products>

@@ -1,0 +1,437 @@
+# Translation Template for Kimili Flash Embed.
+# This file is released under the GNU General Public License (http://www.gnu.org/licenses/gpl.html).
+# Copyright 2009 Michael Bester <michael@kimili.com>, 2009.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kimili Flash Embed v.2.0.x\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/kimili-flash-embed\n"
+"POT-Creation-Date: 2009-01-14 17:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/config.php:59
+msgid "Tag Generator"
+msgstr ""
+
+#: admin/config.php:61
+msgid "Asterisk (<span class=\"req\">*</span>) indicates required field"
+msgstr ""
+
+#: admin/config.php:63
+msgid "SWFObject Configuration"
+msgstr ""
+
+#: admin/config.php:66
+msgid "Publish method"
+msgstr ""
+
+#: admin/config.php:70 admin/config.php:77
+msgid "Static publishing"
+msgstr ""
+
+#: admin/config.php:71 admin/config.php:84
+msgid "Dynamic publishing"
+msgstr ""
+
+#: admin/config.php:73 admin/config.php:116
+msgid "what is this?"
+msgstr ""
+
+#: admin/config.php:78 admin/config.php:85
+msgid "Description"
+msgstr ""
+
+#: admin/config.php:79
+msgid ""
+"Embed Flash content and alternative content using standards compliant "
+"markup, and use unobtrusive JavaScript to resolve the issues that markup "
+"alone cannot solve."
+msgstr ""
+
+#: admin/config.php:80 admin/config.php:87
+msgid "Pros"
+msgstr ""
+
+#: admin/config.php:81
+msgid ""
+"The embedding of Flash content does not rely on JavaScript and the actual "
+"authoring of standards compliant markup is promoted."
+msgstr ""
+
+#: admin/config.php:82 admin/config.php:89
+msgid "Cons"
+msgstr ""
+
+#: admin/config.php:83
+msgid ""
+"Does not solve 'click-to-activate' mechanisms in Internet Explorer 6+ and "
+"Opera 9+."
+msgstr ""
+
+#: admin/config.php:86
+msgid ""
+"Create alternative content using standards compliant markup and embed Flash "
+"content with unobtrusive JavaScript."
+msgstr ""
+
+#: admin/config.php:88
+msgid ""
+"Avoids 'click-to-activate' mechanisms in Internet Explorer 6+ and Opera 9+."
+msgstr ""
+
+#: admin/config.php:90
+msgid ""
+"The embedding of Flash content relies on JavaScript, so if you have the "
+"Flash plug-in installed, but have JavaScript disabled or use a browser that "
+"doesn't support JavaScript, you will not be able to see your Flash content, "
+"however you will see alternative content instead. Flash content will also "
+"not be shown on a device like Sony PSP, which has very poor JavaScript "
+"support, and automated tools like RSS readers are not able to pick up Flash "
+"content."
+msgstr ""
+
+#: admin/config.php:93
+msgid "Flash version consists of major, minor and release version"
+msgstr ""
+
+#: admin/config.php:93
+msgid "Flash version:"
+msgstr ""
+
+#: admin/config.php:104
+msgid "Check checkbox to activate express install functionality on your swf."
+msgstr ""
+
+#: admin/config.php:104
+msgid "Adobe Express Install"
+msgstr ""
+
+#: admin/config.php:112
+msgid "HTML container ID"
+msgstr ""
+
+#: admin/config.php:119
+msgid ""
+"Specifies the id attribute of the HTML container element that will be "
+"replaced with Flash content if enough JavaScript and Flash support is "
+"available."
+msgstr ""
+
+#: admin/config.php:120
+msgid ""
+"This HTML container will be generated automatically and will embed your "
+"alternative HTML content as defined in the HTML section."
+msgstr ""
+
+#: admin/config.php:127
+msgid "SWF definition"
+msgstr ""
+
+#: admin/config.php:130
+msgid "The relative or absolute path to your Flash content .swf file"
+msgstr ""
+
+#: admin/config.php:130
+msgid "Flash (.swf)"
+msgstr ""
+
+#: admin/config.php:137
+msgid "Width &times; height (unit)"
+msgstr ""
+
+#: admin/config.php:137
+msgid "Dimensions"
+msgstr ""
+
+#: admin/config.php:144
+msgid "pixels"
+msgstr ""
+
+#: admin/config.php:145
+msgid "percentage"
+msgstr ""
+
+#: admin/config.php:150
+msgid "HTML object element attributes"
+msgstr ""
+
+#: admin/config.php:150
+msgid "Attributes"
+msgstr ""
+
+#: admin/config.php:152
+msgid ""
+"Uniquely identifies the Flash movie so that it can be referenced using a "
+"scripting language or by CSS"
+msgstr ""
+
+#: admin/config.php:152
+msgid "Flash content ID"
+msgstr ""
+
+#: admin/config.php:160
+msgid ""
+"Classifies the Flash movie so that it can be referenced using a scripting "
+"language or by CSS"
+msgstr ""
+
+#: admin/config.php:168
+msgid ""
+"HTML alignment of the object element. If this attribute is omitted, it by "
+"default centers the movie and crops edges if the browser window is smaller "
+"than the movie. NOTE: Using this attribute is not valid in XHTML 1.0 Strict."
+msgstr ""
+
+#: admin/config.php:172 admin/config.php:188 admin/config.php:198
+#: admin/config.php:210 admin/config.php:220 admin/config.php:236
+#: admin/config.php:248 admin/config.php:266 admin/config.php:287
+#: admin/config.php:297 admin/config.php:309 admin/config.php:319
+#: admin/config.php:331 admin/config.php:342
+msgid "Choose"
+msgstr ""
+
+#: admin/config.php:181
+msgid "HTML object element nested param elements"
+msgstr ""
+
+#: admin/config.php:181
+msgid "Parameters"
+msgstr ""
+
+#: admin/config.php:184
+msgid ""
+"Specifies whether the movie begins playing immediately on loading in the "
+"browser. The default value is true if this attribute is omitted."
+msgstr ""
+
+#: admin/config.php:194
+msgid ""
+"Specifies whether the movie repeats indefinitely or stops when it reaches "
+"the last frame. The default value is true if this attribute is omitted"
+msgstr ""
+
+#: admin/config.php:206
+msgid ""
+"Shows a shortcut menu when users right-click (Windows) or control-click "
+"(Macintosh) the SWF file. To show only About Flash in the shortcut menu, "
+"deselect this option. By default, this option is set to true."
+msgstr ""
+
+#: admin/config.php:216
+msgid ""
+"Specifies the trade-off between processing time and appearance. The default "
+"value is 'high' if this attribute is omitted."
+msgstr ""
+
+#: admin/config.php:232
+msgid ""
+"Specifies scaling, aspect ratio, borders, distortion and cropping for if you "
+"have changed the document's original width and height."
+msgstr ""
+
+#: admin/config.php:244
+msgid ""
+"Specifies where the content is placed within the application window and how "
+"it is cropped."
+msgstr ""
+
+#: admin/config.php:262
+msgid ""
+"Sets the Window Mode property of the Flash movie for transparency, layering, "
+"and positioning in the browser. The default value is 'window' if this "
+"attribute is omitted."
+msgstr ""
+
+#: admin/config.php:275
+msgid ""
+"Hexadecimal RGB value in the format #RRGGBB, which specifies the background "
+"color of the movie, which will override the background color setting "
+"specified in the Flash file."
+msgstr ""
+
+#: admin/config.php:283
+msgid ""
+"Specifies whether static text objects that the Device Font option has not "
+"been selected for will be drawn using device fonts anyway, if the necessary "
+"fonts are available from the operating system."
+msgstr ""
+
+#: admin/config.php:293
+msgid ""
+"Specifies whether users are allowed to use the Tab key to move keyboard "
+"focus out of a Flash movie and into the surrounding HTML (or the browser, if "
+"there is nothing focusable in the HTML following the Flash movie). The "
+"default value is true if this attribute is omitted."
+msgstr ""
+
+#: admin/config.php:305
+msgid ""
+"Specifies whether the browser should start Java when loading the Flash "
+"Player for the first time. The default value is false if this attribute is "
+"omitted. If you use JavaScript and Flash on the same page, Java must be "
+"running for the FSCommand to work."
+msgstr ""
+
+#: admin/config.php:315
+msgid ""
+"Enables full-screen mode. The default value is false if this attribute is "
+"omitted. You must have version 9,0,28,0 or greater of Flash Player installed "
+"to use full-screen mode."
+msgstr ""
+
+#: admin/config.php:327
+msgid ""
+"Controls the ability to perform outbound scripting from within a Flash SWF. "
+"The default value is 'always' if this attribute is omitted."
+msgstr ""
+
+#: admin/config.php:338
+msgid ""
+"Controls a SWF file's access to network functionality. The default value is "
+"'all' if this attribute is omitted."
+msgstr ""
+
+#: admin/config.php:351
+msgid ""
+"Specifies the base directory or URL used to resolve all relative path "
+"statements in the Flash Player movie. This attribute is helpful when your "
+"Flash Player movies are kept in a different directory from your other files."
+msgstr ""
+
+#: admin/config.php:358
+msgid ""
+"Method to pass variables to a Flash movie. You need to separate individual "
+"name/variable pairs with a semicolon (i.e. name=John Doe ; count=3)."
+msgstr ""
+
+#: admin/config.php:366 admin/config.php:410
+msgid "more"
+msgstr ""
+
+#: admin/config.php:371
+msgid "Alternative Content"
+msgstr ""
+
+#: admin/config.php:374
+msgid "Alternative content"
+msgstr ""
+
+#: admin/config.php:377
+msgid "what is this"
+msgstr ""
+
+#: admin/config.php:381
+msgid ""
+"The object element allows you to nest alternative HTML content inside of it, "
+"which will be displayed if Flash is not installed or supported. \n"
+"\t\t\t\t\t\tThis content will also be picked up by search engines, making it "
+"a great tool for creating search-engine-friendly content."
+msgstr ""
+
+#: admin/config.php:384
+msgid "Summarized, you should use alternative content for the following:"
+msgstr ""
+
+#: admin/config.php:386
+msgid ""
+"When you like to create content that is accessible for people who browse the "
+"Web without plugins"
+msgstr ""
+
+#: admin/config.php:387
+msgid "When you like to create search-engine-friendly content"
+msgstr ""
+
+#: admin/config.php:388
+msgid ""
+"To tell visitors that they can have a richer user experience by downloading "
+"the Flash plugin"
+msgstr ""
+
+#: admin/config.php:399
+msgid "Generate"
+msgstr ""
+
+#: admin/config.php:411
+msgid "less"
+msgstr ""
+
+#: admin/config.php:414
+msgid ""
+"Kimili is not defined. This generator isn't going to put a KFE tag in your "
+"code."
+msgstr ""
+
+#: kml_flashembed.php:487
+msgid "Kimili Flash Embed Options Updated."
+msgstr ""
+
+#: kml_flashembed.php:555
+msgid "Kimili Flash Embed Preferences"
+msgstr ""
+
+#: kml_flashembed.php:557
+msgid "KFE Tag Defaults"
+msgstr ""
+
+#: kml_flashembed.php:561
+msgid "Element Class Name"
+msgstr ""
+
+#: kml_flashembed.php:565
+msgid "Publish Method"
+msgstr ""
+
+#: kml_flashembed.php:567
+msgid "Static Publishing"
+msgstr ""
+
+#: kml_flashembed.php:568
+msgid "Dynamic Publishing"
+msgstr ""
+
+#: kml_flashembed.php:572
+msgid "Dimensions (width&times;height)"
+msgstr ""
+
+#: kml_flashembed.php:587
+msgid "Alternate Content"
+msgstr ""
+
+#: kml_flashembed.php:592
+msgid "Javascript Options"
+msgstr ""
+
+#: kml_flashembed.php:596
+msgid "Create a reference to SWFObject.js?"
+msgstr ""
+
+#: kml_flashembed.php:598
+msgid "No"
+msgstr ""
+
+#: kml_flashembed.php:599
+msgid "Yes"
+msgstr ""
+
+#: kml_flashembed.php:603
+msgid "Where do you want to reference SWFObject.js from?"
+msgstr ""
+
+#: kml_flashembed.php:605
+msgid "Google Ajax Library"
+msgstr ""
+
+#: kml_flashembed.php:606
+msgid "Internal"
+msgstr ""
+
+#: kml_flashembed.php:613
+msgid "Update Options"
+msgstr ""

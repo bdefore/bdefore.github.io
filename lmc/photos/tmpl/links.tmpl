@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sanxuary Photography</title>
+<link rel="stylesheet" href="../photos/styles-site.css" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../photos/index.rdf" />
+
+</head>
+
+<body>
+
+<table width="732" align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="5">
+<div id="banner">
+
+<a href=""><img src="header.gif" border="0"></a>
+</td>
+</tr>
+
+<tr valign=top>
+
+<td width="290" bgcolor="#eeeeee">
+
+<div id="links">
+
+<img src="images/text_findimages.gif" valign="5" hspace="0"><br>
+<img src="images/blockthing.gif"> <a href="random.php">At Random</a><br>
+<img src="images/blockthing.gif"> <a href="bycat.php">By Category</a><br>
+<br>
+
+<img src="images/text_information.gif" valign="5" hspace="0"><br>
+<img src="images/blockthing.gif"> <a href="about.php">About</a><br>
+<img src="images/blockthing.gif"> <a href="faq.php">FAQ</a><br>
+<img src="images/blockthing.gif"> <a href="links.php">Links</a><br>
+
+<br>
+<br>
+<br>
+<img src="takefive.gif" border="0"><br>
+<?php
+
+include ("connect.php");
+mysql_select_db("$database",$db);
+
+$numthumbs = "3";
+$blogurl = "../photos/archives";
+
+for ($i = 1; $i <= $numthumbs; $i++) {
+
+        $randomarray = "SELECT entry_text, entry_id FROM mt_entry WHERE entry_blog_id=" . $blogid . " ORDER BY rand() LIMIT 1";
+        $randresult = mysql_query($randomarray);
+        $row = mysql_fetch_array($randresult);
+
+        if ($row['entry_id'] < 10) {                                     echo ("<a href=archives/00000"); }
+        if ($row['entry_id'] >= 10 && $row['entry_id'] < 100) {          echo ("<a href=archives/0000");  }
+        if ($row['entry_id'] >= 100 && $row['entry_id'] < 1000) {        echo ("<a href=archives/000");   }
+        if ($row['entry_id'] >= 1000 && $row['entry_id'] < 10000) {      echo ("<a href=archives/00");    }
+
+        echo ($row['entry_id']);
+        echo (".php>");
+        echo ("<img src=thumbs/");
+        echo ($row['entry_text']);
+        echo ("_thumb.jpg border=0 vspace=4></a><br>");
+
+    }
+?>
+
+
+<br><div class="lightright"><b><$MTBlogEntryCount$></b> photos &nbsp;</div>
+
+<td width="460">
+<img src="images/links.gif">
+<div id="content">
+<div class="blogtight">
+
+<b>Some of My Work</b>
+<br>- <a href="http://www.sanxuary.com">Sanxuary</a>
+<br>- <a href="http://www.emergencypress.org">Emergency Press</a>
+<br>- <a href="http://www.sanxuary.com/motorbooty">Motorbooty</a>
+<br>- <a href="http://www.sanxuary.com/mia">M.I.A.</a>
+<br>- <a href="http://www.sanxuary.com/poetry">Sanxuary Poetry</a>
+<br>- <a href="http://www.sanxuary.com/nz">New Zealand Photography</a>
+
+<br><b>Choice Photography Sites</b>
+<br>- <a href="http://www.thewatchingmachine.com">The Watching Machine</a>
+<br>- <a href="http://www.rickymolloy.com/">Ricky Molloy</a>
+<br>- <a href="http://www.mariolalich.com/">Mario Lalich</a>
+<br>- <a href="http://www.amivitale.com">Ami Vitale (NY Times)</a>
+<br>- <a href="http://www.markgilbert.com/">Mark Gilbert</a>
+<br>- <a href="http://www.ptoledano.com">Philip Toledano</a>
+<br>- <a href="http://www.ericlarson.com">Eric Larson</a>
+<br>- <a href="http://www.stephenstickler.com">Steven Stickler</a>
+<br>- <a href="http://www.luxstudios.com">lux studios</a>
+<br>- <a href="http://www.cadenbach.com">Cadenbach Photography</a>
+<br>- <a href="http://www.stevebonini.com/">Steve Bonini</a>
+<br>- <a href="http://www.chicagouncommon.com">Chicago Uncommon</a>
+
+<br><b>Where to Get Your Politics and News</b>
+<br>- <a href="http://www.plastic.com">Plastic</a>
+<br>- <a href="http://www.plastic.com">New York Times</a>
+<br>- <a href="http://www.indymedia.org/">indymedia</a>
+<br>- <a href="http://www.kuro5hin.org/">Kuro5hin</a>
+
+<br><b>Analyses of Blogging</b>
+<br>- <a href="http://www.elearnspace.org/Articles/blogging_part_1.htm">The Art of Blogging</a>
+<br>- <a href="http://www.trageser.com/computers/web/2019.html">Hype and the Art of Blogging</a>
+<br>- <a href="http://www.rebeccablood.net/essays/weblog_history.html">Weblogs: A History and Perspective</a>
+
+<br><b>Sloy-Certified Blogs</b>
+<br>- <a href="http://ineffectual.port5.com/">Ineffectual</a>
+<br>- <a href="http://actsofvolition.com">Acts of Volition</a>
+<br>- <a href="http://markbernstein.org/">Mark Bernstein</a>
+<br>- <a href="http://www.mirrorproject.com/">The Mirror Project</a>
+<br>- <a href="http://isomorphisms.org/">Isomorphisms</a>
+
+<br><b>Tech/Coding/Design Blogs</b>
+<br>- <a href="http://www.davezilla.com">DaveZilla</a>
+<br>- <a href="http://www.alistapart.com">A List Apart</a>
+<br>- <a href="http://www.textism.com">Textism</a>
+
+<br><b>Design Junkie Munchies</b>
+<br>- <a href="http://www.newstoday.com">Newstoday</a>
+<br>- <a href="http://www.k10k.net">K10K</a>
+<br>- <a href="http://www.designiskinky.net">Design Is Kinky</a>
+
+<br><b>Choice Design House Sites</b>
+<br>- <a href="http://www.2advanced.com">2Advanced</a>
+<br>- <a href="http://www.designgraphik.com">Designgraphik</a>
+<br>- <a href="http://www.fourm.com">Fourm</a>
+<br>- <a href="http://www.gmunk.com">Gmunk</a>
+<br>- <a href="http://www.rootylicious.com/">Rootylicious</a>
+
+<br><b>Choice Web/Art Sites</b>
+<br>- <a href="http://www.rinzen.com">Rinzen</a>
+<br>- <a href="http://www.trueistrue.com">True is True</a>
+<br>- <a href="http://www.elixirstudio.com">Elixir Studio</a>
+<br>- <a href="http://www.podlob.com">PodLob</a>
+
+<br><b>Resources For Connoisseurs of Music/Movies/Books</b>
+<br>- <a href="http://www.greenplastic.com">Green Plastic (Radiohead)</a>
+<br>- <a href="http://www.fivehorizons.com">Five Horizons (Pearl Jam)</a>
+
+<br><b>Compatriots</b>
+<br>- Krimzen (down)</a>
+<br>- <a href="http://www.nsurgents.com">Nsurgents</a>
+<br><b>Where Else to Waste Your Time</b>
+<br>- <a href="http://www.sodaplay.com">Sodaplay</a>
+<br>- <a href="http://www.hattrick.org">Hattrick</a>
+<br>- <a href="http://www.incunabula.org/images/gwposter.jpg">Gulf Wars II</a>
+<br>- <a href="http://www.deoxy.org/wc/warcrime.htm">Article on War Crimes in Persian Gulf</a>
+<br>- <a href="http://www.uib.no/people/hnohf/">Learn How to Speak Elvish</a>
+<br>- <a href="http://www.pornolize.com">Pornolize</a>
+<br>- <a href="http://www.americanchristiansingles.com">American Christian Singles [sic]</a>
+
+</div>
+</div>
+
+</div>
+
+
+
+</table>
+
+
+
+
+<table width="732" align="center" border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+<td>
+
+<td colspan="5">
+
+<div class="powered">
+
+<br /><a href="http://www.movabletype.org"><img src="anchor.gif" border="0"></a><br />
+
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
+
+
+
+
+

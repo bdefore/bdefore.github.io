@@ -1,0 +1,258 @@
+	body {
+		margin:0px 0px 10pxF 0px;
+		background:#eee;
+		}
+
+	A 		{ color: #777790; text-decoration: none; }
+	A:link		{ color: #777790; text-decoration: none; }
+	A:visited	{ color: #777790; text-decoration: none; }
+	A:active	{ color: #F76E47;  }    //#576e47
+	A:hover		{ color: #3265B3;  }
+
+	h1, h2,h3 {
+		margin: 0px;
+		padding: 0px;
+	}
+ 
+	#banner {
+                width=700px;
+        	font-family:verdana, arial, sans-serif;
+		color:#eee;
+		font-size:x-large;
+		font-weight:normal;
+		border-top:3px solid #eeeeee;
+  		background:#eeeeee;
+  		text-transform:uppercase;
+		letter-spacing: .2em;
+		}
+
+        #banner a,
+        #banner a:link,
+        #banner a:visited,
+        #banner a:active,
+        #banner a:hover {
+
+        	font-family:verdana, arial, sans-serif;
+		font-size: x-large;
+		color: #eee;
+		text-decoration: none;
+
+		}
+
+.white { margin-left: 40px; background: white; width:650px;
+
+                                border-left: 10px solid white;
+                                border-right: 10px solid white;
+                                border-top: 10px solid white;
+                                border-bottom: 10px solid white;
+}
+
+	.description {
+
+		font-family:verdana, arial, sans-serif;
+		color:#DDDDDD;
+		font-size:x-small;
+		font-weight:bold;
+  		background:#DDDDDD;
+  		text-transform:none;
+		letter-spacing: none;
+		}
+
+	#content {
+
+		float:left;
+		width:525px;
+		background:#eee;
+        	text-align:left;
+
+		}
+
+
+
+	#links {
+                font-family:verdana, arial, sans-serif;
+		font-size: x-small;
+                width:150px;
+		background:#eee;
+		text-align:left;
+                  margin-left:52px;
+
+
+		}
+
+		.image {
+	        border-image: 10px;
+		}		
+		
+ 	 	.blog	{
+
+                width:460px;
+                text-align: left;
+                font-family:verdana, arial, sans-serif;
+		font-size: x-small;
+		color: #333333;
+
+		}
+
+    	.blogtight	{
+
+                width:350px;
+                text-align: left;
+                font-family:verdana, arial, sans-serif;
+		font-size: x-small;
+		color: #333333;
+
+		}
+
+
+  	.blogexp	{
+
+                width:400px;
+                text-align: left;
+                font-family:verdana, arial, sans-serif;
+		font-size: x-small;
+		color: #333333;
+
+		}
+
+	.blogbodydonttrytogetridofwhitetrimitwontworksaysbuck {
+			background-color:#fff; background-repeat:repeat-x; border-left:10px solid #fff; border-right:10px solid #fff; border-bottom:10px solid #fff; padding-top:10px; }
+		}
+
+	.blogbody {
+		font-family:georgia, verdana, arial, sans-serif;
+		color:#666;
+        border-color:#ff0000;
+		font-size:small;
+		font-weight:normal;
+  		background:#eee;
+  		line-height:110%;		
+	}
+		
+	.blogbody a,
+	.blogbody a:link,
+	.blogbody a:visited,
+	.blogbody a:active,
+	.blogbody a:hover {
+
+		font-weight: normal;
+		text-decoration: underline;
+
+	}
+
+	.title	{
+
+		font-family: georgia, verdana, arial;
+                letter-spacing: 1pt;
+                font-size: small;
+		color: #666;
+		text-transform: uppercase;
+		font-weight:bold;
+
+		}
+
+
+
+	#menu {
+
+  		margin-bottom:5px;
+		background:#eee;
+
+		}
+
+
+
+	.date	{
+
+		font-family:georgia, verdana, arial, sans-serif;
+        	font-size: small;
+		color: #666;
+		border:1px solid #999;
+		padding:5px;
+		margin-bottom:10px;
+		font-weight:normal;
+
+		}
+
+
+
+	.posted	{
+
+
+                text-align: left;
+                font-family:verdana, arial, sans-serif;
+		font-size: x-small;
+		color: #003366;
+		margin-bottom:15px;
+
+		}
+  
+  	.lightright	{
+
+
+                text-align: left;
+                font-family:verdana, arial, sans-serif;
+		font-size: x-small;
+		color: #999999;
+		margin-bottom:15px;
+
+		}
+
+	.side {
+
+		font-family:verdana, arial, sans-serif;
+		color:#333;
+		font-size:x-small;
+		font-weight:normal;
+  		background:#eee;
+ 		line-height:140%;
+  		padding:2px;
+
+		}
+
+
+
+	.sidetitle {
+
+		font-family:verdana, arial, sans-serif;
+		color:#666;
+        	font-size:x-small;
+        	font-weight:bold;
+  		background:#fff;
+  		line-height:140%;
+  		padding:2px;
+      		text-transform:uppercase;
+		letter-spacing: .2em;
+
+		}
+
+
+	.powered {
+
+		font-family:verdana, arial, sans-serif;
+		color:#003366;
+		font-size:xx-small;
+		font-weight:bold;
+		text-transform:uppercase;
+		text-align:left;
+		letter-spacing: .2em
+
+		}
+
+
+	#banner-commentspop {
+
+		font-family:georgia, verdana, arial, sans-serif;
+		color:#eee;
+		font-size:large;
+		font-weight:bold;
+		border-bottom:1px dotted #eee;
+  		background:#eee;
+  		padding:15px;
+
+		}
+
+
+
+
+

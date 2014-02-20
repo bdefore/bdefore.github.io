@@ -1,0 +1,13 @@
+http://feeds.feedburner.com/acos~Asay
+--NEXT--
+http://www.theopenforce.com/atom.xml~Urlocker
+--NEXT--
+http://blogs.zdnet.com/open-source/wp-rss2.php~ZDNet
+--NEXT--
+http://news.com.com/2063-10795_3-0.xml~News.com
+--NEXT--
+http://rssnewsapps.ziffdavis.com/eweeklinux.xml~eWeek
+--NEXT--
+http://weblog.infoworld.com/openresource/rss.xml~Infoworld
+--NEXT--
+http://www.osdir.com/rss.php~OSDir

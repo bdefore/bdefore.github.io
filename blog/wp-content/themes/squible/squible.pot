@@ -1,0 +1,552 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Squible Alpha 2.5\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2005-11-23 02:19+1200\n"
+"Last-Translator: James Carppe <karrde@karrderized.com>\n"
+"Language-Team: James Carppe <karrde@karrderized.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+
+# 404.php:8
+msgid "404 - These aren't the droids you're looking for.."
+msgstr ""
+
+# 404.php:10
+msgid "You can go about your business. Move along."
+msgstr ""
+
+# 404.php:11
+msgid "But really, you've tried to access a page that doesn't exist. Make sure you've spelt the URL correctly and try again, or head back to the main site using the menu above."
+msgstr ""
+
+# ajax_comments.php:25
+msgid "The post you are trying to comment on does not currently exist in the database."
+msgstr ""
+
+# ajax_comments.php:28
+msgid "Sorry, comments are closed for this item."
+msgstr ""
+
+# ajax_comments.php:44
+msgid "Sorry, you must be logged in to post a comment."
+msgstr ""
+
+# ajax_comments.php:51
+msgid "Error: please fill the required fields (name, email)."
+msgstr ""
+
+# ajax_comments.php:53
+msgid "Error: please enter a valid email address."
+msgstr ""
+
+# ajax_comments.php:57
+msgid "Error: please type a comment."
+msgstr ""
+
+# archive.php:6
+# search.php:5
+msgid "Home"
+msgstr ""
+
+# archive.php:6
+# search.php:5
+msgid "About Me"
+msgstr ""
+
+# archive.php:19
+msgid "Archive for the"
+msgstr ""
+
+# archive.php:22
+# archive.php:25
+# archive.php:28
+msgid "Archive for"
+msgstr ""
+
+# archive.php:31
+# search.php:14
+msgid "Search Results"
+msgstr ""
+
+# archive.php:34
+msgid "Author Archive"
+msgstr ""
+
+# archive.php:37
+msgid "Blog Archives"
+msgstr ""
+
+# archive.php:52
+msgid "Tagged as"
+msgstr ""
+
+# archive.php:52
+# search.php:26
+msgid "Edit"
+msgstr ""
+
+# archive.php:52
+# search.php:26
+msgid "No Comments &#187;"
+msgstr ""
+
+# Z:\squible-test\wp-content\themes\squible/archive.php:52
+# search.php:26
+msgid "1 Comment &#187;"
+msgstr ""
+
+# archive.php:52
+# search.php:26
+msgid "% Comments &#187;"
+msgstr ""
+
+# archive.php:62
+# search.php:36
+msgid "&laquo; Previous Entries"
+msgstr ""
+
+# archive.php:63
+# search.php:37
+msgid "Next Entries &raquo;"
+msgstr ""
+
+# archive.php:69
+# page.php:32
+# search.php:44
+msgid "Not Found"
+msgstr ""
+
+# comments-popup.php:12
+#, php-format
+msgid "Comments on %s"
+msgstr ""
+
+# comments-popup.php:25
+# niftybox.php:21
+# single.php:174
+msgid "Comments"
+msgstr ""
+
+# comments-popup.php:27
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr ""
+
+# comments-popup.php:30
+msgid "The <acronym title=\"Uniform Resource Identifier\">URI</acronym> to TrackBack this entry is:"
+msgstr ""
+
+# comments-popup.php:49
+msgid "Comment"
+msgstr ""
+
+# comments-popup.php:49
+# comments.php:33
+# single.php:181
+# single.php:183
+msgid "Trackback"
+msgstr ""
+
+# comments-popup.php:49
+msgid "Pingback"
+msgstr ""
+
+# comments-popup.php:49
+msgid "by"
+msgstr ""
+
+# comments-popup.php:55
+msgid "No comments yet."
+msgstr ""
+
+# comments-popup.php:59
+msgid "Leave a comment"
+msgstr ""
+
+# comments-popup.php:60
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed:"
+msgstr ""
+
+# comments-popup.php:65
+# comments.php:143
+msgid "Name"
+msgstr ""
+
+# comments-popup.php:72
+msgid "E-mail"
+msgstr ""
+
+# comments-popup.php:77
+msgid "<acronym title=\"Uniform Resource Identifier\">URI</acronym>"
+msgstr ""
+
+# comments-popup.php:81
+msgid "Your Comment"
+msgstr ""
+
+# comments-popup.php:87
+msgid "Say It!"
+msgstr ""
+
+# comments-popup.php:92
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+# comments-popup.php:97
+msgid "Close this window."
+msgstr ""
+
+# comments-popup.php:105
+#, php-format
+msgid "<cite>Powered by <a href=\"http://wordpress.org\" title=\"%s\"><strong>Wordpress</strong></a></cite>"
+msgstr ""
+
+# comments-popup.php:105
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+# comments.php:7
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+# comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+# comments.php:32
+msgid "No Responses"
+msgstr ""
+
+# comments.php:32
+msgid "One Response"
+msgstr ""
+
+# comments.php:32
+msgid "% Responses"
+msgstr ""
+
+# comments.php:32
+msgid "to"
+msgstr ""
+
+# comments.php:33
+msgid "Copy this URI to trackback this entry."
+msgstr ""
+
+# comments.php:58
+# comments.php:83
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+# comments.php:86
+msgid "Permalink"
+msgstr ""
+
+# comments.php:106
+msgid "Comments are closed."
+msgstr ""
+
+# comments.php:112
+msgid "Loading..."
+msgstr ""
+
+# comments.php:117
+msgid "Leave a Reply"
+msgstr ""
+
+# comments.php:120
+msgid "You must be"
+msgstr ""
+
+# comments.php:120
+msgid "logged in"
+msgstr ""
+
+# comments.php:120
+msgid "to post a comment."
+msgstr ""
+
+# comments.php:134
+msgid "There was an error with your comment -- sorry dude."
+msgstr ""
+
+# comments.php:138
+msgid "Logged in as"
+msgstr ""
+
+# comments.php:138
+msgid "Log out of this account"
+msgstr ""
+
+# comments.php:138
+msgid "Logout"
+msgstr ""
+
+# comments.php:143
+# comments.php:146
+msgid "(required)"
+msgstr ""
+
+# comments.php:146
+msgid "Mail (will not be published)"
+msgstr ""
+
+# comments.php:149
+msgid "Website"
+msgstr ""
+
+# comments.php:156
+msgid "Submit Comment"
+msgstr ""
+
+# comments.php:173
+msgid "This entry was posted on"
+msgstr ""
+
+# comments.php:173
+msgid "at"
+msgstr ""
+
+# comments.php:175
+msgid "You can follow any responses to this entry through the"
+msgstr ""
+
+# comments.php:175
+msgid "feed."
+msgstr ""
+
+# comments.php:177
+msgid "If you're wondering how to get your own icon next to your comment, go visit"
+msgstr ""
+
+# comments.php:177
+msgid "and get yourself hooked up."
+msgstr ""
+
+# footer.php:5
+msgid "is proudly powered by"
+msgstr ""
+
+# footer.php:5
+msgid "and"
+msgstr ""
+
+# footer.php:5
+msgid "All content is copyrighted by its author[s]."
+msgstr ""
+
+# header.php:87
+msgid "Blog"
+msgstr ""
+
+# inc.php:46
+msgid "Meta"
+msgstr ""
+
+# index.php:24
+msgid "Continue reading '"
+msgstr ""
+
+# index.php:31
+# single.php:218
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+# livesearch.js.php:119
+msgid "Arrow keys, enter &amp;"
+msgstr ""
+
+# livesearch.js.php:119
+msgid "Close results"
+msgstr ""
+
+# livesearch.js.php:119
+msgid "escape"
+msgstr ""
+
+# livesearch.php:15
+msgid "Permanent Link to"
+msgstr ""
+
+# livesearch.php:15
+msgid "Sorry, no results."
+msgstr ""
+
+# niftybox.php:3
+# single.php:145
+msgid "Tags"
+msgstr ""
+
+# niftybox.php:13
+# single.php:156
+msgid "Conversation"
+msgstr ""
+
+# niftybox.php:17
+msgid "Full Post"
+msgstr ""
+
+# niftybox.php:23
+# single.php:176
+msgid "view comments"
+msgstr ""
+
+# niftybox.php:24
+msgid "Post a comment"
+msgstr ""
+
+# niftybox.php:25
+msgid "<br />Edit This Post"
+msgstr ""
+
+# page.php:21
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
+# page.php:21
+msgid "<br />Edit This Article"
+msgstr ""
+
+# page.php:33
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+# post-archives-ela.php:11
+msgid "Live Archives"
+msgstr ""
+
+# post-archives-ela.php:14
+msgid "This is the frontpage of the <?php bloginfo('name'); ?> archives. Through here, you will be able to move down into the archives by way of time or category. If you are looking for something specific, perhaps you should try the searching from the home page."
+msgstr ""
+
+# post-archives.php:11
+msgid "Archives"
+msgstr ""
+
+# search.php:26
+msgid "Posted in"
+msgstr ""
+
+# searchform.php:2
+msgid "search blog archives"
+msgstr ""
+
+# single.php:163
+msgid "Related Tags"
+msgstr ""
+
+# single.php:177
+msgid "Post comment"
+msgstr ""
+
+# single.php:178
+msgid "Edit This Post"
+msgstr ""
+
+# single.php:192
+msgid "Add Tags:"
+msgstr ""
+
+# single.php:192
+msgid "separate <br />multiple tags with commas</p>"
+msgstr ""
+
+# single.php:196
+msgid "Tag deleted, refresh list:"
+msgstr ""
+
+# single.php:205
+msgid "Logged in"
+msgstr ""
+
+# single.php:205
+msgid "users can add tags"
+msgstr ""
+
+# single.php:206
+msgid "Create an account"
+msgstr ""
+
+# single.php:206
+msgid "here"
+msgstr ""
+
+# single.php:211
+# elements/search.php:1
+msgid "Search"
+msgstr ""
+
+# builtin/customizable-post-listings.php:191
+msgid "View all comments for "
+msgstr ""
+
+# builtin/customizable-post-listings.php:207
+# builtin/customizable-post-listings.php:224
+msgid "Visit "
+msgstr ""
+
+# builtin/customizable-post-listings.php:207
+# builtin/customizable-post-listings.php:224
+msgid "site"
+msgstr ""
+
+# builtin/customizable-post-listings.php:219
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+# builtin/customizable-post-listings.php:262
+msgid "View post "
+msgstr ""
+
+# builtin/flickrrss.php:96
+msgid "Update flickrRSS"
+msgstr ""
+
+# builtin/flickrrss.php:115
+msgid "Empty Cache Now"
+msgstr ""
+
+# builtin/flickrrss.php:116
+msgid "Save Cache Settings"
+msgstr ""
+
+# builtin/limit-post.php:33
+msgid "(read post)"
+msgstr ""
+
+# elements/about.php:1
+msgid "Author"
+msgstr ""
+
+# elements/asides.php:1
+msgid "Asides"
+msgstr ""
+
+# elements/asides.php:1
+# elements/flickr.php:2
+msgid "(more...)"
+msgstr ""
+
+# elements/populartags.php:1
+msgid "Popular Tags"
+msgstr ""
+
+# elements/previousposts.php:1
+msgid "Previous Posts"
+msgstr ""
+
+# elements/previousposts.php:32
+msgid "words"
+msgstr ""
+
+# elements/recentcomments.php:2
+msgid "Recent Comments"
+msgstr ""
+

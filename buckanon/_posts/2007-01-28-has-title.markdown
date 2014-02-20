@@ -1,0 +1,9 @@
+---
+layout: post
+title: Everything's Working!
+wordpress_id: 7
+wordpress_url: http://bcdef.org/buckanon/2007/01/28/has-title/
+categories:
+- buckanon
+---
+Hello everyone! It's a new year and a new apartment, and this is my new tack on trying to keep up with y'all. So here you have it! Shortly, I hope to have pictures of the new apartment on Grant and Green. Stay tuned!

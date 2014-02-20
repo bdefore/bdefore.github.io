@@ -1,0 +1,25 @@
+tony: 8,13,15
+emilio: 2,8,6
+aaron: 7,11
+carlos: 8,13
+lisa: 1,6,15
+me: 7,11,15
+jim: 13,
+katie: 1,7
+
+1	lisa, katie
+2	emilio
+3
+4
+5
+6	emilio, lisa
+7	aaron, me, katie
+8	emilio
+9
+10
+11	me, aaron
+12
+13	tony, carlos, jim
+14
+15	tony, carlos
+16

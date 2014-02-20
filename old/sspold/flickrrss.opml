@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<opml version="1.1">
+<head>
+	<title>My list of RSS feeds</title>
+</head>
+	<body>
+		<outline xmlUrl="http://www.flickr.com/services/feeds/photos_public.gne?id=35116660@N00&tags=ssp1&format=rss_200" />
+		<outline xmlUrl="http://www.flickr.com/services/feeds/photos_public.gne?id=35116660@N00&tags=ssp2&format=rss_200" />
+		<outline xmlUrl="http://www.flickr.com/services/feeds/photos_public.gne?id=35116660@N00&tags=ssp3&format=rss_200" />
+		<outline xmlUrl="http://www.flickr.com/services/feeds/photos_public.gne?id=35116660@N00&tags=ssp4&format=rss_200" />
+		<outline xmlUrl="http://www.flickr.com/services/feeds/photos_public.gne?id=35116660@N00&tags=ssp5&format=rss_200" />
+		<outline xmlUrl="http://www.flickr.com/services/feeds/photos_public.gne?id=35116660@N00&tags=ssp6&format=rss_200" />
+	</body>
+</opml> 

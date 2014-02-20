@@ -1,0 +1,49 @@
+<img src="<$MTBlogURL$>recentphotos.gif"><br />
+
+<div class="stamps">
+
+<table cellpadding="0" cellspacing="0">
+
+<tr height="50">
+<MTEntries lastn="2" category="Photos">
+<td width="70"><a class=nodots href="<$MTEntryPermalink$>"><img src="<$MTBlogURL$>archives/<$MTEntryKeywords$>-thumb.jpg" width="70" height="50" border="0"></a></td><td width="20"><img src="<$MTBlogURL$>blank.gif" width="20">
+</MTEntries>
+</tr>
+
+<tr><td colspan="4" width="160"><img src="<$MTBlogURL$>blank.gif" height="18"></td></tr>
+
+<tr height="50">
+<MTEntries lastn="2" offset="2" category="Photos">
+<td width="70"><a class=nodots href="<$MTEntryPermalink$>"><img src="<$MTBlogURL$>archives/<$MTEntryKeywords$>-thumb.jpg" width="70" height="50" border="0"></a></td><td width="20"><img src="<$MTBlogURL$>blank.gif" width="20">
+</MTEntries>
+</tr>
+
+<tr><td colspan="4" width="160"><img src="<$MTBlogURL$>blank.gif" height="18"></td></tr>
+
+<tr height="50">
+<MTEntries lastn="2" offset="4" category="Photos">
+<td width="70"><a class=nodots href="<$MTEntryPermalink$>"><img src="<$MTBlogURL$>archives/<$MTEntryKeywords$>-thumb.jpg" width="70" height="50" border="0"></a></td><td width="20"><img src="<$MTBlogURL$>blank.gif" width="20">
+</MTEntries>
+</tr>
+
+<tr><td colspan="4" width="160"><img src="<$MTBlogURL$>blank.gif" height="18"></td></tr>
+
+<tr height="50">
+<MTEntries lastn="2" offset="6" category="Photos">
+<td width="70"><a class=nodots href="<$MTEntryPermalink$>"><img src="<$MTBlogURL$>archives/<$MTEntryKeywords$>-thumb.jpg" width="70" height="50" border="0"></a></td><td width="20"><img src="<$MTBlogURL$>blank.gif" width="20">
+</MTEntries>
+</tr>
+
+<tr><td colspan="4" width="160"><img src="<$MTBlogURL$>blank.gif" height="18"></td></tr>
+
+<tr height="50">
+<MTEntries lastn="2" offset="8" category="Photos">
+<td width="70"><a class=nodots href="<$MTEntryPermalink$>"><img src="<$MTBlogURL$>archives/<$MTEntryKeywords$>-thumb.jpg" width="70" height="50" border="0"></a></td><td width="20"><img src="<$MTBlogURL$>blank.gif" width="20">
+</MTEntries>
+</tr>
+
+</table>
+
+<br />
+
+</div>

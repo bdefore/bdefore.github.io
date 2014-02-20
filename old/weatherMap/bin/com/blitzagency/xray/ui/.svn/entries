@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="21"
+   name=""
+   committed-date="2007-02-21T20:27:09.632021Z"
+   url="svn+ssh://serveradmin%25bcdef.org@bcdef.org/home/12027/data/bcdef/svn/Apollo/WeatherMap/com/blitzagency/xray/ui"
+   last-author="bcdef.org"
+   kind="dir"
+   repos="svn+ssh://serveradmin%25bcdef.org@bcdef.org/home/12027/data/bcdef"
+   revision="21"/>
+<entry
+   committed-rev="21"
+   name="XrayTrace.as"
+   text-time="2006-08-18T04:40:06.000000Z"
+   committed-date="2007-02-21T20:27:09.632021Z"
+   checksum="c5a036d74e1569203bb754d189a2ed7a"
+   last-author="bcdef.org"
+   kind="file"
+   prop-time="2007-02-21T20:26:39.000000Z"/>
+</wc-entries>

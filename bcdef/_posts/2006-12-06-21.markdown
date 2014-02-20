@@ -1,0 +1,32 @@
+---
+author: bcdef
+comments: true
+date: 2006-12-06 07:57:08+00:00
+layout: post
+slug: '21'
+title: 'Tip: Toggle "Debugging permitted" to activate line numbers in stack traces'
+wordpress_id: 21
+categories:
+- bcdef
+- Miscellany
+---
+
+Just a quick tip for those working with the Flash 9 Public Alpha: enabling "Debugging permitted" in your Publish Settings adds line numbers to stack trace reports. Every little bit helps right?
+
+For example, make a new FLA, add this to the actions of the first frame and Test Movie:
+
+`// this passes the compiler but fails at runtime since the stage object's context menu cannot be accessed
+trace(stage.contextMenu.toString());`
+
+As a result, you'll see something akin to the following:
+`TypeError: Error #1009: Cannot access a property or method of a null object reference.
+at Timeline0_2567fbb7215446468ae5e7afe234ffb3/::frame1()
+`
+
+Now enable "Debugging permitted" and test again. The report:
+
+`TypeError: Error #1009: Cannot access a property or method of a null object reference.
+at Timeline0_ca8ecc78b2e1d4cb1d2f81e5f62a01/::frame1()[frame1:1]
+`
+
+In this most simple of cases, the extra "frame1:1" doesn't particularly scream useful, but in more robust development, the added knowledge of exactly which line each function of each class was processing can often be pretty helpful, especially at times when it's not obvious where a null exception occurs.

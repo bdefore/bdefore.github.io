@@ -1,0 +1,3183 @@
+<weatherFeed>
+  <datestamp>Mon Mar 19 18:56:50 GMT-0700 2007</datestamp>
+  <station>
+    <state>AL</state>
+    <station_name>Birmingham International Airport</station_name>
+    <latitude>33.56</latitude>
+    <longitude>-86.75</longitude>
+    <temperature>69</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBHM.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AL</state>
+    <station_name>Huntsville International / Jones Field</station_name>
+    <latitude>34.66</latitude>
+    <longitude>-86.77</longitude>
+    <temperature>68</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KHSV.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AL</state>
+    <station_name>Montgomery, Dannelly Field</station_name>
+    <latitude>32.3</latitude>
+    <longitude>-86.4</longitude>
+    <temperature>64</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMGM.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AL</state>
+    <station_name>Mobile Regional Airport</station_name>
+    <latitude>30.68</latitude>
+    <longitude>-88.25</longitude>
+    <temperature>62</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMOB.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AR</state>
+    <station_name>Fort Smith Regional Airport</station_name>
+    <latitude>35.34</latitude>
+    <longitude>-94.37</longitude>
+    <temperature>66</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFSM.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AR</state>
+    <station_name>North Little Rock Airport</station_name>
+    <latitude>34.833</latitude>
+    <longitude>-92.25</longitude>
+    <temperature>37</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLZK.xml</xml_url>
+    <weather>NA</weather>
+    <observation_time_rfc822>Thu Feb 1 10:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AR</state>
+    <station_name>Russellville Municipal Airport</station_name>
+    <latitude>35.26</latitude>
+    <longitude>-93.09</longitude>
+    <temperature>67</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRUE.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AZ</state>
+    <station_name>Fort Huachuca/Libby</station_name>
+    <latitude>31.58</latitude>
+    <longitude>-110.33</longitude>
+    <temperature>75</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFHU.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AZ</state>
+    <station_name>Gila Bend (aaf)</station_name>
+    <latitude>32.89</latitude>
+    <longitude>-112.72</longitude>
+    <temperature>86</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGBN.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AZ</state>
+    <station_name>Kingman (amos)</station_name>
+    <latitude>35.28</latitude>
+    <longitude>-113.95</longitude>
+    <temperature>75</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KIGM.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AZ</state>
+    <station_name>Winslow (aut)</station_name>
+    <latitude>35.03</latitude>
+    <longitude>-110.73</longitude>
+    <temperature>71</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KINW.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AZ</state>
+    <station_name>Page Muni (amos)</station_name>
+    <latitude>36.94</latitude>
+    <longitude>-111.45</longitude>
+    <temperature>73</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPGA.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AZ</state>
+    <station_name>Phoenix/Sky Harbor</station_name>
+    <latitude>33.44</latitude>
+    <longitude>-112.02</longitude>
+    <temperature>86</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPHX.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AZ</state>
+    <station_name>Window Rock (was P34)</station_name>
+    <latitude>35.657</latitude>
+    <longitude>-109.061</longitude>
+    <temperature>60</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRQE.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>AZ</state>
+    <station_name>Tucson Intl Airport</station_name>
+    <latitude>32.12</latitude>
+    <longitude>-110.93</longitude>
+    <temperature>83</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KTUS.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Pt Piedras(cg/Amos)</station_name>
+    <latitude>35.68</latitude>
+    <longitude>-121.28</longitude>
+    <temperature>43</temperature>
+    <xml_url>http://weather.gov/data/current_obs/K87Q.xml</xml_url>
+    <weather>NA</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Bakersfield/Meadows</station_name>
+    <latitude>35.43</latitude>
+    <longitude>-119.05</longitude>
+    <temperature>79</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBFL.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Bishop Airport</station_name>
+    <latitude>37.37</latitude>
+    <longitude>-118.37</longitude>
+    <temperature>70</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBIH.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Burbank/Glendale</station_name>
+    <latitude>34.2</latitude>
+    <longitude>-118.36</longitude>
+    <temperature>62</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBUR.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Edwards AFB</station_name>
+    <latitude>34.91</latitude>
+    <longitude>-117.87</longitude>
+    <temperature>75</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KEDW.xml</xml_url>
+    <weather>A Few Clouds and Breezy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Fresno Air Terminal</station_name>
+    <latitude>36.78</latitude>
+    <longitude>-119.72</longitude>
+    <temperature>78</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFAT.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Los Angeles Intl Airport</station_name>
+    <latitude>33.94</latitude>
+    <longitude>-118.4</longitude>
+    <temperature>59</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLAX.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Long Beach Airport</station_name>
+    <latitude>33.83</latitude>
+    <longitude>-118.15</longitude>
+    <temperature>64</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLGB.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Mount Wilson</station_name>
+    <latitude>34.233</latitude>
+    <longitude>-118.067</longitude>
+    <temperature>63</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMWS.xml</xml_url>
+    <weather>NA</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>China Lake (naf)</station_name>
+    <latitude>35.69</latitude>
+    <longitude>-117.68</longitude>
+    <temperature>78</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KNID.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>El Centro Naf</station_name>
+    <latitude>32.83</latitude>
+    <longitude>-115.68</longitude>
+    <temperature>87</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KNJK.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Miramar Nas</station_name>
+    <latitude>32.88</latitude>
+    <longitude>-117.15</longitude>
+    <temperature>62</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KNKX.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Lemoore Nas/Reeves</station_name>
+    <latitude>36.3</latitude>
+    <longitude>-119.9</longitude>
+    <temperature>77</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KNLC.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>San Nicolas Island</station_name>
+    <latitude>33.26</latitude>
+    <longitude>-119.45</longitude>
+    <temperature>61</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KNSI.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 15:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Pt Mugu Naws</station_name>
+    <latitude>34.12</latitude>
+    <longitude>-119.12</longitude>
+    <temperature>60</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KNTD.xml</xml_url>
+    <weather>Mostly Cloudy with Haze</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Moffett Nas/Mtn Vie</station_name>
+    <latitude>37.43</latitude>
+    <longitude>-122.05</longitude>
+    <temperature>62</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KNUQ.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Oakland</station_name>
+    <latitude>37.7</latitude>
+    <longitude>-122.22</longitude>
+    <temperature>60</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KOAK.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Palmdale Production</station_name>
+    <latitude>34.63</latitude>
+    <longitude>-118.08</longitude>
+    <temperature>71</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPMD.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Red Bluff Municipal</station_name>
+    <latitude>40.15</latitude>
+    <longitude>-122.25</longitude>
+    <temperature>71</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRBL.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Redding Municipal</station_name>
+    <latitude>40.51</latitude>
+    <longitude>-122.3</longitude>
+    <temperature>69</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRDD.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>March AFB/Riverside</station_name>
+    <latitude>33.89</latitude>
+    <longitude>-117.27</longitude>
+    <temperature>62</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRIV.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Sacramento/Executiv</station_name>
+    <latitude>38.52</latitude>
+    <longitude>-121.5</longitude>
+    <temperature>65</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSAC.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>San Diego/Lindberg</station_name>
+    <latitude>32.73</latitude>
+    <longitude>-117.17</longitude>
+    <temperature>60</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSAN.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Stockton Metro</station_name>
+    <latitude>37.91</latitude>
+    <longitude>-121.25</longitude>
+    <temperature>71</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSCK.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Sandburg (aut)</station_name>
+    <latitude>34.76</latitude>
+    <longitude>-118.73</longitude>
+    <temperature>61</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSDB.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>San Francisco Intl Airport</station_name>
+    <latitude>37.62</latitude>
+    <longitude>-122.36</longitude>
+    <temperature>58</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSFO.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Santa Maria Public</station_name>
+    <latitude>34.91</latitude>
+    <longitude>-120.45</longitude>
+    <temperature>58</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSMX.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Travis AFB/Fairfield</station_name>
+    <latitude>38.28</latitude>
+    <longitude>-121.93</longitude>
+    <temperature>62</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSUU.xml</xml_url>
+    <weather>Fair and Breezy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Vandenberg AFB</station_name>
+    <latitude>34.73</latitude>
+    <longitude>-120.55</longitude>
+    <temperature>52</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KVBG.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Avalon, Catalina Airport</station_name>
+    <latitude>33.41</latitude>
+    <longitude>-118.42</longitude>
+    <temperature>55</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KAVX.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CA</state>
+    <station_name>Eureka</station_name>
+    <latitude>40.8</latitude>
+    <longitude>-124.167</longitude>
+    <temperature>59</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KEKA.xml</xml_url>
+    <weather>NA</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CO</state>
+    <station_name>Air Force Academy</station_name>
+    <latitude>38.98</latitude>
+    <longitude>-104.82</longitude>
+    <temperature>52</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KAFF.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CO</state>
+    <station_name>Alamosa Muni(awos)</station_name>
+    <latitude>37.46</latitude>
+    <longitude>-105.87</longitude>
+    <temperature>53</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KALS.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CO</state>
+    <station_name>Craig-Moffat(amos)</station_name>
+    <latitude>40.51</latitude>
+    <longitude>-107.53</longitude>
+    <temperature>55</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCAG.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CO</state>
+    <station_name>Colorado Springs</station_name>
+    <latitude>38.83</latitude>
+    <longitude>-104.72</longitude>
+    <temperature>52</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCOS.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CO</state>
+    <station_name>Denver Intnl Arpt</station_name>
+    <latitude>39.87</latitude>
+    <longitude>-104.67</longitude>
+    <temperature>60</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDEN.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CO</state>
+    <station_name>Fort Carson/Butts</station_name>
+    <latitude>38.69</latitude>
+    <longitude>-104.77</longitude>
+    <temperature>54</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFCS.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CO</state>
+    <station_name>Grand Junction</station_name>
+    <latitude>39.12</latitude>
+    <longitude>-108.53</longitude>
+    <temperature>64</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGJT.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CO</state>
+    <station_name>Pueblo Memorial(aw)</station_name>
+    <latitude>38.29</latitude>
+    <longitude>-104.52</longitude>
+    <temperature>60</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPUB.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CT</state>
+    <station_name>Bridgeport/Igor Sikorsky Memorial</station_name>
+    <latitude>41.18</latitude>
+    <longitude>-73.13</longitude>
+    <temperature>38</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBDR.xml</xml_url>
+    <weather>Light Rain and Breezy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>CT</state>
+    <station_name>Windsor Locks, Bradley International Airport</station_name>
+    <latitude>41.94</latitude>
+    <longitude>-72.68</longitude>
+    <temperature>32</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBDL.xml</xml_url>
+    <weather>Light Snow Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Cocoa / Patrick Air Force Base</station_name>
+    <latitude>28.23</latitude>
+    <longitude>-80.6</longitude>
+    <temperature>68</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCOF.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Cross City Airport</station_name>
+    <latitude>29.64</latitude>
+    <longitude>-83.1</longitude>
+    <temperature>60</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCTY.xml</xml_url>
+    <weather>NA</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Jacksonville International Airport</station_name>
+    <latitude>30.43</latitude>
+    <longitude>-81.7</longitude>
+    <temperature>56</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KJAX.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Macdill Air Force Base, Fl.</station_name>
+    <latitude>27.86</latitude>
+    <longitude>-82.52</longitude>
+    <temperature>67</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMCF.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Orlando International Airport</station_name>
+    <latitude>28.43</latitude>
+    <longitude>-81.32</longitude>
+    <temperature>65</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMCO.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Miami International Airport</station_name>
+    <latitude>25.82</latitude>
+    <longitude>-80.28</longitude>
+    <temperature>71</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMIA.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Melbourne International Airport</station_name>
+    <latitude>28.11</latitude>
+    <longitude>-80.63</longitude>
+    <temperature>68</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMLB.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>West Palm Beach, Palm Beach International Airport</station_name>
+    <latitude>26.68</latitude>
+    <longitude>-80.12</longitude>
+    <temperature>71</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPBI.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Tallahassee Regional Airport</station_name>
+    <latitude>30.4</latitude>
+    <longitude>-84.35</longitude>
+    <temperature>60</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KTLH.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Tampa International Airport</station_name>
+    <latitude>27.97</latitude>
+    <longitude>-82.53</longitude>
+    <temperature>68</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KTPA.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Key West Airport</station_name>
+    <latitude>24.55</latitude>
+    <longitude>-81.75</longitude>
+    <temperature>71</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KEYW.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Hurlburt Field</station_name>
+    <latitude>30.43</latitude>
+    <longitude>-86.68</longitude>
+    <temperature>61</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KHRT.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Valparaiso / Eglin Air Force Base</station_name>
+    <latitude>30.48</latitude>
+    <longitude>-86.53</longitude>
+    <temperature>59</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KVPS.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>FL</state>
+    <station_name>Tyndall Air Force Base</station_name>
+    <latitude>30.07</latitude>
+    <longitude>-85.59</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPAM.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>GA</state>
+    <station_name>Albany, Southwest Georgia Regional Airport</station_name>
+    <latitude>31.54</latitude>
+    <longitude>-84.18</longitude>
+    <temperature>61</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KABY.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>GA</state>
+    <station_name>Augusta, Bush Field</station_name>
+    <latitude>33.38</latitude>
+    <longitude>-81.97</longitude>
+    <temperature>53</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KAGS.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>GA</state>
+    <station_name>Athens Airport</station_name>
+    <latitude>33.96</latitude>
+    <longitude>-83.32</longitude>
+    <temperature>61</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KAHN.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>GA</state>
+    <station_name>Hartsfield Atlanta International Airport</station_name>
+    <latitude>33.66</latitude>
+    <longitude>-84.42</longitude>
+    <temperature>63</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KATL.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>GA</state>
+    <station_name>Waycross / Ware County, Ga</station_name>
+    <latitude>31.25</latitude>
+    <longitude>-82.4</longitude>
+    <temperature>59</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KAYS.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 21:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>GA</state>
+    <station_name>Ft. Stewart</station_name>
+    <latitude>31.88</latitude>
+    <longitude>-81.57</longitude>
+    <temperature>58</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLHW.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>GA</state>
+    <station_name>Fort Benning</station_name>
+    <latitude>32.34</latitude>
+    <longitude>-85</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLSF.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>GA</state>
+    <station_name>Macon, Middle Georgia Regional Airport</station_name>
+    <latitude>32.71</latitude>
+    <longitude>-83.65</longitude>
+    <temperature>61</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMCN.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>GA</state>
+    <station_name>Marietta / Dobbins Air Force Base</station_name>
+    <latitude>33.93</latitude>
+    <longitude>-84.52</longitude>
+    <temperature>64</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMGE.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>GA</state>
+    <station_name>Rome, R. B. Russell Airport</station_name>
+    <latitude>34.36</latitude>
+    <longitude>-85.17</longitude>
+    <temperature>63</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRMG.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>GA</state>
+    <station_name>Savannah International Airport</station_name>
+    <latitude>32.14</latitude>
+    <longitude>-81.2</longitude>
+    <temperature>56</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSAV.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>GA</state>
+    <station_name>Moody Air Force Base</station_name>
+    <latitude>30.97</latitude>
+    <longitude>-83.2</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KVAD.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IA</state>
+    <station_name>Waterloo Municipal Airport</station_name>
+    <latitude>42.55</latitude>
+    <longitude>-92.4</longitude>
+    <temperature>36</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KALO.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IA</state>
+    <station_name>Cedar Rapids Municipal Airport</station_name>
+    <latitude>41.89</latitude>
+    <longitude>-91.7</longitude>
+    <temperature>40</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCID.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IA</state>
+    <station_name>Dubuque Regional Airport</station_name>
+    <latitude>42.41</latitude>
+    <longitude>-90.7</longitude>
+    <temperature>39</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDBQ.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IA</state>
+    <station_name>Des Moines International Airport</station_name>
+    <latitude>41.54</latitude>
+    <longitude>-93.65</longitude>
+    <temperature>46</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDSM.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IA</state>
+    <station_name>Sioux Gateway Airport</station_name>
+    <latitude>42.41</latitude>
+    <longitude>-96.38</longitude>
+    <temperature>46</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSUX.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>ID</state>
+    <station_name>Boise Municipal</station_name>
+    <latitude>43.58</latitude>
+    <longitude>-116.22</longitude>
+    <temperature>68</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBOI.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>ID</state>
+    <station_name>Lewiston (amos)</station_name>
+    <latitude>46.39</latitude>
+    <longitude>-117.02</longitude>
+    <temperature>65</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLWS.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>ID</state>
+    <station_name>Pocatello Municipal</station_name>
+    <latitude>42.93</latitude>
+    <longitude>-112.6</longitude>
+    <temperature>64</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPIH.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IL</state>
+    <station_name>Chicago/Ohare</station_name>
+    <latitude>41.98</latitude>
+    <longitude>-87.9</longitude>
+    <temperature>52</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KORD.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IL</state>
+    <station_name>Chicago Midway Airport</station_name>
+    <latitude>41.79</latitude>
+    <longitude>-87.75</longitude>
+    <temperature>53</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMDW.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IL</state>
+    <station_name>Moline, Quad-City Airport</station_name>
+    <latitude>41.46</latitude>
+    <longitude>-90.52</longitude>
+    <temperature>49</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMLI.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IL</state>
+    <station_name>Greater Peoria Regional Airport</station_name>
+    <latitude>40.66</latitude>
+    <longitude>-89.68</longitude>
+    <temperature>53</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPIA.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IL</state>
+    <station_name>Greater Rockford Airport</station_name>
+    <latitude>42.21</latitude>
+    <longitude>-89.1</longitude>
+    <temperature>49</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRFD.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IL</state>
+    <station_name>Springfield, Capital Airport</station_name>
+    <latitude>39.86</latitude>
+    <longitude>-89.67</longitude>
+    <temperature>54</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSPI.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IL</state>
+    <station_name>Salem-Leckrone</station_name>
+    <latitude>38.65</latitude>
+    <longitude>-88.97</longitude>
+    <temperature>59</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSLO.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IN</state>
+    <station_name>Evansville Regional Airport</station_name>
+    <latitude>38.05</latitude>
+    <longitude>-87.53</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KEVV.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IN</state>
+    <station_name>Fort Wayne International Airport</station_name>
+    <latitude>41.01</latitude>
+    <longitude>-85.2</longitude>
+    <temperature>45</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFWA.xml</xml_url>
+    <weather>Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IN</state>
+    <station_name>Indianapolis International Airport</station_name>
+    <latitude>39.73</latitude>
+    <longitude>-86.27</longitude>
+    <temperature>48</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KIND.xml</xml_url>
+    <weather>Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>IN</state>
+    <station_name>South Bend Regional Airport</station_name>
+    <latitude>41.71</latitude>
+    <longitude>-86.32</longitude>
+    <temperature>45</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSBN.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KS</state>
+    <station_name>Concordia, Blosser Municipal Airport</station_name>
+    <latitude>39.55</latitude>
+    <longitude>-97.65</longitude>
+    <temperature>54</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCNK.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KS</state>
+    <station_name>Dodge City Regional Airport</station_name>
+    <latitude>37.78</latitude>
+    <longitude>-99.97</longitude>
+    <temperature>55</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDDC.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KS</state>
+    <station_name>Fort Riley</station_name>
+    <latitude>39.05</latitude>
+    <longitude>-96.767</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFRI.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KS</state>
+    <station_name>Goodland, Renner Field</station_name>
+    <latitude>39.38</latitude>
+    <longitude>-101.7</longitude>
+    <temperature>51</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGLD.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KS</state>
+    <station_name>Wichita Mid-Continent Airport</station_name>
+    <latitude>37.66</latitude>
+    <longitude>-97.43</longitude>
+    <temperature>58</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KICT.xml</xml_url>
+    <weather>Light Rain</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KS</state>
+    <station_name>Medicine Lodge</station_name>
+    <latitude>37.3</latitude>
+    <longitude>-98.58</longitude>
+    <temperature>58</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KP28.xml</xml_url>
+    <weather>NA</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KS</state>
+    <station_name>Topeka, Philip Billard Municipal Airport</station_name>
+    <latitude>39.08</latitude>
+    <longitude>-95.62</longitude>
+    <temperature>58</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KTOP.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KY</state>
+    <station_name>Covington / Cincinnati, Cincinnati / Northern Kent</station_name>
+    <latitude>39.05</latitude>
+    <longitude>-84.67</longitude>
+    <temperature>55</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCVG.xml</xml_url>
+    <weather>Drizzle Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KY</state>
+    <station_name>Fort Knox</station_name>
+    <latitude>37.9</latitude>
+    <longitude>-85.967</longitude>
+    <temperature>55</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFTK.xml</xml_url>
+    <weather>Light Rain Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KY</state>
+    <station_name>Fort Campbell U. S. Army Airfield</station_name>
+    <latitude>36.669</latitude>
+    <longitude>-87.496</longitude>
+    <temperature>67</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KHOP.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KY</state>
+    <station_name>Lexington, Blue Grass Airport</station_name>
+    <latitude>38.05</latitude>
+    <longitude>-84.6</longitude>
+    <temperature>55</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLEX.xml</xml_url>
+    <weather>Light Rain</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KY</state>
+    <station_name>Paducah, Barkley Regional Airport</station_name>
+    <latitude>37.07</latitude>
+    <longitude>-88.77</longitude>
+    <temperature>64</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPAH.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>KY</state>
+    <station_name>Louisville, Standiford Field</station_name>
+    <latitude>38.19</latitude>
+    <longitude>-85.73</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSDF.xml</xml_url>
+    <weather>Light Drizzle Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>LA</state>
+    <station_name>Alexandria International Airport</station_name>
+    <latitude>31.33</latitude>
+    <longitude>-92.55</longitude>
+    <temperature>70</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KAEX.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>LA</state>
+    <station_name>Boothville</station_name>
+    <latitude>29.333</latitude>
+    <longitude>-89.4</longitude>
+    <temperature>63</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBVE.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>LA</state>
+    <station_name>Lake Charles Regional Airport</station_name>
+    <latitude>30.12</latitude>
+    <longitude>-93.22</longitude>
+    <temperature>66</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLCH.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>LA</state>
+    <station_name>New Orleans International Airport</station_name>
+    <latitude>29.98</latitude>
+    <longitude>-90.25</longitude>
+    <temperature>67</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMSY.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>LA</state>
+    <station_name>Fort Polk</station_name>
+    <latitude>31.05</latitude>
+    <longitude>-93.183</longitude>
+    <temperature>68</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPOE.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>LA</state>
+    <station_name>Shreveport Regional Airport</station_name>
+    <latitude>32.45</latitude>
+    <longitude>-93.83</longitude>
+    <temperature>72</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSHV.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MA</state>
+    <station_name>Bedford, Hanscom Field</station_name>
+    <latitude>42.47</latitude>
+    <longitude>-71.29</longitude>
+    <temperature>31</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBED.xml</xml_url>
+    <weather>Light Snow Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MA</state>
+    <station_name>Boston, Logan International Airport</station_name>
+    <latitude>42.38</latitude>
+    <longitude>-71.03</longitude>
+    <temperature>31</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBOS.xml</xml_url>
+    <weather>Light Snow Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MA</state>
+    <station_name>Chicopee Falls / Westover Air Force Base</station_name>
+    <latitude>42.21</latitude>
+    <longitude>-72.53</longitude>
+    <temperature>30</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCEF.xml</xml_url>
+    <weather>Light Snow Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MA</state>
+    <station_name>Otis Air National Guard Base</station_name>
+    <latitude>41.66</latitude>
+    <longitude>-70.52</longitude>
+    <temperature>34</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFMH.xml</xml_url>
+    <weather>Light Snow Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MD</state>
+    <station_name>Camp Springs / Andrews Air Force Base</station_name>
+    <latitude>38.83</latitude>
+    <longitude>-76.87</longitude>
+    <temperature>54</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KADW.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MD</state>
+    <station_name>Baltimore-Washington International Airport</station_name>
+    <latitude>39.19</latitude>
+    <longitude>-76.67</longitude>
+    <temperature>54</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBWI.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MD</state>
+    <station_name>Patuxent River, Naval Air Station</station_name>
+    <latitude>38.29</latitude>
+    <longitude>-76.4</longitude>
+    <temperature>53</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KNHK.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MD</state>
+    <station_name>FT MEADE/TIPTON</station_name>
+    <latitude>39.083</latitude>
+    <longitude>-76.767</longitude>
+    <temperature>63</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFME.xml</xml_url>
+    <weather>NA</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>ME</state>
+    <station_name>Caribou Municipal Airport</station_name>
+    <latitude>46.88</latitude>
+    <longitude>-68.02</longitude>
+    <temperature>22</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCAR.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>ME</state>
+    <station_name>Brunswick, Naval Air Station</station_name>
+    <latitude>43.89</latitude>
+    <longitude>-69.93</longitude>
+    <temperature>35</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KNHZ.xml</xml_url>
+    <weather>Light Snow Grains</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>ME</state>
+    <station_name>Presque Isle</station_name>
+    <latitude>46.69</latitude>
+    <longitude>-68.05</longitude>
+    <temperature>25</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPQI.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 21:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>ME</state>
+    <station_name>Portland International Jetport</station_name>
+    <latitude>43.66</latitude>
+    <longitude>-70.32</longitude>
+    <temperature>36</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPWM.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MI</state>
+    <station_name>Escanaba-Delta County Airport</station_name>
+    <latitude>45.73</latitude>
+    <longitude>-87.08</longitude>
+    <temperature>27</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KESC.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 21:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MI</state>
+    <station_name>Sault Ste. Marie</station_name>
+    <latitude>46.485</latitude>
+    <longitude>-84.366</longitude>
+    <temperature>19</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KANJ.xml</xml_url>
+    <weather>Light Snow and Breezy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MI</state>
+    <station_name>Alpena County Regional Airport</station_name>
+    <latitude>45.08</latitude>
+    <longitude>-83.57</longitude>
+    <temperature>32</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KAPN.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MI</state>
+    <station_name>Hancock, Houghton County Memorial Airport</station_name>
+    <latitude>47.18</latitude>
+    <longitude>-88.5</longitude>
+    <temperature>16</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCMX.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MI</state>
+    <station_name>Detroit Metropolitan Wayne County Airport</station_name>
+    <latitude>42.23</latitude>
+    <longitude>-83.33</longitude>
+    <temperature>46</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDTW.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MI</state>
+    <station_name>Flint, Bishop International Airport</station_name>
+    <latitude>42.98</latitude>
+    <longitude>-83.73</longitude>
+    <temperature>41</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFNT.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MI</state>
+    <station_name>Grand Rapids, Gerald R. Ford International Airport</station_name>
+    <latitude>42.89</latitude>
+    <longitude>-85.52</longitude>
+    <temperature>44</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGRR.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MI</state>
+    <station_name>Houghton Lake, Roscommon County Airport</station_name>
+    <latitude>44.38</latitude>
+    <longitude>-84.68</longitude>
+    <temperature>34</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KHTL.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MI</state>
+    <station_name>Lansing, Capital City Airport</station_name>
+    <latitude>42.78</latitude>
+    <longitude>-84.6</longitude>
+    <temperature>41</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLAN.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MI</state>
+    <station_name>Muskegon County Airport</station_name>
+    <latitude>43.18</latitude>
+    <longitude>-86.27</longitude>
+    <temperature>37</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMKG.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MN</state>
+    <station_name>Bemidji</station_name>
+    <latitude>47.51</latitude>
+    <longitude>-94.93</longitude>
+    <temperature>12</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBJI.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MN</state>
+    <station_name>Duluth International Airport</station_name>
+    <latitude>46.84</latitude>
+    <longitude>-92.18</longitude>
+    <temperature>18</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDLH.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MN</state>
+    <station_name>Falls International Airport</station_name>
+    <latitude>48.58</latitude>
+    <longitude>-93.38</longitude>
+    <temperature>4</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KINL.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MN</state>
+    <station_name>Minneapolis-St. Paul International Airport</station_name>
+    <latitude>44.89</latitude>
+    <longitude>-93.22</longitude>
+    <temperature>32</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMSP.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MN</state>
+    <station_name>Rochester International Airport</station_name>
+    <latitude>43.93</latitude>
+    <longitude>-92.5</longitude>
+    <temperature>33</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRST.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MN</state>
+    <station_name>St. Cloud Municipal Airport</station_name>
+    <latitude>45.55</latitude>
+    <longitude>-94.07</longitude>
+    <temperature>28</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSTC.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MO</state>
+    <station_name>Columbia Regional Airport</station_name>
+    <latitude>38.83</latitude>
+    <longitude>-92.22</longitude>
+    <temperature>58</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCOU.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MO</state>
+    <station_name>Kansas City International Airport</station_name>
+    <latitude>39.33</latitude>
+    <longitude>-94.72</longitude>
+    <temperature>55</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMCI.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MO</state>
+    <station_name>Springfield Regional Airport</station_name>
+    <latitude>37.23</latitude>
+    <longitude>-93.4</longitude>
+    <temperature>60</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSGF.xml</xml_url>
+    <weather>Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MO</state>
+    <station_name>St. Joseph, Rosecrans Memorial Airport</station_name>
+    <latitude>39.77</latitude>
+    <longitude>-94.91</longitude>
+    <temperature>54</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSTJ.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MO</state>
+    <station_name>Lambert-St. Louis International Airport</station_name>
+    <latitude>38.76</latitude>
+    <longitude>-90.37</longitude>
+    <temperature>62</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSTL.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MS</state>
+    <station_name>Jackson International Airport</station_name>
+    <latitude>32.33</latitude>
+    <longitude>-90.08</longitude>
+    <temperature>65</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KJAN.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MS</state>
+    <station_name>Meridian, Key Field</station_name>
+    <latitude>32.34</latitude>
+    <longitude>-88.75</longitude>
+    <temperature>64</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMEI.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MS</state>
+    <station_name>Tupelo Regional Airport</station_name>
+    <latitude>34.28</latitude>
+    <longitude>-88.77</longitude>
+    <temperature>68</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KTUP.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MT</state>
+    <station_name>Billings/Logan Intl Airport</station_name>
+    <latitude>45.8</latitude>
+    <longitude>-108.53</longitude>
+    <temperature>51</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBIL.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MT</state>
+    <station_name>Kalispell/Glacier</station_name>
+    <latitude>48.3</latitude>
+    <longitude>-114.27</longitude>
+    <temperature>30</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFCA.xml</xml_url>
+    <weather>NA</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MT</state>
+    <station_name>Glasgow Intl Arpt</station_name>
+    <latitude>48.21</latitude>
+    <longitude>-106.63</longitude>
+    <temperature>43</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGGW.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MT</state>
+    <station_name>Great Falls Intl Airport</station_name>
+    <latitude>47.48</latitude>
+    <longitude>-111.35</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGTF.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MT</state>
+    <station_name>Helena Regional</station_name>
+    <latitude>46.61</latitude>
+    <longitude>-112</longitude>
+    <temperature>62</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KHLN.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MT</state>
+    <station_name>Havre (amos)</station_name>
+    <latitude>48.55</latitude>
+    <longitude>-109.77</longitude>
+    <temperature>52</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KHVR.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MT</state>
+    <station_name>Miles City</station_name>
+    <latitude>46.44</latitude>
+    <longitude>-105.87</longitude>
+    <temperature>52</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMLS.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>MT</state>
+    <station_name>Missoula/Bell Field</station_name>
+    <latitude>46.93</latitude>
+    <longitude>-114.08</longitude>
+    <temperature>64</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMSO.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NC</state>
+    <station_name>Asheville Regional Airport</station_name>
+    <latitude>35.44</latitude>
+    <longitude>-82.55</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KAVL.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NC</state>
+    <station_name>Charlotte/Douglas International Airport</station_name>
+    <latitude>35.21</latitude>
+    <longitude>-80.94</longitude>
+    <temperature>59</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCLT.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NC</state>
+    <station_name>Fort Bragg / Simmons Army Airfield</station_name>
+    <latitude>35.14</latitude>
+    <longitude>-78.93</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFBG.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NC</state>
+    <station_name>Greensboro, Piedmont Triad International Airport</station_name>
+    <latitude>36.01</latitude>
+    <longitude>-79.95</longitude>
+    <temperature>58</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGSO.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NC</state>
+    <station_name>Cherry Point, Marine Corps Air Station</station_name>
+    <latitude>34.86</latitude>
+    <longitude>-76.88</longitude>
+    <temperature>49</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KNKT.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NC</state>
+    <station_name>Pope Air Force Base</station_name>
+    <latitude>35.18</latitude>
+    <longitude>-79.02</longitude>
+    <temperature>58</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPOB.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NC</state>
+    <station_name>Raleigh-Durham International Airport</station_name>
+    <latitude>35.88</latitude>
+    <longitude>-78.78</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRDU.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>ND</state>
+    <station_name>Bismarck Municipal Airport</station_name>
+    <latitude>46.78</latitude>
+    <longitude>-100.75</longitude>
+    <temperature>31</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBIS.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>ND</state>
+    <station_name>Fargo, Hector International Airport</station_name>
+    <latitude>46.91</latitude>
+    <longitude>-96.8</longitude>
+    <temperature>17</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFAR.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>ND</state>
+    <station_name>Williston, Sloulin Field International Airport</station_name>
+    <latitude>48.16</latitude>
+    <longitude>-103.6</longitude>
+    <temperature>35</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KISN.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NE</state>
+    <station_name>Scottsbluff, Heilig Field</station_name>
+    <latitude>41.88</latitude>
+    <longitude>-103.6</longitude>
+    <temperature>56</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBFF.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NE</state>
+    <station_name>Grand Island, Central Nebraska Regional Airport</station_name>
+    <latitude>40.98</latitude>
+    <longitude>-98.32</longitude>
+    <temperature>49</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGRI.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NE</state>
+    <station_name>North Platte Regional Airport</station_name>
+    <latitude>41.14</latitude>
+    <longitude>-100.68</longitude>
+    <temperature>50</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLBF.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NE</state>
+    <station_name>Lincoln Municipal Airport</station_name>
+    <latitude>40.86</latitude>
+    <longitude>-96.75</longitude>
+    <temperature>47</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLNK.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NE</state>
+    <station_name>Omaha / Offutt Air Force Base</station_name>
+    <latitude>41.117</latitude>
+    <longitude>-95.917</longitude>
+    <temperature>48</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KOFF.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NE</state>
+    <station_name>Norfolk, Stefan Memorial Airport</station_name>
+    <latitude>41.98</latitude>
+    <longitude>-97.43</longitude>
+    <temperature>48</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KOFK.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NE</state>
+    <station_name>Omaha, Eppley Airfield</station_name>
+    <latitude>41.3</latitude>
+    <longitude>-95.9</longitude>
+    <temperature>50</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KOMA.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NE</state>
+    <station_name>Sidney Municipal Airport</station_name>
+    <latitude>41.11</latitude>
+    <longitude>-102.98</longitude>
+    <temperature>52</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSNY.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NE</state>
+    <station_name>Valentine, Miller Field</station_name>
+    <latitude>42.86</latitude>
+    <longitude>-100.55</longitude>
+    <temperature>49</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KVTN.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NH</state>
+    <station_name>Berlin Municipal Airport</station_name>
+    <latitude>44.59</latitude>
+    <longitude>-71.18</longitude>
+    <temperature>30</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBML.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NH</state>
+    <station_name>Concord Municipal Airport</station_name>
+    <latitude>43.21</latitude>
+    <longitude>-71.5</longitude>
+    <temperature>34</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCON.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NH</state>
+    <station_name>Mount Washington</station_name>
+    <latitude>44.28</latitude>
+    <longitude>-71.3</longitude>
+    <temperature>10</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMWN.xml</xml_url>
+    <weather>Light Snow Blowing Snow Freezing Fog and Windy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NJ</state>
+    <station_name>Atlantic City International Airport</station_name>
+    <latitude>39.46</latitude>
+    <longitude>-74.57</longitude>
+    <temperature>44</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KACY.xml</xml_url>
+    <weather>Partly Cloudy and Breezy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NJ</state>
+    <station_name>Newark International Airport</station_name>
+    <latitude>40.71</latitude>
+    <longitude>-74.17</longitude>
+    <temperature>39</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KEWR.xml</xml_url>
+    <weather>Light Rain</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NJ</state>
+    <station_name>Lakehurst Naval Air Station</station_name>
+    <latitude>40.04</latitude>
+    <longitude>-74.32</longitude>
+    <temperature>50</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KNEL.xml</xml_url>
+    <weather>NA</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NM</state>
+    <station_name>Albuquerque Intl Airport</station_name>
+    <latitude>35.05</latitude>
+    <longitude>-106.62</longitude>
+    <temperature>69</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KABQ.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NM</state>
+    <station_name>Clayton Muni(amos)</station_name>
+    <latitude>36.46</latitude>
+    <longitude>-103.15</longitude>
+    <temperature>54</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCAO.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NM</state>
+    <station_name>Holloman AFB</station_name>
+    <latitude>32.86</latitude>
+    <longitude>-106.1</longitude>
+    <temperature>75</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KHMN.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NM</state>
+    <station_name>Roswell/Industrial</station_name>
+    <latitude>33.31</latitude>
+    <longitude>-104.51</longitude>
+    <temperature>76</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KROW.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NM</state>
+    <station_name>Silver City/Grant</station_name>
+    <latitude>32.64</latitude>
+    <longitude>-108.16</longitude>
+    <temperature>66</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSVC.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NM</state>
+    <station_name>Truth Or Consequenc</station_name>
+    <latitude>33.23</latitude>
+    <longitude>-107.27</longitude>
+    <temperature>73</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KTCS.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NV</state>
+    <station_name>Mercury/Desert Rock</station_name>
+    <latitude>36.62</latitude>
+    <longitude>-116.02</longitude>
+    <temperature>78</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDRA.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NV</state>
+    <station_name>Ely/Yelland Fld</station_name>
+    <latitude>39.29</latitude>
+    <longitude>-114.85</longitude>
+    <temperature>63</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KELY.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NV</state>
+    <station_name>Las Vegas/Mccarran</station_name>
+    <latitude>36.09</latitude>
+    <longitude>-115.17</longitude>
+    <temperature>84</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLAS.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NV</state>
+    <station_name>Caliente (amos)</station_name>
+    <latitude>37.617</latitude>
+    <longitude>-114.517</longitude>
+    <temperature>58</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KP38.xml</xml_url>
+    <weather>NA</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NV</state>
+    <station_name>Reno/Cannon Intl Airport</station_name>
+    <latitude>39.51</latitude>
+    <longitude>-119.78</longitude>
+    <temperature>63</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRNO.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NV</state>
+    <station_name>Winnemucca Muni</station_name>
+    <latitude>40.91</latitude>
+    <longitude>-117.8</longitude>
+    <temperature>63</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KWMC.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NY</state>
+    <station_name>New York/John F. Kennedy Intl Airport</station_name>
+    <latitude>40.66</latitude>
+    <longitude>-73.78</longitude>
+    <temperature>39</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KJFK.xml</xml_url>
+    <weather>Light Rain and Breezy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NY</state>
+    <station_name>Albany International Airport</station_name>
+    <latitude>42.76</latitude>
+    <longitude>-73.8</longitude>
+    <temperature>32</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KALB.xml</xml_url>
+    <weather>Light Snow Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NY</state>
+    <station_name>Binghamton Regional Airport</station_name>
+    <latitude>42.23</latitude>
+    <longitude>-75.98</longitude>
+    <temperature>31</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBGM.xml</xml_url>
+    <weather>Light Snow</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NY</state>
+    <station_name>Greater Buffalo International Airport</station_name>
+    <latitude>42.94</latitude>
+    <longitude>-78.73</longitude>
+    <temperature>37</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBUF.xml</xml_url>
+    <weather>Light Drizzle and Breezy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NY</state>
+    <station_name>Fort Drum / Wheeler-Sack U. S. Army Airfield</station_name>
+    <latitude>44.05</latitude>
+    <longitude>-75.74</longitude>
+    <temperature>34</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGTB.xml</xml_url>
+    <weather>Overcast and Windy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NY</state>
+    <station_name>New York, La Guardia Airport</station_name>
+    <latitude>40.77</latitude>
+    <longitude>-73.9</longitude>
+    <temperature>40</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLGA.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NY</state>
+    <station_name>Greater Rochester International Airport</station_name>
+    <latitude>43.12</latitude>
+    <longitude>-77.67</longitude>
+    <temperature>38</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KROC.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>NY</state>
+    <station_name>Syracuse Hancock International Airport</station_name>
+    <latitude>43.12</latitude>
+    <longitude>-76.12</longitude>
+    <temperature>36</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSYR.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OH</state>
+    <station_name>Akron-Canton Regional Airport</station_name>
+    <latitude>40.93</latitude>
+    <longitude>-81.43</longitude>
+    <temperature>39</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCAK.xml</xml_url>
+    <weather>Light Drizzle Fog</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OH</state>
+    <station_name>Cleveland-Hopkins International Airport</station_name>
+    <latitude>41.43</latitude>
+    <longitude>-81.87</longitude>
+    <temperature>42</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCLE.xml</xml_url>
+    <weather>Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OH</state>
+    <station_name>Port Columbus International Airport</station_name>
+    <latitude>40.01</latitude>
+    <longitude>-82.88</longitude>
+    <temperature>50</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCMH.xml</xml_url>
+    <weather>Light Drizzle Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OH</state>
+    <station_name>Cox Dayton International Airport</station_name>
+    <latitude>39.91</latitude>
+    <longitude>-84.2</longitude>
+    <temperature>50</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDAY.xml</xml_url>
+    <weather>Light Drizzle Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OH</state>
+    <station_name>Dayton / Wright-Patterson Air Force Base</station_name>
+    <latitude>39.84</latitude>
+    <longitude>-84.05</longitude>
+    <temperature>52</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFFO.xml</xml_url>
+    <weather>Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OH</state>
+    <station_name>Toledo Express Airport</station_name>
+    <latitude>41.61</latitude>
+    <longitude>-83.8</longitude>
+    <temperature>44</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KTOL.xml</xml_url>
+    <weather>Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OH</state>
+    <station_name>Youngstown-Warren Regional Airport</station_name>
+    <latitude>41.27</latitude>
+    <longitude>-80.67</longitude>
+    <temperature>38</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KYNG.xml</xml_url>
+    <weather>Drizzle Fog</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OK</state>
+    <station_name>Fort Sill</station_name>
+    <latitude>34.65</latitude>
+    <longitude>-98.383</longitude>
+    <temperature>73</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFSI.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OK</state>
+    <station_name>Altus Air Force Base</station_name>
+    <latitude>34.8</latitude>
+    <longitude>-99</longitude>
+    <temperature>74</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLTS.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OK</state>
+    <station_name>Oklahoma City, Will Rogers World Airport</station_name>
+    <latitude>35.41</latitude>
+    <longitude>-97.6</longitude>
+    <temperature>72</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KOKC.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OK</state>
+    <station_name>Norman / Max Westheimer</station_name>
+    <latitude>35.246</latitude>
+    <longitude>-97.472</longitude>
+    <temperature>72</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KOUN.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OK</state>
+    <station_name>Tinker Air Force Base</station_name>
+    <latitude>35.417</latitude>
+    <longitude>-97.383</longitude>
+    <temperature>70</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KTIK.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OK</state>
+    <station_name>Tulsa International Airport</station_name>
+    <latitude>36.21</latitude>
+    <longitude>-95.9</longitude>
+    <temperature>69</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KTUL.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OK</state>
+    <station_name>West Woodward</station_name>
+    <latitude>36.44</latitude>
+    <longitude>-99.52</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KWWR.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OR</state>
+    <station_name>Astoria/Clatsop</station_name>
+    <latitude>46.16</latitude>
+    <longitude>-123.88</longitude>
+    <temperature>48</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KAST.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OR</state>
+    <station_name>Burns Muni (amos)</station_name>
+    <latitude>43.58</latitude>
+    <longitude>-118.95</longitude>
+    <temperature>59</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBNO.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OR</state>
+    <station_name>Eugene/Mahlon Sweet</station_name>
+    <latitude>44.12</latitude>
+    <longitude>-123.22</longitude>
+    <temperature>49</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KEUG.xml</xml_url>
+    <weather>Light Rain</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OR</state>
+    <station_name>Medford/Jackson Co.</station_name>
+    <latitude>42.38</latitude>
+    <longitude>-122.87</longitude>
+    <temperature>60</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMFR.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OR</state>
+    <station_name>Pendleton Municipal</station_name>
+    <latitude>45.69</latitude>
+    <longitude>-118.85</longitude>
+    <temperature>64</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPDT.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OR</state>
+    <station_name>Portland Intl Arpt</station_name>
+    <latitude>45.61</latitude>
+    <longitude>-122.6</longitude>
+    <temperature>53</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPDX.xml</xml_url>
+    <weather>Light Rain</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>OR</state>
+    <station_name>Salem/Mcnary</station_name>
+    <latitude>44.93</latitude>
+    <longitude>-123.02</longitude>
+    <temperature>50</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSLE.xml</xml_url>
+    <weather>Light Rain</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>PA</state>
+    <station_name>Allentown, Lehigh Valley International Airport</station_name>
+    <latitude>40.66</latitude>
+    <longitude>-75.43</longitude>
+    <temperature>41</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KABE.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>PA</state>
+    <station_name>Wilkes-Barre / Scranton Intl Airport</station_name>
+    <latitude>41.33</latitude>
+    <longitude>-75.73</longitude>
+    <temperature>32</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KAVP.xml</xml_url>
+    <weather>Light Snow Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>PA</state>
+    <station_name>Erie International Airport</station_name>
+    <latitude>42.08</latitude>
+    <longitude>-80.18</longitude>
+    <temperature>38</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KERI.xml</xml_url>
+    <weather>Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>PA</state>
+    <station_name>Williamsport-Lycoming County Airport</station_name>
+    <latitude>41.26</latitude>
+    <longitude>-76.92</longitude>
+    <temperature>35</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KIPT.xml</xml_url>
+    <weather>Rain Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>PA</state>
+    <station_name>Philadelphia International Airport</station_name>
+    <latitude>39.89</latitude>
+    <longitude>-75.25</longitude>
+    <temperature>43</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPHL.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>PA</state>
+    <station_name>Pittsburgh International Airport</station_name>
+    <latitude>40.51</latitude>
+    <longitude>-80.22</longitude>
+    <temperature>43</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPIT.xml</xml_url>
+    <weather>Light Rain Fog/Mist</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>RI</state>
+    <station_name>Providence, Green State Airport</station_name>
+    <latitude>41.73</latitude>
+    <longitude>-71.43</longitude>
+    <temperature>33</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPVD.xml</xml_url>
+    <weather>Snow Fog</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>SC</state>
+    <station_name>Columbia Metropolitan Airport</station_name>
+    <latitude>33.96</latitude>
+    <longitude>-81.12</longitude>
+    <temperature>59</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCAE.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>SC</state>
+    <station_name>Charleston Air Force Base</station_name>
+    <latitude>32.91</latitude>
+    <longitude>-80.03</longitude>
+    <temperature>54</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCHS.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>SC</state>
+    <station_name>Greer, Greenville-Spartanburg Airport</station_name>
+    <latitude>34.91</latitude>
+    <longitude>-82.22</longitude>
+    <temperature>58</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGSP.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>SC</state>
+    <station_name>Myrtle Beach Air Force Base</station_name>
+    <latitude>33.69</latitude>
+    <longitude>-78.93</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMYR.xml</xml_url>
+    <weather>Clear</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>SC</state>
+    <station_name>Shaw Air Force Base</station_name>
+    <latitude>33.98</latitude>
+    <longitude>-80.47</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSSC.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>SD</state>
+    <station_name>Chamberlain Municipal Airport</station_name>
+    <latitude>43.8</latitude>
+    <longitude>-99.32</longitude>
+    <temperature>44</temperature>
+    <xml_url>http://weather.gov/data/current_obs/K9V9.xml</xml_url>
+    <weather>NA</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>SD</state>
+    <station_name>Aberdeen Regional Airport</station_name>
+    <latitude>45.46</latitude>
+    <longitude>-98.43</longitude>
+    <temperature>30</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KABR.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>SD</state>
+    <station_name>Sioux Falls, Foss Field</station_name>
+    <latitude>43.59</latitude>
+    <longitude>-96.74</longitude>
+    <temperature>35</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KFSD.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>SD</state>
+    <station_name>Huron Regional Airport</station_name>
+    <latitude>44.39</latitude>
+    <longitude>-98.22</longitude>
+    <temperature>36</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KHON.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>SD</state>
+    <station_name>Rapid City Regional Airport</station_name>
+    <latitude>44.05</latitude>
+    <longitude>-103.07</longitude>
+    <temperature>47</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRAP.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>SD</state>
+    <station_name>Winner, Bob Wiley Field Airport</station_name>
+    <latitude>43.38</latitude>
+    <longitude>-99.85</longitude>
+    <temperature>46</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSFD.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TN</state>
+    <station_name>Nashville International Airport</station_name>
+    <latitude>36.12</latitude>
+    <longitude>-86.68</longitude>
+    <temperature>67</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBNA.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TN</state>
+    <station_name>Chattanooga, Lovell Field</station_name>
+    <latitude>35.04</latitude>
+    <longitude>-85.2</longitude>
+    <temperature>68</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCHA.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TN</state>
+    <station_name>Memphis International Airport</station_name>
+    <latitude>35.04</latitude>
+    <longitude>-89.98</longitude>
+    <temperature>72</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMEM.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TN</state>
+    <station_name>Knoxville, McGhee Tyson Airport</station_name>
+    <latitude>35.81</latitude>
+    <longitude>-83.98</longitude>
+    <temperature>61</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KTYS.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Abilene Regional Airport</station_name>
+    <latitude>32.43</latitude>
+    <longitude>-99.68</longitude>
+    <temperature>71</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KABI.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Waco Regional Airport</station_name>
+    <latitude>31.62</latitude>
+    <longitude>-97.22</longitude>
+    <temperature>71</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KACT.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Rick Husband Amarillo Intl Airport</station_name>
+    <latitude>35.23</latitude>
+    <longitude>-101.7</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KAMA.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Camp Mabry / Austin City</station_name>
+    <latitude>30.32</latitude>
+    <longitude>-97.77</longitude>
+    <temperature>72</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KATT.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Beaumont/Port Arthur, SE Texas Regional Airport</station_name>
+    <latitude>29.95</latitude>
+    <longitude>-94.02</longitude>
+    <temperature>67</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBPT.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Brownsville / South Padre Island Intl Airport</station_name>
+    <latitude>25.9</latitude>
+    <longitude>-97.43</longitude>
+    <temperature>72</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBRO.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Corpus Christi International Airport</station_name>
+    <latitude>27.77</latitude>
+    <longitude>-97.5</longitude>
+    <temperature>70</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCRP.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Dallas / Fort Worth International Airport</station_name>
+    <latitude>32.91</latitude>
+    <longitude>-97.03</longitude>
+    <temperature>70</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDFW.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Del Rio International Airport</station_name>
+    <latitude>29.38</latitude>
+    <longitude>-100.92</longitude>
+    <temperature>73</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDRT.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>El Paso International Airport</station_name>
+    <latitude>31.8</latitude>
+    <longitude>-106.4</longitude>
+    <temperature>76</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KELP.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Pine Springs, Guadalupe Mountains National Park</station_name>
+    <latitude>31.83</latitude>
+    <longitude>-104.8</longitude>
+    <temperature>70</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGDP.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Longview, Gregg County Airport</station_name>
+    <latitude>32.38</latitude>
+    <longitude>-94.71</longitude>
+    <temperature>70</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGGG.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Galveston, Scholes Field</station_name>
+    <latitude>29.27</latitude>
+    <longitude>-94.87</longitude>
+    <temperature>68</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGLS.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Fort Hood</station_name>
+    <latitude>31.15</latitude>
+    <longitude>-97.717</longitude>
+    <temperature>72</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KHLR.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Houston Intercontinental Airport</station_name>
+    <latitude>29.97</latitude>
+    <longitude>-95.35</longitude>
+    <temperature>71</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KIAH.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Junction, Kimble County Airport</station_name>
+    <latitude>30.5</latitude>
+    <longitude>-99.77</longitude>
+    <temperature>72</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KJCT.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Lubbock International Airport</station_name>
+    <latitude>33.66</latitude>
+    <longitude>-101.82</longitude>
+    <temperature>69</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLBB.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Laredo International Airport</station_name>
+    <latitude>27.54</latitude>
+    <longitude>-99.47</longitude>
+    <temperature>80</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLRD.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Midland International Airport</station_name>
+    <latitude>31.95</latitude>
+    <longitude>-102.18</longitude>
+    <temperature>76</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMAF.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Marfa</station_name>
+    <latitude>30.38</latitude>
+    <longitude>-104.02</longitude>
+    <temperature>59</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMRF.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>San Antonio International Airport</station_name>
+    <latitude>29.54</latitude>
+    <longitude>-98.47</longitude>
+    <temperature>71</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSAT.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>San Angelo, Mathis Field</station_name>
+    <latitude>31.38</latitude>
+    <longitude>-100.5</longitude>
+    <temperature>71</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSJT.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Wichita Falls, Sheppard Air Force Base</station_name>
+    <latitude>33.98</latitude>
+    <longitude>-98.48</longitude>
+    <temperature>73</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSPS.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Victoria Regional Airport</station_name>
+    <latitude>28.86</latitude>
+    <longitude>-96.92</longitude>
+    <temperature>69</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KVCT.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>TX</state>
+    <station_name>Stephenville / Clark Field Municipal Airport</station_name>
+    <latitude>32.215</latitude>
+    <longitude>-98.178</longitude>
+    <temperature>70</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSEP.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>UT</state>
+    <station_name>Salt Lake City International</station_name>
+    <latitude>40.79</latitude>
+    <longitude>-111.97</longitude>
+    <temperature>62</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSLC.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>UT</state>
+    <station_name>Ogden-Hinckley Muni</station_name>
+    <latitude>41.2</latitude>
+    <longitude>-112.01</longitude>
+    <temperature>66</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KOGD.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>UT</state>
+    <station_name>Price/Carbon(ramos)</station_name>
+    <latitude>39.62</latitude>
+    <longitude>-110.75</longitude>
+    <temperature>64</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KPUC.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>UT</state>
+    <station_name>Dugway Prvg Ground</station_name>
+    <latitude>40.21</latitude>
+    <longitude>-112.93</longitude>
+    <temperature>73</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDPG.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 16:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>UT</state>
+    <station_name>Wendover (aut)</station_name>
+    <latitude>40.73</latitude>
+    <longitude>-114.03</longitude>
+    <temperature>64</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KENV.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>VA</state>
+    <station_name>Washington DC, Reagan National Airport</station_name>
+    <latitude>38.86</latitude>
+    <longitude>-77.03</longitude>
+    <temperature>55</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDCA.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>VA</state>
+    <station_name>Washington-Dulles International Airport</station_name>
+    <latitude>38.96</latitude>
+    <longitude>-77.45</longitude>
+    <temperature>54</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KIAD.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>VA</state>
+    <station_name>Langley Air Force Base</station_name>
+    <latitude>37.09</latitude>
+    <longitude>-76.35</longitude>
+    <temperature>53</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLFI.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>VA</state>
+    <station_name>Lynchburg Regional Airport</station_name>
+    <latitude>37.34</latitude>
+    <longitude>-79.2</longitude>
+    <temperature>55</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLYH.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>VA</state>
+    <station_name>Norfolk International Airport</station_name>
+    <latitude>36.91</latitude>
+    <longitude>-76.2</longitude>
+    <temperature>52</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KORF.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>VA</state>
+    <station_name>Richmond International Airport</station_name>
+    <latitude>37.51</latitude>
+    <longitude>-77.31</longitude>
+    <temperature>56</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRIC.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>VA</state>
+    <station_name>Roanoke Regional Airport</station_name>
+    <latitude>37.33</latitude>
+    <longitude>-79.97</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KROA.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>VA</state>
+    <station_name>Wallops Flight Facility Airport</station_name>
+    <latitude>37.94</latitude>
+    <longitude>-75.47</longitude>
+    <temperature>46</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KWAL.xml</xml_url>
+    <weather>Mostly Cloudy and Breezy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>VT</state>
+    <station_name>Saint Johnsbury</station_name>
+    <latitude>44.42</latitude>
+    <longitude>-72.02</longitude>
+    <temperature>34</temperature>
+    <xml_url>http://weather.gov/data/current_obs/K1V4.xml</xml_url>
+    <weather>NA</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>VT</state>
+    <station_name>Burlington International Airport</station_name>
+    <latitude>44.48</latitude>
+    <longitude>-73.15</longitude>
+    <temperature>32</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBTV.xml</xml_url>
+    <weather>Overcast and Breezy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WA</state>
+    <station_name>Spokane Intl Arpt</station_name>
+    <latitude>47.64</latitude>
+    <longitude>-117.53</longitude>
+    <temperature>58</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGEG.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WA</state>
+    <station_name>Fort Lewis/Gray Aaf</station_name>
+    <latitude>47.09</latitude>
+    <longitude>-122.58</longitude>
+    <temperature>48</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGRF.xml</xml_url>
+    <weather>Light Rain</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WA</state>
+    <station_name>Hanford</station_name>
+    <latitude>46.58</latitude>
+    <longitude>-119.58</longitude>
+    <temperature>62</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KHMS.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WA</state>
+    <station_name>Olympia</station_name>
+    <latitude>46.98</latitude>
+    <longitude>-122.9</longitude>
+    <temperature>49</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KOLM.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WA</state>
+    <station_name>Seattle-Tacoma Intl Airport</station_name>
+    <latitude>47.44</latitude>
+    <longitude>-122.31</longitude>
+    <temperature>48</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSEA.xml</xml_url>
+    <weather>Light Rain</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WA</state>
+    <station_name>Mc Chord AFB/Tacoma</station_name>
+    <latitude>47.16</latitude>
+    <longitude>-122.48</longitude>
+    <temperature>48</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KTCM.xml</xml_url>
+    <weather>Light Rain</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WA</state>
+    <station_name>Quillayute State</station_name>
+    <latitude>47.96</latitude>
+    <longitude>-124.55</longitude>
+    <temperature>48</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KUIL.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WA</state>
+    <station_name>Yakima Air Term</station_name>
+    <latitude>46.56</latitude>
+    <longitude>-120.53</longitude>
+    <temperature>59</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KYKM.xml</xml_url>
+    <weather>Mostly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 17:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WI</state>
+    <station_name>Green Bay, Austin Straubel International Airport</station_name>
+    <latitude>44.48</latitude>
+    <longitude>-88.13</longitude>
+    <temperature>38</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGRB.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WI</state>
+    <station_name>La Crosse Municipal Airport</station_name>
+    <latitude>43.88</latitude>
+    <longitude>-91.25</longitude>
+    <temperature>38</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLSE.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WI</state>
+    <station_name>Milwaukee, General Mitchell International Airport</station_name>
+    <latitude>42.96</latitude>
+    <longitude>-87.9</longitude>
+    <temperature>47</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMKE.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WI</state>
+    <station_name>Madison, Dane County Regional-Truax Field</station_name>
+    <latitude>43.14</latitude>
+    <longitude>-89.33</longitude>
+    <temperature>43</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KMSN.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WV</state>
+    <station_name>Beckley, Raleigh County Memorial Airport</station_name>
+    <latitude>37.79</latitude>
+    <longitude>-81.12</longitude>
+    <temperature>52</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBKW.xml</xml_url>
+    <weather>Partly Cloudy</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WV</state>
+    <station_name>Charleston, Yeager Airport</station_name>
+    <latitude>38.38</latitude>
+    <longitude>-81.6</longitude>
+    <temperature>60</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCRW.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WV</state>
+    <station_name>Elkins-Randolph County-Jennings Randolph Field</station_name>
+    <latitude>38.89</latitude>
+    <longitude>-79.85</longitude>
+    <temperature>52</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KEKN.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WV</state>
+    <station_name>Huntington, Tri-State Airport</station_name>
+    <latitude>38.38</latitude>
+    <longitude>-82.55</longitude>
+    <temperature>60</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KHTS.xml</xml_url>
+    <weather>Overcast</weather>
+    <observation_time_rfc822>Thu Feb 1 20:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WY</state>
+    <station_name>Big Piney/Marbleton Airport</station_name>
+    <latitude>42.58</latitude>
+    <longitude>-110.1</longitude>
+    <temperature>54</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KBPI.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WY</state>
+    <station_name>Cody/Yellowstone Regional Airport</station_name>
+    <latitude>44.53</latitude>
+    <longitude>-109.02</longitude>
+    <temperature>59</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCOD.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 19:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WY</state>
+    <station_name>Casper/Natrona Intl Airport</station_name>
+    <latitude>42.93</latitude>
+    <longitude>-106.47</longitude>
+    <temperature>62</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCPR.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WY</state>
+    <station_name>Cheyenne/Warren AFB</station_name>
+    <latitude>41.16</latitude>
+    <longitude>-104.82</longitude>
+    <temperature>53</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KCYS.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WY</state>
+    <station_name>Douglas/Converse County Airport</station_name>
+    <latitude>42.8</latitude>
+    <longitude>-105.39</longitude>
+    <temperature>61</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KDGW.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WY</state>
+    <station_name>Gillette</station_name>
+    <latitude>44.36</latitude>
+    <longitude>-105.53</longitude>
+    <temperature>54</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KGCC.xml</xml_url>
+    <weather>Fair and Breezy</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WY</state>
+    <station_name>Lander/Hunt Field</station_name>
+    <latitude>42.83</latitude>
+    <longitude>-108.73</longitude>
+    <temperature>63</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KLND.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WY</state>
+    <station_name>Riverton Regional Airport</station_name>
+    <latitude>43.05</latitude>
+    <longitude>-108.45</longitude>
+    <temperature>64</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRIW.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WY</state>
+    <station_name>Rock Springs</station_name>
+    <latitude>41.61</latitude>
+    <longitude>-109.07</longitude>
+    <temperature>59</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KRKS.xml</xml_url>
+    <weather>A Few Clouds</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+  <station>
+    <state>WY</state>
+    <station_name>Sheridan Co. Arpt</station_name>
+    <latitude>44.78</latitude>
+    <longitude>-106.97</longitude>
+    <temperature>57</temperature>
+    <xml_url>http://weather.gov/data/current_obs/KSHR.xml</xml_url>
+    <weather>Fair</weather>
+    <observation_time_rfc822>Thu Feb 1 18:00:00 GMT-0800 2007</observation_time_rfc822>
+  </station>
+</weatherFeed>

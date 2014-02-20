@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.lakemonsterculture.com/photos/">
+<title>DeFore Photography</title>
+<link>http://www.lakemonsterculture.com/photos/</link>
+<description>Reveling in the disarray.</description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2003-06-06T22:17:52-05:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=2.63" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000850.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000849.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000848.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000847.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000846.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000845.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000844.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000842.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000841.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000840.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000843.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000830.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000829.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000828.php" />
+<rdf:li rdf:resource="http://www.lakemonsterculture.com/photos/archives/000827.php" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000850.php">
+<title>Concrete With Vine</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000850.php</link>
+<description>leafsonconcrete...</description>
+<dc:subject>Nature</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-06-06T22:17:52-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000849.php">
+<title>Void 1 Void 2 and Void 3</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000849.php</link>
+<description>voidpipes...</description>
+<dc:subject>Nature</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-06-06T22:17:14-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000848.php">
+<title>Under the Bridge</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000848.php</link>
+<description>underbridge...</description>
+<dc:subject>Monochromatic</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-06-06T22:16:48-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000847.php">
+<title>I Have No Idea</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000847.php</link>
+<description>stupidshit...</description>
+<dc:subject>Humor</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-06-06T22:16:22-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000846.php">
+<title>Spiked Post</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000846.php</link>
+<description>spikedpost...</description>
+<dc:subject>Nature</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-06-06T22:15:56-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000845.php">
+<title>Mourning the Chicken</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000845.php</link>
+<description>mournthechicken...</description>
+<dc:subject>Monochromatic</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-06-06T22:15:14-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000844.php">
+<title>Pine Cone on Moss Bed</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000844.php</link>
+<description>pineconemoss...</description>
+<dc:subject>Nature</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-06-06T22:14:37-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000842.php">
+<title>Mossy Adirondack Woods</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000842.php</link>
+<description>mossywoods...</description>
+<dc:subject>Nature</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-06-06T22:13:11-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000841.php">
+<title>Kate, Express.</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000841.php</link>
+<description>katechimneyduotone...</description>
+<dc:subject>People</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-06-06T22:12:23-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000840.php">
+<title>Surprise Mushroom</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000840.php</link>
+<description>bigmushroom...</description>
+<dc:subject>Nature</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-06-06T22:11:14-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000843.php">
+<title>Snow Melt</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000843.php</link>
+<description>snowmelt...</description>
+<dc:subject>Nature</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-04-06T22:13:49-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000830.php">
+<title>Elliot Bay Sunset</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000830.php</link>
+<description>fromelliotbay...</description>
+<dc:subject>Washington</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-04-01T21:19:57-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000829.php">
+<title>Orange Flower</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000829.php</link>
+<description>flowerbluepaint...</description>
+<dc:subject>Nature</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-04-01T21:17:30-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000828.php">
+<title>Walkway Over Alaskan Way</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000828.php</link>
+<description>alaskanway...</description>
+<dc:subject>Urban</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-04-01T21:16:22-05:00</dc:date>
+</item>
+<item rdf:about="http://www.lakemonsterculture.com/photos/archives/000827.php">
+<title>Rolling the Coconut</title>
+<link>http://www.lakemonsterculture.com/photos/archives/000827.php</link>
+<description>coconutroller...</description>
+<dc:subject>Monochromatic</dc:subject>
+<dc:creator>bdefore</dc:creator>
+<dc:date>2003-03-30T21:18:30-05:00</dc:date>
+</item>
+
+
+</rdf:RDF>
