@@ -2,15 +2,15 @@
 
 ## Extra Short Blurb
 
-Adaptable web technologist
-~~Individual contributor~~ Team multiplier
-Trusted advisor
+- Adaptable web technologist
+- ~~Individual contributor~~ Team multiplier
+- Trusted advisor
 
 ## Ideal Fits
 
-Technical co-founder / CTO
-Senior Staff Engineer
-Lead Developer
+- Technical co-founder / CTO
+- Senior Staff Engineer
+- Lead Developer
 
 ## Blurb
 
@@ -22,12 +22,12 @@ My speciliazations as a contributor are steeped in web technologies. I've spent 
 
 ## Historical Arc
 
-B.S. Mathematics (with independent study in Crptanalysis) at University of Puget Sound Class of 2003
-Watson Fellow 2003. Traveled around the world for one year following graduation conducting a sociological research project
-ActionScript specialist 2005-2011.
-Refocused as web technologist (RIP Flash) passing through Node.js, Rails, Angular, Meteor, React.
-San Francisco Bay Area engineer both full-time and consulting 2006-2016.
-New York City technology consultant from 2016 to present
+- B.S. Mathematics (with independent study in Crptanalysis) at University of Puget Sound Class of 2003
+- Watson Fellow 2003. Traveled around the world for one year following graduation conducting a sociological research project
+- ActionScript specialist 2005-2011.
+- Refocused as web technologist (RIP Flash) passing through Node.js, Rails, Angular, Meteor, React.
+- San Francisco Bay Area engineer both full-time and consulting 2006-2016.
+- New York City technology consultant from 2016 to present
 
 ## Selected Case Studies
 
@@ -70,46 +70,46 @@ Sole developer for three GameCast applications in ActionScript, a product that w
 Disney.com
 Dow Jones
 Esria
-General Assembly
-Harmonix
-Hover
-Kiddom
-Kixeye
-Mekanism
-Obscura Digital
-Propeller Media Works
-Reaktor
-Scoot & Doodle
-TomTom
-Tout
-Vuvox
-Westfield Labs
-Yahoo
+- General Assembly
+- Harmonix
+- Hover
+- Kiddom
+- Kixeye
+- Mekanism
+- Obscura Digital
+- Propeller Media Works
+- Reaktor
+- Scoot & Doodle
+- TomTom
+- Tout
+- Vuvox
+- Westfield Labs
+- Yahoo
 
 ## Open-Source
 
-Universal Redux (https://github.com/bdefore/universal-redux), a precursor to Create React App. Created for General Assembly in 2015 as a base for their single page app projects. Guided its approval through the company to an open-source release where it was subsequently used by several other companies.
-ProtonDB Data (https://www.protondb.com/news/report-exports-odbl). Open Database License exports of community contributed content.
+- Universal Redux (https://github.com/bdefore/universal-redux), a precursor to Create React App. Created for General Assembly in 2015 as a base for their single page app projects. Guided its approval through the company to an open-source release where it was subsequently used by several other companies.
+- ProtonDB Data (https://www.protondb.com/news/report-exports-odbl). Open Database License exports of community contributed content.
 
 ## Side Projects
 
-ProtonDB (https://www.protondb.com). Developed/designed/managed a popular site entirely independently. The site reached HN as a #1 post in November 2018 and receives > 150k MAU and growing
-Altogether (https://evcprc.itch.io/altogether). Designer and developer of a VR + phone hackathon project inspired by Katamari Damacy, made with Unity and a Ruby messaging layer.
-Arbitro. A Node.js real-time messaging utility for multiplayer games in the browser.
-Antenna (https://bcdef.org/antenna). A small maps/radio mashup using Adobe AIR.
+- ProtonDB (https://www.protondb.com). Developed/designed/managed a popular site entirely independently. The site reached HN as a #1 post in November 2018 and receives > 150k MAU and growing
+- Altogether (https://evcprc.itch.io/altogether) Designer and developer of a VR + phone hackathon project inspired by Katamari Damacy, made with Unity and a Ruby messaging layer.
+- Arbitro. A Node.js real-time messaging utility for multiplayer games in the browser.
+- Antenna (https://bcdef.org/antenna) A small maps/radio mashup using Adobe AIR.
 
 ## Inspirations
 
-Watson Foundation
-Nonviolent Communication
-Kanban
-Why We Sleep
-Rework
-The Long Now Foundation
+- Watson Foundation
+- Nonviolent Communication
+- Kanban
+- Why We Sleep
+- Rework
+- The Long Now Foundation
 
 ## Off-work Passions
 
-Extensive traveler
-Photography. Here's some from a trip to Patagonia: https://photos.google.com/share/AF1QipP_proM79i4GfjG9PCmHHrKUQ5rd-Px7WSmY_bvhJYJXxevWLqa1EoXhtmT7XZqdQ?key=VXVVNGdoSzlEMFRtV1RXZnJyWE9feWlpNHlzYzl3
-Binaural recording. Here's a few: https://www.mixcloud.com/buckanon/
-Virtual Reality
+- Extensive traveler
+- Photography. Here's some from a trip to Patagonia: https://photos.google.com/share/AF1QipP_proM79i4GfjG9PCmHHrKUQ5rd-Px7WSmY_bvhJYJXxevWLqa1EoXhtmT7XZqdQ?key=VXVVNGdoSzlEMFRtV1RXZnJyWE9feWlpNHlzYzl3
+- Binaural recording. Here's a few: https://www.mixcloud.com/buckanon/
+- Virtual Reality
