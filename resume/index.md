@@ -81,9 +81,9 @@ Sole developer for three GameCast applications in ActionScript, a product that w
 
 ## Other happy customers
 
-Disney.com
-Dow Jones
-Esria
+- Disney.com
+- Dow Jones
+- Esria
 - General Assembly
 - Harmonix
 - Hover
