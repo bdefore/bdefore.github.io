@@ -3,3 +3,5 @@ markdown: gfm
 highlighter: rouge
 permalink: /:year/:month/:day/:title
 keep_files: []
+
+theme: jekyll-theme-minimal
