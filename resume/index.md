@@ -1,4 +1,4 @@
-# Buck DeFore - New York, NY
+# Buck DeFore
 
 
 ## Extra Short Blurb
@@ -11,8 +11,8 @@
 ## Ideal Fits
 
 - Technical co-founder / CTO
-- Senior Staff Engineer
-- Lead Developer
+- Staff Engineer
+- Colaborative Contributor
 
 
 ## Blurb
@@ -31,12 +31,17 @@ My speciliazations as a contributor are steeped in web technologies. I've spent 
 - ActionScript specialist 2005-2011.
 - Refocused as web technologist (RIP Flash) passing through Node.js, Rails, Angular, Meteor, React.
 - San Francisco Bay Area engineer both full-time and consulting 2006-2016.
-- New York City technology consultant from 2016 to present
+- New York City technology consultant from 2016 to 2020
+- Currently remotely working from Portland, Maine
 
 
 ## Selected Case Studies
 
 _Please note that the following is an abbreviated listing_
+
+#### Namely (2020-2021)
+
+Staff Frontend Software Engineer. Mentored a small team of engineers focused on React-based design system. Accelerated time-to-release by simplifying and renovating infrastructure and deployment flows. Retired legacy code by turned abandoned test suites green first. Wrote some new features too.
 
 
 #### Bizly (2019)
