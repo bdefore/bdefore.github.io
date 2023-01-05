@@ -21,7 +21,9 @@ I've guided companies big and small to build/buy what they need, chase the right
 
 By default I am highly autonomous, but achieve more and have fun with teams. I'm fulfilled by being a good mentor, both on-site and remote. I'm a not-so-bad generalist, pick things up quickly and support across wide areas.
 
-My speciliazations as a contributor are steeped in web technologies. I've spent five years within React and its ecosystem and am versed in recent evolutions including hooks, TypeScript, Electron, and Gatsby. I've built Node.js systems for authentication, data processing, and serverside rendering. More recently have built cloud-based or serverless options through tools such as Firebase. I can help kickstart (or contribute to) useful maintainable testing and build systems of many flavors.
+My speciliazations as a contributor are steeped in web technologies. I've spent seven years within React and its ecosystem and am versed in recent evolutions including hooks, TypeScript, Electron, and Gatsby. I've built Node.js systems for authentication, data processing, and serverside rendering. More recently, have built backend services through Netlify Functions and FaunaDB. I can help kickstart (or contribute to) useful maintainable testing and build systems of many flavors.
+
+On the side, among other things I've created a Linux gaming community website (https://www.protondb.com) with over 750,000 monthly visitors.
 
 
 ## Historical Arc
@@ -41,7 +43,7 @@ _Please note that the following is an abbreviated listing_
 
 #### Namely (2020-2021)
 
-Staff Frontend Software Engineer. Mentored a small team of engineers focused on React-based design system. Accelerated time-to-release by simplifying and renovating infrastructure and deployment flows. Retired legacy code by turned abandoned test suites green first. Wrote some new features too.
+Staff Frontend Software Engineer. Mentored a small team of engineers focused on React-based design system. Accelerated time-to-release by simplifying and renovating infrastructure and deployment flows. Retired legacy code by turning abandoned test suites green first. Wrote some new features too.
 
 
 #### Bizly (2019)
@@ -114,7 +116,7 @@ Sole developer for three GameCast applications in ActionScript, a product that w
 
 ## Side Projects
 
-- ProtonDB (https://www.protondb.com). Developed/designed/managed a popular site entirely independently. The site reached HN as a #1 post in November 2018 and receives > 150k MAU and growing
+- ProtonDB (https://www.protondb.com). Developed/designed/managed a popular site entirely independently. The site reached HN as a #1 post in November 2018 and receives > 750k MAU and growing.
 - Altogether (https://evcprc.itch.io/altogether) Designer and developer of a VR + phone hackathon project inspired by Katamari Damacy, made with Unity and a Ruby messaging layer.
 - Arbitro. A Node.js real-time messaging utility for multiplayer games in the browser.
 - Antenna (https://bcdef.org/antenna) A small maps/radio mashup using Adobe AIR.
